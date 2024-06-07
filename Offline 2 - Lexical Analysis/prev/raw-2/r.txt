@@ -1,0 +1,89 @@
+#include<bits/stdc++.h>
+
+class Token  // Token is a wrapper for the string pair, can be accessed by x and y
+{
+public:
+	string x, y;
+	Token(string a, string b)
+	{
+		x = a;
+		y = b;
+	}
+};
+
+int line_count=1;
+
+// FILE *logout;
+// FILE *tokenout;
+
+void capitalize_all_letters(string& s)
+{
+	int len = s.length();
+	for(int i=0; i<len; i++)
+	{
+		s[i] = toupper(s[i]);
+	}
+}
+
+Token get_keyword_token(string s)
+{
+	string x, y;
+	x = y = s;
+	capitalize_all_letters(x);
+	return Token(x,y);
+}
+
+"+"		|
+
+"-"		{
+			tokens += "<ADDOP," + yytext + ">";
+			fprintf(logout,"Line no %d: TOKEN <ADDOP> Lexeme %s found\n",line_count,yytext);
+			//insert in symbol table and print symbol table content(only non empty buckets)
+			// There is a '|' in "+"'s rule, this means match execute the action for following rule
+		}
+		
+{DIGIT}+ 	{
+				tokens += "<CONST_INT," + yytext + ">";
+				fprintf(logout,"Line no %d: TOKEN <CONST_INT> Lexeme %s found\n",line_count,yytext);
+				//insert in symbol table and print symbol table content(only non empty buckets)
+			}
+
+{}			{
+
+			}
+
+{}			{
+
+			}
+
+{}			{
+
+			}
+			
+{}			{
+
+			}
+
+{}			{
+
+			}
+
+{}			{
+
+			}
+
+{}			{
+
+			}
+
+{CONST_CHAR_GENERAL} 	{
+							handle_token_lexeme_pair(TokenLexemePair("CONST_CHAR",yytext));
+						}
+
+{CONST_CHAR_SPECIAL}	{
+							handle_token_lexeme_pair(get_special_char_pair(yytext));
+						}
+			
+
+
+{SPECIAL_CHARACTER}	{cout<<"Special Character found\n"<<yytext<<"\n";}

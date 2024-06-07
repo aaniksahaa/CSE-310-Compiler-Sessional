@@ -1,0 +1,63 @@
+1. 8086 assembly
+2. Parse Tree / AST - two passes - Bison file - only generates parse tree by semantic actions
+3. 2 passes - compulsory
+4. writing code on the fly 
+5. parameters and local variables - through stack 
+6. Peephole optimization - 3rd pass 
+7. There must be no error in assembly...
+8. any global variable - data segment 
+9. short circuit or jumping code 
+10.only global variable goes to data segment 
+11.locals go to stack 
+12.https://godbolt.org/
+13. if(2-2){}  -  wrong in sample 
+14. case
+
+if(a = 2-2){
+
+}
+println(a);
+
+15. 2 && 3;
+
+16. given code wrong at following cases, 
+
+Case-1:
+
+a = +5;
+
+Case-2:
+
+int f(int p)
+{
+	int a;
+	return 1;
+	int b;
+	return 2;
+	int c;
+	return 3;
+}
+int main()
+{
+	int a;
+	a = f(2);
+	println(a);
+    return 0;
+}
+
+Case-3:
+
+int f(){
+	int n,i;
+	n = 3;
+	for(i=1; i<=n; i++){
+		int b;
+		println(i);
+	}
+	return 1;
+}
+int main(){
+	int a;
+	a = f();
+	println(a);
+}

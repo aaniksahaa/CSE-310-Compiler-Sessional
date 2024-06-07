@@ -1,0 +1,10 @@
+# Ignore run.py
+run.py
+
+# Ignore any .bat file
+*.bat
+
+# Ignore settings.json
+settings.json
+
+

@@ -1,0 +1,96 @@
+	ScopeTable# 1 created
+Cmd 1: P A
+	ScopeTable# 1
+Cmd 2: S
+	ScopeTable# 2 created
+Cmd 3: I int KEYWORD
+	Inserted  at position <3, 1> of ScopeTable# 2
+Cmd 4: I 0 NUMBER
+	Inserted  at position <5, 1> of ScopeTable# 2
+Cmd 5: L NUMBER
+	'NUMBER' not found in any of the ScopeTables
+Cmd 6: I ab d
+	Inserted  at position <10, 1> of ScopeTable# 2
+Cmd 7: L 0
+	'0' found at position <5, 1> of ScopeTable# 2
+Cmd 8: P C
+	ScopeTable# 2
+	3--> <int,KEYWORD> 
+	5--> <0,NUMBER> 
+	10--> <ab,d> 
+Cmd 9: I bar 2 FUNCTION 
+	Wrong number of arguments for the command I
+Cmd 10: E
+Cmd 11: L 0
+	'0' not found in any of the ScopeTables
+Cmd 12: I ~ BITOP
+	Inserted  at position <6, 1> of ScopeTable# 1
+Cmd 13: I c c 
+	Inserted  at position <1, 1> of ScopeTable# 1
+Cmd 14: D f
+	Not found in the current ScopeTable# 1
+Cmd 15: S
+	ScopeTable# 3 created
+Cmd 16: I if KEYWORD
+	Inserted  at position <7, 1> of ScopeTable# 3
+Cmd 17: I a VAR
+	Inserted  at position <10, 1> of ScopeTable# 3
+Cmd 18: I a LITERAL
+	'a' already exists in the current ScopeTable# 3
+Cmd 19: L c 
+	'c' found at position <1, 1> of ScopeTable# 1
+Cmd 20: P A
+	ScopeTable# 3
+	7--> <if,KEYWORD> 
+	10--> <a,VAR> 
+	ScopeTable# 1
+	1--> <c,c> 
+	6--> <~,BITOP> 
+Cmd 21: D a a
+	Wrong number of arguments for the command D
+Cmd 22: D if
+	Deleted 'if' from position <7, 1> of ScopeTable# 3
+Cmd 23: I ~ BITOP
+	Inserted  at position <6, 1> of ScopeTable# 3
+Cmd 24: L ~ BITOP
+	Wrong number of arguments for the command L
+Cmd 25: D
+	Wrong number of arguments for the command D
+Cmd 26: S
+	ScopeTable# 4 created
+Cmd 27: E Q
+Wrong number of arguments for the command E
+Cmd 28: S
+	ScopeTable# 5 created
+Cmd 29: P A
+	ScopeTable# 5
+	ScopeTable# 4
+	ScopeTable# 3
+	6--> <~,BITOP> 
+	10--> <a,VAR> 
+	ScopeTable# 1
+	1--> <c,c> 
+	6--> <~,BITOP> 
+Cmd 30: E
+Cmd 31: E
+Cmd 32: P
+Wrong number of arguments for the command P
+Cmd 33: P C
+	ScopeTable# 3
+	6--> <~,BITOP> 
+	10--> <a,VAR> 
+Cmd 34: D ~
+	Deleted '~' from position <6, 1> of ScopeTable# 3
+Cmd 35: D ~
+	Not found in the current ScopeTable# 3
+Cmd 36: P A
+	ScopeTable# 3
+	10--> <a,VAR> 
+	ScopeTable# 1
+	1--> <c,c> 
+	6--> <~,BITOP> 
+Cmd 37: E
+Cmd 38: E
+	ScopeTable# 1 cannot be deleted
+Cmd 39: i 9 NUMBER
+Cmd 40: Q

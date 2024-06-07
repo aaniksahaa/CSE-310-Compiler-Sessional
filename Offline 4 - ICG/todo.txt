@@ -1,0 +1,8 @@
+1.	on-the-fly evaluation of constants - no
+2.	make BP-2 generation modular...	- done
+3.	have oop - no
+4.	have copies of symbolinfo in parse tree node - no 
+5.	beautify if-else - done
+6.	commenting line counts - done
+7.	optimizations - done 
+8.	returns to single label - done 

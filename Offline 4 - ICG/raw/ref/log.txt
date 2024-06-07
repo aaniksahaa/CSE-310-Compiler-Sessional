@@ -1,0 +1,154 @@
+Line# 1: Token <INT> Lexeme int found
+type_specifier	: INT 
+Line# 1: Token <ID> Lexeme a found
+Line# 1: Token <COMMA> Lexeme , found
+declaration_list : ID 
+Line# 1: Token <ID> Lexeme b found
+Line# 1: Token <COMMA> Lexeme , found
+declaration_list : declaration_list COMMA ID  
+Line# 1: Token <ID> Lexeme c found
+Line# 1: Token <SEMICOLON> Lexeme ; found
+declaration_list : declaration_list COMMA ID  
+var_declaration : type_specifier declaration_list SEMICOLON  
+unit : var_declaration  
+program : unit 
+Line# 2: Token <INT> Lexeme int found
+type_specifier	: INT 
+Line# 2: Token <ID> Lexeme main found
+Line# 2: Token <LPAREN> Lexeme ( found
+Line# 2: Token <RPAREN> Lexeme ) found
+Line# 3: Token <LCURL> Lexeme { found
+Line# 4: Token <INT> Lexeme int found
+type_specifier	: INT 
+Line# 4: Token <ID> Lexeme i found
+Line# 4: Token <SEMICOLON> Lexeme ; found
+declaration_list : ID 
+var_declaration : type_specifier declaration_list SEMICOLON  
+statement : var_declaration 
+statements : statement  
+Line# 5: Token <FOR> Lexeme for found
+Line# 5: Token <LPAREN> Lexeme ( found
+Line# 5: Token <ID> Lexeme i found
+Line# 5: Token <ASSIGNOP> Lexeme = found
+variable : ID 	 
+Line# 5: Token <CONST_INT> Lexeme 1 found
+factor	: CONST_INT   
+unary_expression : factor 
+term :	unary_expression 
+Line# 5: Token <SEMICOLON> Lexeme ; found
+simple_expression : term 
+rel_expression	: simple_expression 
+logic_expression : rel_expression 	 
+expression 	: variable ASSIGNOP logic_expression 		 
+expression_statement : expression SEMICOLON 		 
+Line# 5: Token <ID> Lexeme i found
+Line# 5: Token <RELOP> Lexeme <= found
+variable : ID 	 
+factor	: variable 
+unary_expression : factor 
+term :	unary_expression 
+simple_expression : term 
+Line# 5: Token <CONST_INT> Lexeme 10 found
+factor	: CONST_INT   
+unary_expression : factor 
+term :	unary_expression 
+Line# 5: Token <SEMICOLON> Lexeme ; found
+simple_expression : term 
+rel_expression	: simple_expression RELOP simple_expression	  
+logic_expression : rel_expression 	 
+expression 	: logic_expression	 
+expression_statement : expression SEMICOLON 		 
+Line# 5: Token <ID> Lexeme i found
+Line# 5: Token <INCOP> Lexeme ++ found
+variable : ID 	 
+factor	: variable INCOP   
+unary_expression : factor 
+term :	unary_expression 
+Line# 5: Token <RPAREN> Lexeme ) found
+simple_expression : term 
+rel_expression	: simple_expression 
+logic_expression : rel_expression 	 
+expression 	: logic_expression	 
+Line# 5: Token <LCURL> Lexeme { found
+Line# 6: Token <PRINTLN> Lexeme println found
+Line# 6: Token <LPAREN> Lexeme ( found
+Line# 6: Token <ID> Lexeme i found
+Line# 6: Token <RPAREN> Lexeme ) found
+Line# 6: Token <SEMICOLON> Lexeme ; found
+statement : PRINTLN LPAREN ID RPAREN SEMICOLON
+statements : statement  
+Line# 7: Token <RCURL> Lexeme } found
+compound_statement : LCURL statements RCURL  
+	ScopeTable# 3
+
+
+
+
+
+
+
+
+
+
+
+	ScopeTable# 2
+
+
+
+
+
+
+	7 --> <i, INT, Width: 2, Offset: 2, IsParam: 0, Scope: 2>
+
+
+
+
+	ScopeTable# 1
+	1 --> <c, INT, Width: 2, Offset: 6, IsParam: 0, Scope: 1>
+	2 --> <main, FUNCTION, Width: 0, Offset: -1, IsParam: 0, Scope: 1, RetType: INT>
+
+
+
+
+
+
+
+	10 --> <a, INT, Width: 2, Offset: 2, IsParam: 0, Scope: 1>
+	11 --> <b, INT, Width: 2, Offset: 4, IsParam: 0, Scope: 1>
+statement : compound_statement 
+statement : FOR LPAREN expression_statement expression_statement expression RPAREN statement
+statements : statements statement  
+Line# 8: Token <RCURL> Lexeme } found
+compound_statement : LCURL statements RCURL  
+	ScopeTable# 2
+
+
+
+
+
+
+	7 --> <i, INT, Width: 2, Offset: 2, IsParam: 0, Scope: 2>
+
+
+
+
+	ScopeTable# 1
+	1 --> <c, INT, Width: 2, Offset: 6, IsParam: 0, Scope: 1>
+	2 --> <main, FUNCTION, Width: 0, Offset: -1, IsParam: 0, Scope: 1, RetType: INT>
+
+
+
+
+
+
+
+	10 --> <a, INT, Width: 2, Offset: 2, IsParam: 0, Scope: 1>
+	11 --> <b, INT, Width: 2, Offset: 4, IsParam: 0, Scope: 1>
+func_definition : type_specifier ID LPAREN RPAREN compound_statement
+unit : func_definition  
+program : program unit 
+start : program 
+
+Total Lines: 8
+
+Total Errors: 0

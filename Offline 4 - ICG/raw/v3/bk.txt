@@ -1,0 +1,35 @@
+previous for:
+
+auto expression_statement_1 = curr->child_symbols[2];
+auto expression_statement_2 = curr->child_symbols[3];
+
+auto expression = curr->child_symbols[4];
+
+auto statement = curr->child_symbols[6]; 
+
+int new_label_id_1 = get_new_label();
+int new_label_id_2 = get_new_label();
+int new_label_id_3 = get_new_label();
+
+gen_expression_statement(expression_statement_1);
+
+write_label(new_label_id_1);
+
+expression_statement_2->true_label_id = new_label_id_2;
+expression_statement_2->false_label_id = curr->next_label_id;
+
+// condition check
+gen_expression_statement(expression_statement_2);
+
+write_label(new_label_id_2);
+
+statement->next_label_id = new_label_id_3;
+
+gen_statement(statement);
+
+write_label(new_label_id_3);
+
+gen_expression(expression);
+write_code("POP AX");       // something will be pushed, as no boolean labels are being set
+
+write_code(string("JMP L") + to_string(new_label_id_1));

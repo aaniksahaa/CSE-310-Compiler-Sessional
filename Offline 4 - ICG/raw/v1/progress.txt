@@ -1,0 +1,13 @@
+1.  function definition - with parameters, with return
+2.  function calling 
+3.  handling local variables with stack 
+4.  println 
+5.  assignment to local variable
+
+Pending:
+
+1.  Array
+2.  expression evaluation
+3.  Loop 
+4.  Control flow 
+5.  

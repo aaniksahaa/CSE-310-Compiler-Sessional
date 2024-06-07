@@ -1,0 +1,654 @@
+Line# 1: Token <MULTI LINE COMMENT> Lexeme /* This is a multiline comment \t \n
+#include <stdio.h>\n "tsr'tss
+*/ found
+Line# 5: Token <SINGLE LINE COMMENT> Lexeme // Function declaration found
+Line# 6: Token <VOID> Lexeme void found
+Line# 6: Token <ID> Lexeme myFunction found
+	ScopeTable# 1
+	1 --> (myFunction,ID)
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 6: Token <LPAREN> Lexeme ( found
+Line# 6: Token <RPAREN> Lexeme ) found
+Line# 6: Token <SEMICOLON> Lexeme ; found
+Line# 8: Token <INT> Lexeme int found
+Line# 8: Token <ID> Lexeme main found
+	ScopeTable# 1
+	1 --> (myFunction,ID)
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 8: Token <LPAREN> Lexeme ( found
+Line# 8: Token <RPAREN> Lexeme ) found
+Line# 8: Token <LCURL> Lexeme { found
+Line# 9: Warning, tab requrired but got space.
+Line# 9: Token <SINGLE LINE COMMENT> Lexeme // Single-line comment\
+check kortesi found
+Line# 11: Warning, tab requrired but got space.
+Line# 11: Token <INT> Lexeme int found
+Line# 11: Token <ID> Lexeme integerConstant found
+	ScopeTable# 1.1
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9 --> (integerConstant,ID)
+	10
+	ScopeTable# 1
+	1 --> (myFunction,ID)
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 11: Token <ASSIGNOP> Lexeme = found
+Line# 11: Token <CONST_INT> Lexeme 10 found
+Line# 11: Token <SEMICOLON> Lexeme ; found
+Line# 12: Warning, tab requrired but got space.
+Line# 12: Token <FLOAT> Lexeme float found
+Line# 12: Token <ID> Lexeme floatConstant found
+	ScopeTable# 1.1
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9 --> (integerConstant,ID) --> (floatConstant,ID)
+	10
+	ScopeTable# 1
+	1 --> (myFunction,ID)
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 12: Token <ASSIGNOP> Lexeme = found
+Line# 12: Token <CONST_FLOAT> Lexeme 3.14 found
+Line# 12: Token <SEMICOLON> Lexeme ; found
+Line# 13: Warning, tab requrired but got space.
+Line# 13: Token <CHAR> Lexeme char found
+Line# 13: Token <ID> Lexeme charConstant found
+	ScopeTable# 1.1
+	1
+	2
+	3
+	4
+	5
+	6
+	7 --> (charConstant,ID)
+	8
+	9 --> (integerConstant,ID) --> (floatConstant,ID)
+	10
+	ScopeTable# 1
+	1 --> (myFunction,ID)
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 13: Token <ASSIGNOP> Lexeme = found
+Line# 13: Token <CONST_CHAR> Lexeme A found
+Line# 13: Token <SEMICOLON> Lexeme ; found
+Line# 14: Warning, tab requrired but got space.
+Line# 14: Token <CHAR> Lexeme char found
+Line# 14: Token <ID> Lexeme stringConstant found
+	ScopeTable# 1.1
+	1
+	2
+	3
+	4
+	5
+	6 --> (stringConstant,ID)
+	7 --> (charConstant,ID)
+	8
+	9 --> (integerConstant,ID) --> (floatConstant,ID)
+	10
+	ScopeTable# 1
+	1 --> (myFunction,ID)
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 14: Token <LSQUARE> Lexeme [ found
+Line# 14: Token <RSQUARE> Lexeme ] found
+Line# 14: Token <ASSIGNOP> Lexeme = found
+Error at line# 16: UNFINISHED_STRING "Hello, World!\
+Testing flex\
+Ki ashe output
+Line# 17: warning, 1 of tabs needed but got 0 tabs.
+Error at line# 17: UNFINISHED_STRING ";
+Line# 19: Warning, tab requrired but got space.
+Line# 19: Token <SINGLE LINE COMMENT> Lexeme // If-else statement found
+Line# 20: Warning, tab requrired but got space.
+Line# 20: Token <IF> Lexeme if found
+Line# 20: Token <LPAREN> Lexeme ( found
+Line# 20: Token <ID> Lexeme integerConstant found
+	integerConstant already exists in the current ScopeTable
+Line# 20: Token <RELOP> Lexeme > found
+Line# 20: Token <CONST_INT> Lexeme 5 found
+Line# 20: Token <RPAREN> Lexeme ) found
+Line# 20: Token <LCURL> Lexeme { found
+Line# 21: Warning, tab requrired but got space.
+Line# 21: Token <ID> Lexeme printf found
+	ScopeTable# 1.1.1
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10 --> (printf,ID)
+	ScopeTable# 1.1
+	1
+	2
+	3
+	4
+	5
+	6 --> (stringConstant,ID)
+	7 --> (charConstant,ID)
+	8
+	9 --> (integerConstant,ID) --> (floatConstant,ID)
+	10
+	ScopeTable# 1
+	1 --> (myFunction,ID)
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 21: Token <LPAREN> Lexeme ( found
+Line# 21: Token <SINGLE LINE STRING> Lexeme "Integer is greater than 5.\n" found
+Line# 21: Token <RPAREN> Lexeme ) found
+Line# 21: Token <SEMICOLON> Lexeme ; found
+Line# 22: Warning, tab requrired but got space.
+Line# 22: Token <RCURL> Lexeme } found
+Line# 22: Token <ELSE> Lexeme else found
+Line# 22: Token <LCURL> Lexeme { found
+Line# 23: Warning, tab requrired but got space.
+Line# 23: Token <ID> Lexeme printf found
+	ScopeTable# 1.1.2
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10 --> (printf,ID)
+	ScopeTable# 1.1
+	1
+	2
+	3
+	4
+	5
+	6 --> (stringConstant,ID)
+	7 --> (charConstant,ID)
+	8
+	9 --> (integerConstant,ID) --> (floatConstant,ID)
+	10
+	ScopeTable# 1
+	1 --> (myFunction,ID)
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 23: Token <LPAREN> Lexeme ( found
+Line# 23: Token <SINGLE LINE STRING> Lexeme "Integer is less than or equal to 5.\n" found
+Line# 23: Token <RPAREN> Lexeme ) found
+Line# 23: Token <SEMICOLON> Lexeme ; found
+Line# 24: Warning, tab requrired but got space.
+Line# 24: Token <RCURL> Lexeme } found
+Line# 26: Warning, tab requrired but got space.
+Line# 26: Token <SINGLE LINE COMMENT> Lexeme // For loop found
+Line# 27: Warning, tab requrired but got space.
+Line# 27: Token <FOR> Lexeme for found
+Line# 27: Token <LPAREN> Lexeme ( found
+Line# 27: Token <INT> Lexeme int found
+Line# 27: Token <ID> Lexeme i found
+	ScopeTable# 1.1
+	1
+	2
+	3
+	4
+	5
+	6 --> (stringConstant,ID) --> (i,ID)
+	7 --> (charConstant,ID)
+	8
+	9 --> (integerConstant,ID) --> (floatConstant,ID)
+	10
+	ScopeTable# 1
+	1 --> (myFunction,ID)
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 27: Token <ASSIGNOP> Lexeme = found
+Line# 27: Token <CONST_INT> Lexeme 0 found
+Line# 27: Token <SEMICOLON> Lexeme ; found
+Line# 27: Token <ID> Lexeme i found
+	i already exists in the current ScopeTable
+Line# 27: Token <RELOP> Lexeme < found
+Line# 27: Token <CONST_INT> Lexeme 5 found
+Line# 27: Token <SEMICOLON> Lexeme ; found
+Line# 27: Token <ID> Lexeme i found
+	i already exists in the current ScopeTable
+Line# 27: Token <INCOP> Lexeme ++ found
+Line# 27: Token <RPAREN> Lexeme ) found
+Line# 27: Token <LCURL> Lexeme { found
+Line# 28: Warning, tab requrired but got space.
+Line# 28: Token <ID> Lexeme printf found
+	ScopeTable# 1.1.3
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10 --> (printf,ID)
+	ScopeTable# 1.1
+	1
+	2
+	3
+	4
+	5
+	6 --> (stringConstant,ID) --> (i,ID)
+	7 --> (charConstant,ID)
+	8
+	9 --> (integerConstant,ID) --> (floatConstant,ID)
+	10
+	ScopeTable# 1
+	1 --> (myFunction,ID)
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 28: Token <LPAREN> Lexeme ( found
+Line# 28: Token <SINGLE LINE STRING> Lexeme "Iteration %d\n" found
+Line# 28: Token <COMMA> Lexeme , found
+Line# 28: Token <ID> Lexeme i found
+	ScopeTable# 1.1.3
+	1
+	2
+	3
+	4
+	5
+	6 --> (i,ID)
+	7
+	8
+	9
+	10 --> (printf,ID)
+	ScopeTable# 1.1
+	1
+	2
+	3
+	4
+	5
+	6 --> (stringConstant,ID) --> (i,ID)
+	7 --> (charConstant,ID)
+	8
+	9 --> (integerConstant,ID) --> (floatConstant,ID)
+	10
+	ScopeTable# 1
+	1 --> (myFunction,ID)
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 28: Token <RPAREN> Lexeme ) found
+Line# 28: Token <SEMICOLON> Lexeme ; found
+Line# 29: Warning, tab requrired but got space.
+Line# 29: Token <RCURL> Lexeme } found
+Line# 31: Warning, tab requrired but got space.
+Line# 31: Token <SINGLE LINE COMMENT> Lexeme // While loop found
+Line# 32: Warning, tab requrired but got space.
+Line# 32: Token <INT> Lexeme int found
+Line# 32: Token <ID> Lexeme counter found
+	ScopeTable# 1.1
+	1
+	2
+	3
+	4
+	5
+	6 --> (stringConstant,ID) --> (i,ID)
+	7 --> (charConstant,ID)
+	8
+	9 --> (integerConstant,ID) --> (floatConstant,ID) --> (counter,ID)
+	10
+	ScopeTable# 1
+	1 --> (myFunction,ID)
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 32: Token <ASSIGNOP> Lexeme = found
+Line# 32: Token <CONST_INT> Lexeme 0 found
+Line# 32: Token <SEMICOLON> Lexeme ; found
+Line# 33: Warning, tab requrired but got space.
+Line# 33: Token <WHILE> Lexeme while found
+Line# 33: Token <LPAREN> Lexeme ( found
+Line# 33: Token <ID> Lexeme counter found
+	counter already exists in the current ScopeTable
+Line# 33: Token <RELOP> Lexeme < found
+Line# 33: Token <CONST_INT> Lexeme 3 found
+Line# 33: Token <RPAREN> Lexeme ) found
+Line# 33: Token <LCURL> Lexeme { found
+Line# 34: Warning, tab requrired but got space.
+Line# 34: Token <ID> Lexeme printf found
+	ScopeTable# 1.1.4
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10 --> (printf,ID)
+	ScopeTable# 1.1
+	1
+	2
+	3
+	4
+	5
+	6 --> (stringConstant,ID) --> (i,ID)
+	7 --> (charConstant,ID)
+	8
+	9 --> (integerConstant,ID) --> (floatConstant,ID) --> (counter,ID)
+	10
+	ScopeTable# 1
+	1 --> (myFunction,ID)
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 34: Token <LPAREN> Lexeme ( found
+Line# 34: Token <SINGLE LINE STRING> Lexeme "Counter value: %d\n" found
+Line# 34: Token <COMMA> Lexeme , found
+Line# 34: Token <ID> Lexeme counter found
+	ScopeTable# 1.1.4
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9 --> (counter,ID)
+	10 --> (printf,ID)
+	ScopeTable# 1.1
+	1
+	2
+	3
+	4
+	5
+	6 --> (stringConstant,ID) --> (i,ID)
+	7 --> (charConstant,ID)
+	8
+	9 --> (integerConstant,ID) --> (floatConstant,ID) --> (counter,ID)
+	10
+	ScopeTable# 1
+	1 --> (myFunction,ID)
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 34: Token <RPAREN> Lexeme ) found
+Line# 34: Token <SEMICOLON> Lexeme ; found
+Line# 35: Warning, tab requrired but got space.
+Line# 35: Token <ID> Lexeme counter found
+	counter already exists in the current ScopeTable
+Line# 35: Token <INCOP> Lexeme ++ found
+Line# 35: Token <SEMICOLON> Lexeme ; found
+Line# 36: Warning, tab requrired but got space.
+Line# 36: Token <RCURL> Lexeme } found
+Line# 38: Warning, tab requrired but got space.
+Line# 38: Token <SINGLE LINE COMMENT> Lexeme // Switch statement found
+Line# 39: Warning, tab requrired but got space.
+Line# 39: Token <SWITCH> Lexeme switch found
+Line# 39: Token <LPAREN> Lexeme ( found
+Line# 39: Token <ID> Lexeme charConstant found
+	charConstant already exists in the current ScopeTable
+Line# 39: Token <RPAREN> Lexeme ) found
+Line# 39: Token <LCURL> Lexeme { found
+Line# 40: Warning, tab requrired but got space.
+Line# 40: Token <CASE> Lexeme case found
+Line# 40: Token <CONST_CHAR> Lexeme A found
+Error at line# 40: UNRECOGNIZED_CHAR :
+Line# 41: Warning, tab requrired but got space.
+Line# 41: Token <ID> Lexeme printf found
+	ScopeTable# 1.1.5
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10 --> (printf,ID)
+	ScopeTable# 1.1
+	1
+	2
+	3
+	4
+	5
+	6 --> (stringConstant,ID) --> (i,ID)
+	7 --> (charConstant,ID)
+	8
+	9 --> (integerConstant,ID) --> (floatConstant,ID) --> (counter,ID)
+	10
+	ScopeTable# 1
+	1 --> (myFunction,ID)
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 41: Token <LPAREN> Lexeme ( found
+Line# 41: Token <SINGLE LINE STRING> Lexeme "Char constant is A.\n" found
+Line# 41: Token <RPAREN> Lexeme ) found
+Line# 41: Token <SEMICOLON> Lexeme ; found
+Line# 42: Warning, tab requrired but got space.
+Line# 42: Token <BREAK> Lexeme break found
+Line# 42: Token <SEMICOLON> Lexeme ; found
+Line# 43: Warning, tab requrired but got space.
+Line# 43: Token <CASE> Lexeme case found
+Line# 43: Token <CONST_CHAR> Lexeme B found
+Error at line# 43: UNRECOGNIZED_CHAR :
+Line# 44: Warning, tab requrired but got space.
+Line# 44: Token <ID> Lexeme printf found
+	printf already exists in the current ScopeTable
+Line# 44: Token <LPAREN> Lexeme ( found
+Line# 44: Token <SINGLE LINE STRING> Lexeme "Char constant is B.\n" found
+Line# 44: Token <RPAREN> Lexeme ) found
+Line# 44: Token <SEMICOLON> Lexeme ; found
+Line# 45: Warning, tab requrired but got space.
+Line# 45: Token <BREAK> Lexeme break found
+Line# 45: Token <SEMICOLON> Lexeme ; found
+Line# 46: Warning, tab requrired but got space.
+Line# 46: Token <DEFAULT> Lexeme default found
+Error at line# 46: UNRECOGNIZED_CHAR :
+Line# 47: Warning, tab requrired but got space.
+Line# 47: Token <ID> Lexeme printf found
+	printf already exists in the current ScopeTable
+Line# 47: Token <LPAREN> Lexeme ( found
+Line# 47: Token <SINGLE LINE STRING> Lexeme "Char constant is not A or B.\n" found
+Line# 47: Token <RPAREN> Lexeme ) found
+Line# 47: Token <SEMICOLON> Lexeme ; found
+Line# 48: Warning, tab requrired but got space.
+Line# 48: Token <RCURL> Lexeme } found
+Line# 50: Warning, tab requrired but got space.
+Line# 50: Token <SINGLE LINE COMMENT> Lexeme // Function call found
+Line# 51: Warning, tab requrired but got space.
+Line# 51: Token <ID> Lexeme myFunction found
+	ScopeTable# 1.1
+	1 --> (myFunction,ID)
+	2
+	3
+	4
+	5
+	6 --> (stringConstant,ID) --> (i,ID)
+	7 --> (charConstant,ID)
+	8
+	9 --> (integerConstant,ID) --> (floatConstant,ID) --> (counter,ID)
+	10
+	ScopeTable# 1
+	1 --> (myFunction,ID)
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 51: Token <LPAREN> Lexeme ( found
+Line# 51: Token <RPAREN> Lexeme ) found
+Line# 51: Token <SEMICOLON> Lexeme ; found
+Line# 53: Warning, tab requrired but got space.
+Line# 53: Token <RETURN> Lexeme return found
+Line# 53: Token <CONST_INT> Lexeme 0 found
+Line# 53: Token <SEMICOLON> Lexeme ; found
+Line# 54: Token <RCURL> Lexeme } found
+Line# 56: Token <SINGLE LINE COMMENT> Lexeme // Function definition found
+Line# 57: Token <VOID> Lexeme void found
+Line# 57: Token <ID> Lexeme myFunction found
+	myFunction already exists in the current ScopeTable
+Line# 57: Token <LPAREN> Lexeme ( found
+Line# 57: Token <RPAREN> Lexeme ) found
+Line# 57: Token <LCURL> Lexeme { found
+Line# 58: Warning, tab requrired but got space.
+Line# 58: Token <ID> Lexeme printf found
+	ScopeTable# 1.2
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10 --> (printf,ID)
+	ScopeTable# 1
+	1 --> (myFunction,ID)
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 58: Token <LPAREN> Lexeme ( found
+Line# 58: Token <SINGLE LINE STRING> Lexeme "Inside myFunction()\n" found
+Line# 58: Token <RPAREN> Lexeme ) found
+Line# 58: Token <SEMICOLON> Lexeme ; found
+Line# 59: Token <RCURL> Lexeme } found
+	ScopeTable# 1
+	1 --> (myFunction,ID)
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Total lines: 60
+Total errors: 5
+Total warnings: 37

@@ -1,0 +1,11 @@
+11
+I x INT
+I y INT
+I z INT
+I a FLOAT
+I foo FUNCTION,VOID
+S
+I a INT
+I b INT
+P A
+E

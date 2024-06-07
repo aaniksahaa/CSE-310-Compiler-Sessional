@@ -1,0 +1,2025 @@
+Line# 1: Token <VOID> Lexeme void found
+Line# 1: Token <ID> Lexeme main found
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 1: Token <LPAREN> Lexeme ( found
+Line# 1: Token <RPAREN> Lexeme ) found
+Line# 1: Token <LCURL> Lexeme { found
+Line# 2: Token <INT> Lexeme int found
+Line# 2: Token <ID> Lexeme x found
+	ScopeTable# 1.1
+	1 --> (x,ID)
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 2: Token <COMMA> Lexeme , found
+Line# 2: Token <ID> Lexeme y found
+	ScopeTable# 1.1
+	1 --> (x,ID)
+	2 --> (y,ID)
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 2: Token <SEMICOLON> Lexeme ; found
+Line# 3: Token <ID> Lexeme x found
+	x already exists in the current ScopeTable
+Line# 3: Token <ASSIGNOP> Lexeme = found
+Line# 3: Token <ID> Lexeme x found
+	x already exists in the current ScopeTable
+Line# 3: Token <ADDOP> Lexeme + found
+Line# 3: Token <CONST_INT> Lexeme 1 found
+Line# 3: Token <SEMICOLON> Lexeme ; found
+Line# 4: Token <ID> Lexeme y found
+	y already exists in the current ScopeTable
+Line# 4: Token <ASSIGNOP> Lexeme = found
+Line# 4: Token <ID> Lexeme y found
+	y already exists in the current ScopeTable
+Line# 4: Token <MULOP> Lexeme * found
+Line# 4: Token <CONST_INT> Lexeme 2 found
+Line# 4: Token <SEMICOLON> Lexeme ; found
+Line# 6: Token <FLOAT> Lexeme float found
+Line# 6: Token <ID> Lexeme f found
+	ScopeTable# 1.1
+	1 --> (x,ID)
+	2 --> (y,ID)
+	3 --> (f,ID)
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 6: Token <SEMICOLON> Lexeme ; found
+Line# 7: Token <ID> Lexeme f found
+	f already exists in the current ScopeTable
+Line# 7: Token <ASSIGNOP> Lexeme = found
+Line# 7: Token <ID> Lexeme f found
+	f already exists in the current ScopeTable
+Line# 7: Token <ADDOP> Lexeme - found
+Line# 7: Token <CONST_FLOAT> Lexeme 3.14 found
+Line# 7: Token <SEMICOLON> Lexeme ; found
+Line# 8: Token <ID> Lexeme f found
+	f already exists in the current ScopeTable
+Line# 8: Token <ASSIGNOP> Lexeme = found
+Line# 8: Token <ID> Lexeme f found
+	f already exists in the current ScopeTable
+Line# 8: Token <MULOP> Lexeme * found
+Line# 8: Token <CONST_FLOAT> Lexeme 2.81E0 found
+Line# 8: Token <SEMICOLON> Lexeme ; found
+Line# 9: warning, 1 of tabs needed but got 2 tabs.
+Line# 9: Token <ID> Lexeme u found
+	ScopeTable# 1.1
+	1 --> (x,ID)
+	2 --> (y,ID)
+	3 --> (f,ID)
+	4
+	5
+	6
+	7
+	8 --> (u,ID)
+	9
+	10
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 9: Token <ASSIGNOP> Lexeme = found
+Line# 9: Token <ID> Lexeme v found
+	ScopeTable# 1.1
+	1 --> (x,ID)
+	2 --> (y,ID)
+	3 --> (f,ID)
+	4
+	5
+	6
+	7
+	8 --> (u,ID)
+	9 --> (v,ID)
+	10
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 9: Token <BITOP> Lexeme << found
+Line# 9: Token <CONST_INT> Lexeme 2 found
+Line# 9: Token <BITOP> Lexeme >> found
+Line# 9: Token <CONST_INT> Lexeme 3 found
+Line# 9: Token <BITOP> Lexeme ^ found
+Line# 9: Token <CONST_INT> Lexeme 4 found
+Line# 11: Warning, tab requrired but got space.
+Line# 11: Token <CHAR> Lexeme char found
+Line# 11: Token <ID> Lexeme ch found
+	ScopeTable# 1.1
+	1 --> (x,ID)
+	2 --> (y,ID)
+	3 --> (f,ID)
+	4
+	5
+	6 --> (ch,ID)
+	7
+	8 --> (u,ID)
+	9 --> (v,ID)
+	10
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 11: Token <ASSIGNOP> Lexeme = found
+Line# 11: Token <CONST_CHAR> Lexeme z found
+Line# 11: Token <SEMICOLON> Lexeme ; found
+Line# 13: warning, 1 of tabs needed but got 0 tabs.
+Line# 13: Token <ID> Lexeme ch found
+	ch already exists in the current ScopeTable
+Line# 13: Token <ASSIGNOP> Lexeme = found
+Line# 13: Token <CONST_CHAR> Lexeme 	 found
+Line# 13: Token <SEMICOLON> Lexeme ; found
+Line# 15: Token <CHAR> Lexeme char found
+Line# 15: Token <ID> Lexeme str found
+	ScopeTable# 1.1
+	1 --> (x,ID)
+	2 --> (y,ID)
+	3 --> (f,ID)
+	4 --> (str,ID)
+	5
+	6 --> (ch,ID)
+	7
+	8 --> (u,ID)
+	9 --> (v,ID)
+	10
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 15: Token <LSQUARE> Lexeme [ found
+Line# 15: Token <RSQUARE> Lexeme ] found
+Line# 15: Token <ASSIGNOP> Lexeme = found
+Line# 15: Token <SINGLE LINE STRING> Lexeme "hello\tworld" found
+Line# 15: Token <SEMICOLON> Lexeme ; found
+Line# 16: Token <CHAR> Lexeme char found
+Line# 16: Token <ID> Lexeme str2 found
+	ScopeTable# 1.1
+	1 --> (x,ID)
+	2 --> (y,ID)
+	3 --> (f,ID)
+	4 --> (str,ID)
+	5
+	6 --> (ch,ID)
+	7
+	8 --> (u,ID) --> (str2,ID)
+	9 --> (v,ID)
+	10
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 16: Token <LSQUARE> Lexeme [ found
+Line# 16: Token <RSQUARE> Lexeme ] found
+Line# 16: Token <ASSIGNOP> Lexeme = found
+Line# 16: Token <SINGLE LINE STRING> Lexeme "Hello my friends from \n there \t also rem - \" surprise \" - for your good" found
+Line# 16: Token <SEMICOLON> Lexeme ; found
+Line# 17: Token <CHAR> Lexeme char found
+Line# 17: Token <ID> Lexeme str found
+	str already exists in the current ScopeTable
+Line# 17: Token <LSQUARE> Lexeme [ found
+Line# 17: Token <RSQUARE> Lexeme ] found
+Line# 17: Token <ASSIGNOP> Lexeme = found
+Line# 17: Token <SINGLE LINE STRING> Lexeme " forgot to tell 4\\2=2; " found
+Error at line# 17: UNRECOGNIZED_CHAR \
+Error at line# 17: UNRECOGNIZED_CHAR \
+Line# 17: Token <ID> Lexeme hehe found
+	ScopeTable# 1.1
+	1 --> (x,ID)
+	2 --> (y,ID)
+	3 --> (f,ID)
+	4 --> (str,ID)
+	5 --> (hehe,ID)
+	6 --> (ch,ID)
+	7
+	8 --> (u,ID) --> (str2,ID)
+	9 --> (v,ID)
+	10
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 18: Token <SINGLE LINE COMMENT> Lexeme // ebar ki likhbo found
+Line# 19: Token <SINGLE LINE COMMENT> Lexeme // accha idea found
+Line# 20: Token <INT> Lexeme int found
+Line# 20: Token <ID> Lexeme anik found
+	ScopeTable# 1.1
+	1 --> (x,ID)
+	2 --> (y,ID)
+	3 --> (f,ID)
+	4 --> (str,ID)
+	5 --> (hehe,ID)
+	6 --> (ch,ID) --> (anik,ID)
+	7
+	8 --> (u,ID) --> (str2,ID)
+	9 --> (v,ID)
+	10
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 20: Token <ASSIGNOP> Lexeme = found
+Line# 20: Token <CONST_INT> Lexeme 1009099 found
+Line# 20: Token <SEMICOLON> Lexeme ; found
+Line# 21: Token <INT> Lexeme int found
+Line# 21: Token <ID> Lexeme kabirBrothers found
+	ScopeTable# 1.1
+	1 --> (x,ID)
+	2 --> (y,ID)
+	3 --> (f,ID) --> (kabirBrothers,ID)
+	4 --> (str,ID)
+	5 --> (hehe,ID)
+	6 --> (ch,ID) --> (anik,ID)
+	7
+	8 --> (u,ID) --> (str2,ID)
+	9 --> (v,ID)
+	10
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 21: Token <ASSIGNOP> Lexeme = found
+Error at line# 21: INVALID_ID_SUFFIX_NUM_PREFIX 70sd
+Line# 21: Token <SEMICOLON> Lexeme ; found
+Line# 22: Token <INT> Lexeme int found
+Line# 22: Token <ID> Lexeme khilgaon found
+	ScopeTable# 1.1
+	1 --> (x,ID)
+	2 --> (y,ID)
+	3 --> (f,ID) --> (kabirBrothers,ID)
+	4 --> (str,ID)
+	5 --> (hehe,ID)
+	6 --> (ch,ID) --> (anik,ID)
+	7
+	8 --> (u,ID) --> (str2,ID) --> (khilgaon,ID)
+	9 --> (v,ID)
+	10
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 22: Token <COMMA> Lexeme , found
+Line# 22: Token <ID> Lexeme malibah found
+	ScopeTable# 1.1
+	1 --> (x,ID)
+	2 --> (y,ID)
+	3 --> (f,ID) --> (kabirBrothers,ID) --> (malibah,ID)
+	4 --> (str,ID)
+	5 --> (hehe,ID)
+	6 --> (ch,ID) --> (anik,ID)
+	7
+	8 --> (u,ID) --> (str2,ID) --> (khilgaon,ID)
+	9 --> (v,ID)
+	10
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 22: Token <SEMICOLON> Lexeme ; found
+Line# 23: Token <FLOAT> Lexeme float found
+Line# 23: Token <ID> Lexeme suhrawardy found
+	ScopeTable# 1.1
+	1 --> (x,ID) --> (suhrawardy,ID)
+	2 --> (y,ID)
+	3 --> (f,ID) --> (kabirBrothers,ID) --> (malibah,ID)
+	4 --> (str,ID)
+	5 --> (hehe,ID)
+	6 --> (ch,ID) --> (anik,ID)
+	7
+	8 --> (u,ID) --> (str2,ID) --> (khilgaon,ID)
+	9 --> (v,ID)
+	10
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 23: Token <SEMICOLON> Lexeme ; found
+Line# 24: Token <ID> Lexeme malibah found
+	malibah already exists in the current ScopeTable
+Line# 24: Token <ASSIGNOP> Lexeme = found
+Line# 24: Token <CONST_INT> Lexeme 0 found
+Line# 24: Token <SEMICOLON> Lexeme ; found
+Line# 25: Token <FLOAT> Lexeme float found
+Line# 25: Token <ID> Lexeme t found
+	ScopeTable# 1.1
+	1 --> (x,ID) --> (suhrawardy,ID)
+	2 --> (y,ID)
+	3 --> (f,ID) --> (kabirBrothers,ID) --> (malibah,ID)
+	4 --> (str,ID)
+	5 --> (hehe,ID)
+	6 --> (ch,ID) --> (anik,ID)
+	7 --> (t,ID)
+	8 --> (u,ID) --> (str2,ID) --> (khilgaon,ID)
+	9 --> (v,ID)
+	10
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 25: Token <ASSIGNOP> Lexeme = found
+Error at line# 25: TOO_MANY_DECIMAL_POINTS 1.2.3
+Line# 26: Token <INT> Lexeme int found
+Line# 26: Token <ID> Lexeme time found
+	ScopeTable# 1.1
+	1 --> (x,ID) --> (suhrawardy,ID)
+	2 --> (y,ID) --> (time,ID)
+	3 --> (f,ID) --> (kabirBrothers,ID) --> (malibah,ID)
+	4 --> (str,ID)
+	5 --> (hehe,ID)
+	6 --> (ch,ID) --> (anik,ID)
+	7 --> (t,ID)
+	8 --> (u,ID) --> (str2,ID) --> (khilgaon,ID)
+	9 --> (v,ID)
+	10
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 26: Token <ASSIGNOP> Lexeme = found
+Line# 26: Token <CONST_INT> Lexeme 3 found
+Line# 26: Token <SEMICOLON> Lexeme ; found
+Line# 27: Token <ID> Lexeme bool found
+	ScopeTable# 1.1
+	1 --> (x,ID) --> (suhrawardy,ID) --> (bool,ID)
+	2 --> (y,ID) --> (time,ID)
+	3 --> (f,ID) --> (kabirBrothers,ID) --> (malibah,ID)
+	4 --> (str,ID)
+	5 --> (hehe,ID)
+	6 --> (ch,ID) --> (anik,ID)
+	7 --> (t,ID)
+	8 --> (u,ID) --> (str2,ID) --> (khilgaon,ID)
+	9 --> (v,ID)
+	10
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 27: Token <ID> Lexeme Abid found
+	ScopeTable# 1.1
+	1 --> (x,ID) --> (suhrawardy,ID) --> (bool,ID)
+	2 --> (y,ID) --> (time,ID)
+	3 --> (f,ID) --> (kabirBrothers,ID) --> (malibah,ID)
+	4 --> (str,ID)
+	5 --> (hehe,ID)
+	6 --> (ch,ID) --> (anik,ID)
+	7 --> (t,ID)
+	8 --> (u,ID) --> (str2,ID) --> (khilgaon,ID)
+	9 --> (v,ID) --> (Abid,ID)
+	10
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 27: Token <SEMICOLON> Lexeme ; found
+Line# 28: Token <IF> Lexeme if found
+Line# 28: Token <LPAREN> Lexeme ( found
+Line# 28: Token <ID> Lexeme time found
+	time already exists in the current ScopeTable
+Line# 28: Token <RELOP> Lexeme < found
+Error at line# 28: INVALID_ID_SUFFIX_NUM_PREFIX 10pm
+Line# 28: Token <RPAREN> Lexeme ) found
+Line# 28: Token <LCURL> Lexeme { found
+Line# 29: Token <CHAR> Lexeme char found
+Line# 29: Token <ID> Lexeme char1 found
+	ScopeTable# 1.1.1
+	1
+	2
+	3
+	4 --> (char1,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+	ScopeTable# 1.1
+	1 --> (x,ID) --> (suhrawardy,ID) --> (bool,ID)
+	2 --> (y,ID) --> (time,ID)
+	3 --> (f,ID) --> (kabirBrothers,ID) --> (malibah,ID)
+	4 --> (str,ID)
+	5 --> (hehe,ID)
+	6 --> (ch,ID) --> (anik,ID)
+	7 --> (t,ID)
+	8 --> (u,ID) --> (str2,ID) --> (khilgaon,ID)
+	9 --> (v,ID) --> (Abid,ID)
+	10
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 29: Token <LSQUARE> Lexeme [ found
+Line# 29: Token <RSQUARE> Lexeme ] found
+Line# 29: Token <ASSIGNOP> Lexeme = found
+Line# 29: Token <SINGLE LINE STRING> Lexeme "Abid not home ||" found
+Line# 29: Token <SEMICOLON> Lexeme ; found
+Line# 30: warning, 2 of tabs needed but got 3 tabs.
+Line# 30: Token <ID> Lexeme printf found
+	ScopeTable# 1.1.1
+	1
+	2
+	3
+	4 --> (char1,ID)
+	5
+	6
+	7
+	8
+	9
+	10 --> (printf,ID)
+	ScopeTable# 1.1
+	1 --> (x,ID) --> (suhrawardy,ID) --> (bool,ID)
+	2 --> (y,ID) --> (time,ID)
+	3 --> (f,ID) --> (kabirBrothers,ID) --> (malibah,ID)
+	4 --> (str,ID)
+	5 --> (hehe,ID)
+	6 --> (ch,ID) --> (anik,ID)
+	7 --> (t,ID)
+	8 --> (u,ID) --> (str2,ID) --> (khilgaon,ID)
+	9 --> (v,ID) --> (Abid,ID)
+	10
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 30: Token <LPAREN> Lexeme ( found
+Line# 30: Token <SINGLE LINE STRING> Lexeme "%d" found
+Line# 30: Token <COMMA> Lexeme , found
+Line# 30: Token <CHAR> Lexeme char found
+Line# 30: Token <RPAREN> Lexeme ) found
+Line# 30: Token <SEMICOLON> Lexeme ; found
+Line# 32: Token <RCURL> Lexeme } found
+Line# 33: Token <MULTI LINE COMMENT> Lexeme /* we arew in a multi lines
+	command
+	*/ found
+Line# 36: Token <SINGLE LINE COMMENT> Lexeme // not going to put \
+	oops found
+Line# 38: Token <SINGLE LINE COMMENT> Lexeme // not his time found
+Line# 39: Token <ID> Lexeme itsBecameAnID found
+	ScopeTable# 1.1
+	1 --> (x,ID) --> (suhrawardy,ID) --> (bool,ID)
+	2 --> (y,ID) --> (time,ID)
+	3 --> (f,ID) --> (kabirBrothers,ID) --> (malibah,ID)
+	4 --> (str,ID)
+	5 --> (hehe,ID)
+	6 --> (ch,ID) --> (anik,ID)
+	7 --> (t,ID)
+	8 --> (u,ID) --> (str2,ID) --> (khilgaon,ID) --> (itsBecameAnID,ID)
+	9 --> (v,ID) --> (Abid,ID)
+	10
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 41: Token <SINGLE LINE COMMENT> Lexeme // December 7, 2023 found
+Line# 42: Token <ID> Lexeme printf found
+	ScopeTable# 1.1
+	1 --> (x,ID) --> (suhrawardy,ID) --> (bool,ID)
+	2 --> (y,ID) --> (time,ID)
+	3 --> (f,ID) --> (kabirBrothers,ID) --> (malibah,ID)
+	4 --> (str,ID)
+	5 --> (hehe,ID)
+	6 --> (ch,ID) --> (anik,ID)
+	7 --> (t,ID)
+	8 --> (u,ID) --> (str2,ID) --> (khilgaon,ID) --> (itsBecameAnID,ID)
+	9 --> (v,ID) --> (Abid,ID)
+	10 --> (printf,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 42: Token <LPAREN> Lexeme ( found
+Line# 42: Token <MULTI LINE STRING> Lexeme "The day\
+	was\
+	sunny" found
+Line# 44: Token <RPAREN> Lexeme ) found
+Line# 44: Token <SEMICOLON> Lexeme ; found
+Line# 46: Token <MULTI LINE COMMENT> Lexeme /** ** CSE 310
+	*** Compiler Sessional ***/ found
+Line# 48: Token <SINGLE LINE COMMENT> Lexeme // It is a\
+	fun course found
+Line# 50: Token <RETURN> Lexeme return found
+Line# 50: Token <CONST_INT> Lexeme 0 found
+Line# 50: Token <SEMICOLON> Lexeme ; found
+Line# 51: Token <RCURL> Lexeme } found
+Line# 52: Token <DOUBLE> Lexeme double found
+Line# 52: Token <ID> Lexeme solve found
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 52: Token <LPAREN> Lexeme ( found
+Line# 52: Token <RPAREN> Lexeme ) found
+Line# 52: Token <LCURL> Lexeme { found
+Line# 53: Token <CHAR> Lexeme char found
+Line# 53: Token <ID> Lexeme tias found
+	ScopeTable# 1.2
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8 --> (tias,ID)
+	9
+	10
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 53: Token <ASSIGNOP> Lexeme = found
+Error at line# 53: UNFINISHED_CONST_CHAR '\';
+Line# 54: Token <DOUBLE> Lexeme double found
+Line# 54: Token <ID> Lexeme miraj found
+	ScopeTable# 1.2
+	1
+	2
+	3
+	4 --> (miraj,ID)
+	5
+	6
+	7
+	8 --> (tias,ID)
+	9
+	10
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 54: Token <ASSIGNOP> Lexeme = found
+Error at line# 54: TOO_MANY_DECIMAL_POINTS 1.2.345
+Line# 54: Token <SEMICOLON> Lexeme ; found
+Line# 55: Token <FLOAT> Lexeme float found
+Line# 55: Token <ID> Lexeme home found
+	ScopeTable# 1.2
+	1
+	2
+	3
+	4 --> (miraj,ID)
+	5
+	6
+	7
+	8 --> (tias,ID)
+	9
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 55: Token <ASSIGNOP> Lexeme = found
+Error at line# 55: TOO_MANY_DECIMAL_POINTS 192.168.0.1
+Line# 55: Token <SEMICOLON> Lexeme ; found
+Line# 56: Token <FLOAT> Lexeme float found
+Line# 56: Token <ID> Lexeme tf found
+	ScopeTable# 1.2
+	1
+	2
+	3
+	4 --> (miraj,ID)
+	5
+	6
+	7 --> (tf,ID)
+	8 --> (tias,ID)
+	9
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 56: Token <ASSIGNOP> Lexeme = found
+Error at line# 56: ILLFORMED_NUMBER 1E10.7
+Line# 56: Token <SEMICOLON> Lexeme ; found
+Line# 57: Token <INT> Lexeme int found
+Error at line# 57: INVALID_ID_SUFFIX_NUM_PREFIX 12abcd
+Line# 57: Token <SEMICOLON> Lexeme ; found
+Line# 58: Token <CHAR> Lexeme char found
+Error at line# 58: UNRECOGNIZED_CHAR #
+Line# 58: Token <ASSIGNOP> Lexeme = found
+Error at line# 58: UNRECOGNIZED_CHAR @
+Line# 58: Token <SEMICOLON> Lexeme ; found
+Line# 59: Token <CHAR> Lexeme char found
+Line# 59: Token <ID> Lexeme bruceWayne found
+	ScopeTable# 1.2
+	1
+	2
+	3
+	4 --> (miraj,ID)
+	5
+	6 --> (bruceWayne,ID)
+	7 --> (tf,ID)
+	8 --> (tias,ID)
+	9
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 59: Token <LSQUARE> Lexeme [ found
+Line# 59: Token <RSQUARE> Lexeme ] found
+Line# 59: Token <ASSIGNOP> Lexeme = found
+Line# 59: Token <SINGLE LINE STRING> Lexeme "rude" found
+Line# 59: Token <SEMICOLON> Lexeme ; found
+Line# 60: Token <CHAR> Lexeme char found
+Line# 60: Token <ID> Lexeme _ found
+	ScopeTable# 1.2
+	1
+	2
+	3
+	4 --> (miraj,ID)
+	5
+	6 --> (bruceWayne,ID) --> (_,ID)
+	7 --> (tf,ID)
+	8 --> (tias,ID)
+	9
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 60: Token <ASSIGNOP> Lexeme = found
+Error at line# 60: MULTICHAR_CONST_CHAR 'ab'
+Line# 60: Token <SEMICOLON> Lexeme ; found
+Line# 61: Token <CHAR> Lexeme char found
+Line# 61: Token <ID> Lexeme a23a_ found
+	ScopeTable# 1.2
+	1
+	2
+	3
+	4 --> (miraj,ID)
+	5 --> (a23a_,ID)
+	6 --> (bruceWayne,ID) --> (_,ID)
+	7 --> (tf,ID)
+	8 --> (tias,ID)
+	9
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 61: Token <ASSIGNOP> Lexeme = found
+Error at line# 61: UNFINISHED_CONST_CHAR 'a
+Line# 62: Token <CHAR> Lexeme char found
+Line# 62: Token <ID> Lexeme ct found
+	ScopeTable# 1.2
+	1
+	2
+	3
+	4 --> (miraj,ID)
+	5 --> (a23a_,ID)
+	6 --> (bruceWayne,ID) --> (_,ID)
+	7 --> (tf,ID)
+	8 --> (tias,ID) --> (ct,ID)
+	9
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 62: Token <ASSIGNOP> Lexeme = found
+Error at line# 62: UNFINISHED_CONST_CHAR '
+Line# 63: Token <CHAR> Lexeme char found
+Line# 63: Token <ID> Lexeme golam found
+	ScopeTable# 1.2
+	1
+	2
+	3
+	4 --> (miraj,ID)
+	5 --> (a23a_,ID) --> (golam,ID)
+	6 --> (bruceWayne,ID) --> (_,ID)
+	7 --> (tf,ID)
+	8 --> (tias,ID) --> (ct,ID)
+	9
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 63: Token <ASSIGNOP> Lexeme = found
+Error at line# 63: MULTICHAR_CONST_CHAR 'love northbengal'
+Line# 63: Token <SEMICOLON> Lexeme ; found
+Line# 64: Token <CHAR> Lexeme char found
+Line# 64: Token <ID> Lexeme ____etaki__ found
+	ScopeTable# 1.2
+	1
+	2
+	3
+	4 --> (miraj,ID)
+	5 --> (a23a_,ID) --> (golam,ID)
+	6 --> (bruceWayne,ID) --> (_,ID)
+	7 --> (tf,ID)
+	8 --> (tias,ID) --> (ct,ID)
+	9 --> (____etaki__,ID)
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 64: Token <ASSIGNOP> Lexeme = found
+Error at line# 64: UNFINISHED_CONST_CHAR '\';
+Line# 65: Token <CHAR> Lexeme char found
+Line# 65: Token <ID> Lexeme janina found
+	ScopeTable# 1.2
+	1
+	2 --> (janina,ID)
+	3
+	4 --> (miraj,ID)
+	5 --> (a23a_,ID) --> (golam,ID)
+	6 --> (bruceWayne,ID) --> (_,ID)
+	7 --> (tf,ID)
+	8 --> (tias,ID) --> (ct,ID)
+	9 --> (____etaki__,ID)
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 65: Token <ASSIGNOP> Lexeme = found
+Error at line# 65: EMPTY_CONST_CHAR ''
+Line# 65: Token <SEMICOLON> Lexeme ; found
+Line# 66: Token <IF> Lexeme if found
+Line# 66: Token <LPAREN> Lexeme ( found
+Line# 66: Token <ID> Lexeme jodiIsHoy found
+	ScopeTable# 1.2
+	1
+	2 --> (janina,ID)
+	3
+	4 --> (miraj,ID)
+	5 --> (a23a_,ID) --> (golam,ID)
+	6 --> (bruceWayne,ID) --> (_,ID)
+	7 --> (tf,ID) --> (jodiIsHoy,ID)
+	8 --> (tias,ID) --> (ct,ID)
+	9 --> (____etaki__,ID)
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 66: Token <RPAREN> Lexeme ) found
+Line# 66: Token <LCURL> Lexeme { found
+Line# 67: Token <ID> Lexeme But found
+	ScopeTable# 1.2.1
+	1
+	2
+	3
+	4
+	5
+	6 --> (But,ID)
+	7
+	8
+	9
+	10
+	ScopeTable# 1.2
+	1
+	2 --> (janina,ID)
+	3
+	4 --> (miraj,ID)
+	5 --> (a23a_,ID) --> (golam,ID)
+	6 --> (bruceWayne,ID) --> (_,ID)
+	7 --> (tf,ID) --> (jodiIsHoy,ID)
+	8 --> (tias,ID) --> (ct,ID)
+	9 --> (____etaki__,ID)
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 67: Token <ID> Lexeme kintu found
+	ScopeTable# 1.2.1
+	1
+	2 --> (kintu,ID)
+	3
+	4
+	5
+	6 --> (But,ID)
+	7
+	8
+	9
+	10
+	ScopeTable# 1.2
+	1
+	2 --> (janina,ID)
+	3
+	4 --> (miraj,ID)
+	5 --> (a23a_,ID) --> (golam,ID)
+	6 --> (bruceWayne,ID) --> (_,ID)
+	7 --> (tf,ID) --> (jodiIsHoy,ID)
+	8 --> (tias,ID) --> (ct,ID)
+	9 --> (____etaki__,ID)
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 67: Token <ID> Lexeme what found
+	ScopeTable# 1.2.1
+	1
+	2 --> (kintu,ID)
+	3
+	4
+	5 --> (what,ID)
+	6 --> (But,ID)
+	7
+	8
+	9
+	10
+	ScopeTable# 1.2
+	1
+	2 --> (janina,ID)
+	3
+	4 --> (miraj,ID)
+	5 --> (a23a_,ID) --> (golam,ID)
+	6 --> (bruceWayne,ID) --> (_,ID)
+	7 --> (tf,ID) --> (jodiIsHoy,ID)
+	8 --> (tias,ID) --> (ct,ID)
+	9 --> (____etaki__,ID)
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 67: Token <ID> Lexeme ki found
+	ScopeTable# 1.2.1
+	1
+	2 --> (kintu,ID)
+	3
+	4
+	5 --> (what,ID)
+	6 --> (But,ID)
+	7
+	8
+	9 --> (ki,ID)
+	10
+	ScopeTable# 1.2
+	1
+	2 --> (janina,ID)
+	3
+	4 --> (miraj,ID)
+	5 --> (a23a_,ID) --> (golam,ID)
+	6 --> (bruceWayne,ID) --> (_,ID)
+	7 --> (tf,ID) --> (jodiIsHoy,ID)
+	8 --> (tias,ID) --> (ct,ID)
+	9 --> (____etaki__,ID)
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 67: Token <SEMICOLON> Lexeme ; found
+Line# 68: Warning, tab requrired but got space.
+Line# 68: Token <IF> Lexeme if found
+Line# 68: Token <LPAREN> Lexeme ( found
+Line# 68: Token <ID> Lexeme emni found
+	ScopeTable# 1.2.1
+	1
+	2 --> (kintu,ID)
+	3
+	4 --> (emni,ID)
+	5 --> (what,ID)
+	6 --> (But,ID)
+	7
+	8
+	9 --> (ki,ID)
+	10
+	ScopeTable# 1.2
+	1
+	2 --> (janina,ID)
+	3
+	4 --> (miraj,ID)
+	5 --> (a23a_,ID) --> (golam,ID)
+	6 --> (bruceWayne,ID) --> (_,ID)
+	7 --> (tf,ID) --> (jodiIsHoy,ID)
+	8 --> (tias,ID) --> (ct,ID)
+	9 --> (____etaki__,ID)
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 68: Token <RPAREN> Lexeme ) found
+Line# 69: Token <LCURL> Lexeme { found
+Line# 70: Token <CHAR> Lexeme char found
+Line# 70: Token <ID> Lexeme toProve found
+	ScopeTable# 1.2.1.1
+	1
+	2
+	3
+	4
+	5
+	6 --> (toProve,ID)
+	7
+	8
+	9
+	10
+	ScopeTable# 1.2.1
+	1
+	2 --> (kintu,ID)
+	3
+	4 --> (emni,ID)
+	5 --> (what,ID)
+	6 --> (But,ID)
+	7
+	8
+	9 --> (ki,ID)
+	10
+	ScopeTable# 1.2
+	1
+	2 --> (janina,ID)
+	3
+	4 --> (miraj,ID)
+	5 --> (a23a_,ID) --> (golam,ID)
+	6 --> (bruceWayne,ID) --> (_,ID)
+	7 --> (tf,ID) --> (jodiIsHoy,ID)
+	8 --> (tias,ID) --> (ct,ID)
+	9 --> (____etaki__,ID)
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 70: Token <LSQUARE> Lexeme [ found
+Line# 70: Token <RSQUARE> Lexeme ] found
+Line# 70: Token <ASSIGNOP> Lexeme = found
+Line# 70: Token <SINGLE LINE STRING> Lexeme "To prove \t" found
+Line# 70: Token <SEMICOLON> Lexeme ; found
+Line# 71: Token <RCURL> Lexeme } found
+Line# 72: Token <RCURL> Lexeme } found
+Line# 73: Token <CHAR> Lexeme char found
+Line# 73: Token <ID> Lexeme another found
+	ScopeTable# 1.2
+	1
+	2 --> (janina,ID) --> (another,ID)
+	3
+	4 --> (miraj,ID)
+	5 --> (a23a_,ID) --> (golam,ID)
+	6 --> (bruceWayne,ID) --> (_,ID)
+	7 --> (tf,ID) --> (jodiIsHoy,ID)
+	8 --> (tias,ID) --> (ct,ID)
+	9 --> (____etaki__,ID)
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 73: Token <ASSIGNOP> Lexeme = found
+Error at line# 73: UNFINISHED_STRING "polashi food fair ;
+Line# 74: Token <CHAR> Lexeme char found
+Line# 74: Token <ID> Lexeme lonbgstring found
+	ScopeTable# 1.2
+	1
+	2 --> (janina,ID) --> (another,ID)
+	3
+	4 --> (miraj,ID)
+	5 --> (a23a_,ID) --> (golam,ID)
+	6 --> (bruceWayne,ID) --> (_,ID)
+	7 --> (tf,ID) --> (jodiIsHoy,ID)
+	8 --> (tias,ID) --> (ct,ID) --> (lonbgstring,ID)
+	9 --> (____etaki__,ID)
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 74: Token <LSQUARE> Lexeme [ found
+Line# 74: Token <RSQUARE> Lexeme ] found
+Line# 74: Token <ASSIGNOP> Lexeme = found
+Line# 74: Token <SINGLE LINE STRING> Lexeme "NEwlinw = \n, tab = \t, space =  , whatelse" found
+Line# 74: Token <SEMICOLON> Lexeme ; found
+Line# 75: Token <CHAR> Lexeme char found
+Line# 75: Token <ID> Lexeme special found
+	ScopeTable# 1.2
+	1
+	2 --> (janina,ID) --> (another,ID)
+	3
+	4 --> (miraj,ID) --> (special,ID)
+	5 --> (a23a_,ID) --> (golam,ID)
+	6 --> (bruceWayne,ID) --> (_,ID)
+	7 --> (tf,ID) --> (jodiIsHoy,ID)
+	8 --> (tias,ID) --> (ct,ID) --> (lonbgstring,ID)
+	9 --> (____etaki__,ID)
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 75: Token <LSQUARE> Lexeme [ found
+Line# 75: Token <RSQUARE> Lexeme ] found
+Line# 75: Token <ASSIGNOP> Lexeme = found
+Line# 75: Token <SINGLE LINE STRING> Lexeme " slash / backslash \\ quotes \' doublequote \" " found
+Line# 75: Token <SEMICOLON> Lexeme ; found
+Line# 77: Token <CHAR> Lexeme char found
+Line# 77: Token <ID> Lexeme navid found
+	ScopeTable# 1.2
+	1
+	2 --> (janina,ID) --> (another,ID)
+	3
+	4 --> (miraj,ID) --> (special,ID)
+	5 --> (a23a_,ID) --> (golam,ID)
+	6 --> (bruceWayne,ID) --> (_,ID)
+	7 --> (tf,ID) --> (jodiIsHoy,ID) --> (navid,ID)
+	8 --> (tias,ID) --> (ct,ID) --> (lonbgstring,ID)
+	9 --> (____etaki__,ID)
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 77: Token <ASSIGNOP> Lexeme = found
+Error at line# 77: UNFINISHED_STRING "treat\;
+Line# 78: Token <ID> Lexeme dey found
+	ScopeTable# 1.2
+	1 --> (dey,ID)
+	2 --> (janina,ID) --> (another,ID)
+	3
+	4 --> (miraj,ID) --> (special,ID)
+	5 --> (a23a_,ID) --> (golam,ID)
+	6 --> (bruceWayne,ID) --> (_,ID)
+	7 --> (tf,ID) --> (jodiIsHoy,ID) --> (navid,ID)
+	8 --> (tias,ID) --> (ct,ID) --> (lonbgstring,ID)
+	9 --> (____etaki__,ID)
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 79: Token <ID> Lexeme na found
+	ScopeTable# 1.2
+	1 --> (dey,ID)
+	2 --> (janina,ID) --> (another,ID)
+	3
+	4 --> (miraj,ID) --> (special,ID)
+	5 --> (a23a_,ID) --> (golam,ID)
+	6 --> (bruceWayne,ID) --> (_,ID)
+	7 --> (tf,ID) --> (jodiIsHoy,ID) --> (navid,ID)
+	8 --> (tias,ID) --> (ct,ID) --> (lonbgstring,ID) --> (na,ID)
+	9 --> (____etaki__,ID)
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Error at line# 79: UNFINISHED_STRING ";
+Line# 80: Token <MULTI LINE COMMENT> Lexeme /* it is a multiline comment 
+	for the better understanding
+	anything */ found
+Line# 83: Token <INT> Lexeme int found
+Line# 83: Token <ID> Lexeme n found
+	ScopeTable# 1.2
+	1 --> (dey,ID) --> (n,ID)
+	2 --> (janina,ID) --> (another,ID)
+	3
+	4 --> (miraj,ID) --> (special,ID)
+	5 --> (a23a_,ID) --> (golam,ID)
+	6 --> (bruceWayne,ID) --> (_,ID)
+	7 --> (tf,ID) --> (jodiIsHoy,ID) --> (navid,ID)
+	8 --> (tias,ID) --> (ct,ID) --> (lonbgstring,ID) --> (na,ID)
+	9 --> (____etaki__,ID)
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 83: Token <ASSIGNOP> Lexeme = found
+Line# 83: Token <CONST_INT> Lexeme 5 found
+Line# 83: Token <SEMICOLON> Lexeme ; found
+Line# 84: Token <ID> Lexeme n found
+	n already exists in the current ScopeTable
+Line# 84: Token <ASSIGNOP> Lexeme = found
+Line# 84: Token <ID> Lexeme n found
+	n already exists in the current ScopeTable
+Line# 84: Token <ADDOP> Lexeme + found
+Line# 84: Token <CONST_INT> Lexeme 9 found
+Line# 84: Token <ADDOP> Lexeme - found
+Line# 84: Token <CONST_INT> Lexeme 8 found
+Line# 84: Token <SEMICOLON> Lexeme ; found
+Line# 85: Token <ID> Lexeme n found
+	n already exists in the current ScopeTable
+Line# 85: Token <ASSIGNOP> Lexeme = found
+Line# 85: Token <ID> Lexeme n found
+	n already exists in the current ScopeTable
+Line# 85: Token <MULOP> Lexeme / found
+Line# 85: Token <CONST_INT> Lexeme 2 found
+Line# 85: Token <MULOP> Lexeme * found
+Line# 85: Token <CONST_INT> Lexeme 9 found
+Line# 85: Token <MULOP> Lexeme % found
+Line# 85: Token <CONST_INT> Lexeme 67 found
+Line# 85: Token <SEMICOLON> Lexeme ; found
+Line# 87: Token <FOR> Lexeme for found
+Line# 87: Token <LPAREN> Lexeme ( found
+Line# 87: Token <INT> Lexeme int found
+Line# 87: Token <ID> Lexeme i found
+	ScopeTable# 1.2
+	1 --> (dey,ID) --> (n,ID)
+	2 --> (janina,ID) --> (another,ID)
+	3
+	4 --> (miraj,ID) --> (special,ID)
+	5 --> (a23a_,ID) --> (golam,ID)
+	6 --> (bruceWayne,ID) --> (_,ID) --> (i,ID)
+	7 --> (tf,ID) --> (jodiIsHoy,ID) --> (navid,ID)
+	8 --> (tias,ID) --> (ct,ID) --> (lonbgstring,ID) --> (na,ID)
+	9 --> (____etaki__,ID)
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 87: Token <ASSIGNOP> Lexeme = found
+Line# 87: Token <CONST_INT> Lexeme 0 found
+Line# 87: Token <SEMICOLON> Lexeme ; found
+Line# 87: Token <ID> Lexeme i found
+	i already exists in the current ScopeTable
+Line# 87: Token <RELOP> Lexeme < found
+Line# 87: Token <ID> Lexeme n found
+	n already exists in the current ScopeTable
+Line# 87: Token <SEMICOLON> Lexeme ; found
+Line# 87: Token <ID> Lexeme i found
+	i already exists in the current ScopeTable
+Line# 87: Token <INCOP> Lexeme ++ found
+Line# 87: Token <RPAREN> Lexeme ) found
+Line# 87: Token <LCURL> Lexeme { found
+Line# 88: warning, 2 of tabs needed but got 3 tabs.
+Line# 88: Token <ID> Lexeme printf found
+	ScopeTable# 1.2.2
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10 --> (printf,ID)
+	ScopeTable# 1.2
+	1 --> (dey,ID) --> (n,ID)
+	2 --> (janina,ID) --> (another,ID)
+	3
+	4 --> (miraj,ID) --> (special,ID)
+	5 --> (a23a_,ID) --> (golam,ID)
+	6 --> (bruceWayne,ID) --> (_,ID) --> (i,ID)
+	7 --> (tf,ID) --> (jodiIsHoy,ID) --> (navid,ID)
+	8 --> (tias,ID) --> (ct,ID) --> (lonbgstring,ID) --> (na,ID)
+	9 --> (____etaki__,ID)
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 88: Token <LPAREN> Lexeme ( found
+Line# 88: Token <SINGLE LINE STRING> Lexeme "CT!!!!!!!!!!" found
+Line# 88: Token <RPAREN> Lexeme ) found
+Line# 88: Token <SEMICOLON> Lexeme ; found
+Line# 89: warning, 2 of tabs needed but got 3 tabs.
+Line# 89: Token <IF> Lexeme if found
+Line# 89: Token <LPAREN> Lexeme ( found
+Line# 89: Token <ID> Lexeme n found
+	ScopeTable# 1.2.2
+	1 --> (n,ID)
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10 --> (printf,ID)
+	ScopeTable# 1.2
+	1 --> (dey,ID) --> (n,ID)
+	2 --> (janina,ID) --> (another,ID)
+	3
+	4 --> (miraj,ID) --> (special,ID)
+	5 --> (a23a_,ID) --> (golam,ID)
+	6 --> (bruceWayne,ID) --> (_,ID) --> (i,ID)
+	7 --> (tf,ID) --> (jodiIsHoy,ID) --> (navid,ID)
+	8 --> (tias,ID) --> (ct,ID) --> (lonbgstring,ID) --> (na,ID)
+	9 --> (____etaki__,ID)
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 89: Token <RELOP> Lexeme > found
+Line# 89: Token <CONST_INT> Lexeme 6 found
+Line# 89: Token <LOGICOP> Lexeme && found
+Line# 89: Token <ID> Lexeme n found
+	n already exists in the current ScopeTable
+Line# 89: Token <RELOP> Lexeme <= found
+Line# 89: Token <CONST_INT> Lexeme 4 found
+Line# 89: Token <LOGICOP> Lexeme || found
+Line# 89: Token <ID> Lexeme n found
+	n already exists in the current ScopeTable
+Line# 89: Token <RELOP> Lexeme != found
+Line# 89: Token <CONST_INT> Lexeme 64 found
+Line# 89: Token <LOGICOP> Lexeme && found
+Line# 89: Token <ID> Lexeme n found
+	n already exists in the current ScopeTable
+Line# 89: Token <RELOP> Lexeme == found
+Line# 89: Token <CONST_INT> Lexeme 8 found
+Line# 89: Token <RPAREN> Lexeme ) found
+Line# 89: Token <CONTINUE> Lexeme continue found
+Line# 89: Token <SEMICOLON> Lexeme ; found
+Line# 90: warning, 2 of tabs needed but got 3 tabs.
+Line# 90: Token <ELSE> Lexeme else found
+Line# 90: Token <BREAK> Lexeme break found
+Line# 90: Token <SEMICOLON> Lexeme ; found
+Line# 91: warning, 2 of tabs needed but got 3 tabs.
+Line# 91: Token <ID> Lexeme n found
+	n already exists in the current ScopeTable
+Line# 91: Token <INCOP> Lexeme -- found
+Line# 91: Token <SEMICOLON> Lexeme ; found
+Line# 92: warning, 2 of tabs needed but got 3 tabs.
+Line# 92: Token <ID> Lexeme n found
+	n already exists in the current ScopeTable
+Line# 92: Token <ASSIGNOP> Lexeme = found
+Line# 92: Token <NOT> Lexeme ! found
+Line# 92: Token <ID> Lexeme n found
+	n already exists in the current ScopeTable
+Line# 92: Token <SEMICOLON> Lexeme ; found
+Line# 93: warning, 2 of tabs needed but got 3 tabs.
+Line# 93: Token <ID> Lexeme n found
+	n already exists in the current ScopeTable
+Line# 93: Token <ASSIGNOP> Lexeme = found
+Line# 93: Token <ID> Lexeme n found
+	n already exists in the current ScopeTable
+Line# 93: Token <BITOP> Lexeme & found
+Line# 93: Token <CONST_INT> Lexeme 8 found
+Line# 93: Token <SEMICOLON> Lexeme ; found
+Line# 94: warning, 2 of tabs needed but got 3 tabs.
+Line# 94: Token <ID> Lexeme n found
+	n already exists in the current ScopeTable
+Line# 94: Token <ASSIGNOP> Lexeme = found
+Line# 94: Token <ID> Lexeme n found
+	n already exists in the current ScopeTable
+Line# 94: Token <BITOP> Lexeme | found
+Line# 94: Token <LPAREN> Lexeme ( found
+Line# 94: Token <CONST_INT> Lexeme 3 found
+Line# 94: Token <BITOP> Lexeme ^ found
+Line# 94: Token <CONST_INT> Lexeme 1 found
+Line# 94: Token <RPAREN> Lexeme ) found
+Line# 94: Token <SEMICOLON> Lexeme ; found
+Line# 97: Token <RCURL> Lexeme } found
+Line# 98: Token <SWITCH> Lexeme switch found
+Line# 98: Token <LPAREN> Lexeme ( found
+Line# 98: Token <ID> Lexeme n found
+	n already exists in the current ScopeTable
+Line# 98: Token <RPAREN> Lexeme ) found
+Line# 99: Warning, tab requrired but got space.
+Line# 99: Token <LCURL> Lexeme { found
+Line# 100: Token <CASE> Lexeme case found
+Line# 100: Token <CONST_INT> Lexeme 1 found
+Error at line# 100: UNRECOGNIZED_CHAR :
+Line# 100: Token <LCURL> Lexeme { found
+Line# 100: Token <ID> Lexeme printf found
+	ScopeTable# 1.2.3.1
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10 --> (printf,ID)
+	ScopeTable# 1.2.3
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	ScopeTable# 1.2
+	1 --> (dey,ID) --> (n,ID)
+	2 --> (janina,ID) --> (another,ID)
+	3
+	4 --> (miraj,ID) --> (special,ID)
+	5 --> (a23a_,ID) --> (golam,ID)
+	6 --> (bruceWayne,ID) --> (_,ID) --> (i,ID)
+	7 --> (tf,ID) --> (jodiIsHoy,ID) --> (navid,ID)
+	8 --> (tias,ID) --> (ct,ID) --> (lonbgstring,ID) --> (na,ID)
+	9 --> (____etaki__,ID)
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 100: Token <LPAREN> Lexeme ( found
+Line# 100: Token <SINGLE LINE STRING> Lexeme "Helllo1" found
+Line# 100: Token <RPAREN> Lexeme ) found
+Line# 100: Token <SEMICOLON> Lexeme ; found
+Line# 100: Token <RCURL> Lexeme } found
+Line# 101: Token <CASE> Lexeme case found
+Line# 101: Token <CONST_INT> Lexeme 6 found
+Error at line# 101: UNRECOGNIZED_CHAR :
+Line# 101: Token <LCURL> Lexeme { found
+Line# 101: Token <ID> Lexeme printf found
+	ScopeTable# 1.2.3.2
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10 --> (printf,ID)
+	ScopeTable# 1.2.3
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	ScopeTable# 1.2
+	1 --> (dey,ID) --> (n,ID)
+	2 --> (janina,ID) --> (another,ID)
+	3
+	4 --> (miraj,ID) --> (special,ID)
+	5 --> (a23a_,ID) --> (golam,ID)
+	6 --> (bruceWayne,ID) --> (_,ID) --> (i,ID)
+	7 --> (tf,ID) --> (jodiIsHoy,ID) --> (navid,ID)
+	8 --> (tias,ID) --> (ct,ID) --> (lonbgstring,ID) --> (na,ID)
+	9 --> (____etaki__,ID)
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 101: Token <LPAREN> Lexeme ( found
+Line# 101: Token <SINGLE LINE STRING> Lexeme "6\n" found
+Line# 101: Token <RPAREN> Lexeme ) found
+Line# 101: Token <SEMICOLON> Lexeme ; found
+Line# 101: Token <RCURL> Lexeme } found
+Line# 102: Token <DEFAULT> Lexeme default found
+Error at line# 102: UNRECOGNIZED_CHAR :
+Line# 102: Token <LCURL> Lexeme { found
+Line# 102: Token <ID> Lexeme printf found
+	ScopeTable# 1.2.3.3
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10 --> (printf,ID)
+	ScopeTable# 1.2.3
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	ScopeTable# 1.2
+	1 --> (dey,ID) --> (n,ID)
+	2 --> (janina,ID) --> (another,ID)
+	3
+	4 --> (miraj,ID) --> (special,ID)
+	5 --> (a23a_,ID) --> (golam,ID)
+	6 --> (bruceWayne,ID) --> (_,ID) --> (i,ID)
+	7 --> (tf,ID) --> (jodiIsHoy,ID) --> (navid,ID)
+	8 --> (tias,ID) --> (ct,ID) --> (lonbgstring,ID) --> (na,ID)
+	9 --> (____etaki__,ID)
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 102: Token <LPAREN> Lexeme ( found
+Line# 102: Token <SINGLE LINE STRING> Lexeme "Nothin\tg" found
+Line# 102: Token <RPAREN> Lexeme ) found
+Line# 102: Token <SEMICOLON> Lexeme ; found
+Line# 102: Token <RCURL> Lexeme } found
+Line# 104: Token <RCURL> Lexeme } found
+Line# 105: Token <DO> Lexeme do found
+Line# 105: Token <LCURL> Lexeme { found
+Line# 106: Token <ID> Lexeme nothing found
+	ScopeTable# 1.2.4
+	1
+	2
+	3
+	4
+	5
+	6 --> (nothing,ID)
+	7
+	8
+	9
+	10
+	ScopeTable# 1.2
+	1 --> (dey,ID) --> (n,ID)
+	2 --> (janina,ID) --> (another,ID)
+	3
+	4 --> (miraj,ID) --> (special,ID)
+	5 --> (a23a_,ID) --> (golam,ID)
+	6 --> (bruceWayne,ID) --> (_,ID) --> (i,ID)
+	7 --> (tf,ID) --> (jodiIsHoy,ID) --> (navid,ID)
+	8 --> (tias,ID) --> (ct,ID) --> (lonbgstring,ID) --> (na,ID)
+	9 --> (____etaki__,ID)
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 106: Token <SEMICOLON> Lexeme ; found
+Line# 107: Token <INT> Lexeme int found
+Line# 107: Token <ID> Lexeme h found
+	ScopeTable# 1.2.4
+	1
+	2
+	3
+	4
+	5 --> (h,ID)
+	6 --> (nothing,ID)
+	7
+	8
+	9
+	10
+	ScopeTable# 1.2
+	1 --> (dey,ID) --> (n,ID)
+	2 --> (janina,ID) --> (another,ID)
+	3
+	4 --> (miraj,ID) --> (special,ID)
+	5 --> (a23a_,ID) --> (golam,ID)
+	6 --> (bruceWayne,ID) --> (_,ID) --> (i,ID)
+	7 --> (tf,ID) --> (jodiIsHoy,ID) --> (navid,ID)
+	8 --> (tias,ID) --> (ct,ID) --> (lonbgstring,ID) --> (na,ID)
+	9 --> (____etaki__,ID)
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 107: Token <ASSIGNOP> Lexeme = found
+Line# 107: Token <CONST_INT> Lexeme 1 found
+Line# 107: Token <BITOP> Lexeme << found
+Line# 107: Token <CONST_INT> Lexeme 2 found
+Line# 107: Token <SEMICOLON> Lexeme ; found
+Line# 109: Token <RCURL> Lexeme } found
+Line# 109: Token <WHILE> Lexeme while found
+Line# 109: Token <LPAREN> Lexeme ( found
+Line# 109: Token <ID> Lexeme n found
+	n already exists in the current ScopeTable
+Line# 109: Token <RELOP> Lexeme == found
+Line# 109: Token <CONST_INT> Lexeme 6 found
+Line# 109: Token <RPAREN> Lexeme ) found
+Line# 110: Token <INT> Lexeme int found
+Line# 110: Token <ID> Lexeme g found
+	ScopeTable# 1.2
+	1 --> (dey,ID) --> (n,ID)
+	2 --> (janina,ID) --> (another,ID)
+	3
+	4 --> (miraj,ID) --> (special,ID) --> (g,ID)
+	5 --> (a23a_,ID) --> (golam,ID)
+	6 --> (bruceWayne,ID) --> (_,ID) --> (i,ID)
+	7 --> (tf,ID) --> (jodiIsHoy,ID) --> (navid,ID)
+	8 --> (tias,ID) --> (ct,ID) --> (lonbgstring,ID) --> (na,ID)
+	9 --> (____etaki__,ID)
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 110: Token <ASSIGNOP> Lexeme = found
+Line# 110: Token <CONST_FLOAT> Lexeme 1E43 found
+Line# 110: Token <SEMICOLON> Lexeme ; found
+Line# 111: Token <FLOAT> Lexeme float found
+Line# 111: Token <ID> Lexeme t found
+	ScopeTable# 1.2
+	1 --> (dey,ID) --> (n,ID)
+	2 --> (janina,ID) --> (another,ID)
+	3
+	4 --> (miraj,ID) --> (special,ID) --> (g,ID)
+	5 --> (a23a_,ID) --> (golam,ID)
+	6 --> (bruceWayne,ID) --> (_,ID) --> (i,ID)
+	7 --> (tf,ID) --> (jodiIsHoy,ID) --> (navid,ID) --> (t,ID)
+	8 --> (tias,ID) --> (ct,ID) --> (lonbgstring,ID) --> (na,ID)
+	9 --> (____etaki__,ID)
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 111: Token <ASSIGNOP> Lexeme = found
+Error at line# 111: TOO_MANY_DECIMAL_POINTS 1.2.2E34
+Line# 111: Token <SEMICOLON> Lexeme ; found
+Line# 112: Token <FLOAT> Lexeme float found
+Line# 112: Token <ID> Lexeme b found
+	ScopeTable# 1.2
+	1 --> (dey,ID) --> (n,ID)
+	2 --> (janina,ID) --> (another,ID)
+	3
+	4 --> (miraj,ID) --> (special,ID) --> (g,ID)
+	5 --> (a23a_,ID) --> (golam,ID)
+	6 --> (bruceWayne,ID) --> (_,ID) --> (i,ID)
+	7 --> (tf,ID) --> (jodiIsHoy,ID) --> (navid,ID) --> (t,ID)
+	8 --> (tias,ID) --> (ct,ID) --> (lonbgstring,ID) --> (na,ID)
+	9 --> (____etaki__,ID) --> (b,ID)
+	10 --> (home,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Line# 112: Token <ASSIGNOP> Lexeme = found
+Error at line# 112: ILLFORMED_NUMBER 1E.3
+Line# 112: Token <SEMICOLON> Lexeme ; found
+Line# 114: warning, 1 of tabs needed but got 2 tabs.
+Line# 114: Token <RETURN> Lexeme return found
+Line# 114: Token <SEMICOLON> Lexeme ; found
+Line# 116: warning, 0 of tabs needed but got 1 tabs.
+Line# 116: Token <RCURL> Lexeme } found
+Error at line# 117: EMPTY_CONST_CHAR ''
+Error at line# 117: UNFINISHED_CONST_CHAR '
+Line# 118: Warning, tab requrired but got space.
+Error at line# 118: UNRECOGNIZED_CHAR @
+Error at line# 119: TOO_MANY_DECIMAL_POINTS 1.2.3E13
+Line# 119: Token <ID> Lexeme E38 found
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5 --> (E38,ID)
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Error at line# 121: UNFINISHED_COMMENT /* not goiong to finsh this
+i told you
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5 --> (E38,ID)
+	6 --> (solve,ID)
+	7
+	8
+	9
+	10
+Total lines: 121
+Total errors: 31
+Total warnings: 16

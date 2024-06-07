@@ -1,0 +1,2098 @@
+39 at yacc parameter list
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 2
+	1--> <n,INT> 
+	ScopeTable# 1
+
+39 at func_definition
+39 at handle_function_definition for fact
+39 Will insert function fact with 1 parameters 
+39 
+
+inserted fact at recursion helper
+
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 3
+	ScopeTable# 2
+	1--> <n,INT> 
+	ScopeTable# 1
+
+42 exited scope
+	ScopeTable# 2
+	1--> <n,INT> 
+	ScopeTable# 1
+43 here
+43 
+
+Recursive function fact called at line 43
+
+
+43 here2
+43 here4
+44 exited scope
+	ScopeTable# 1
+44 inserted
+44 
+
+1
+
+
+44 Inserted function fact with 1 parameters 
+47 inserted
+48 at yacc parameter list
+48 at yacc parameter list
+48 func_declaration a 1
+48 func_declaration b 1
+48 
+
+48 inserted
+50 at yacc parameter list
+50 at yacc parameter list
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 4
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+50 at func_definition
+50 at handle_function_definition for foo
+50 foo already exists in symboltable
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 5
+	ScopeTable# 4
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+53 exited scope
+	ScopeTable# 4
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+54 here
+54 here2
+54 here4
+54 here
+54 here2
+54 here4
+55 exited scope
+	ScopeTable# 1
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 6
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+59 at handle_function_definition for h
+59 h already exists in symboltable
+63 exited scope
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 7
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+65 at handle_function_definition for g
+65 Will insert function g with 0 parameters 
+65 
+
+inserted g at recursion helper
+
+
+67 exited scope
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+67 inserted
+67 
+
+0
+
+
+67 Inserted function g with 0 parameters 
+69 at yacc parameter list
+69 at yacc parameter list
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 8
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+69 at func_definition
+69 at handle_function_definition for gg
+69 Will insert function gg with 2 parameters 
+69 
+
+inserted gg at recursion helper
+
+
+71 exited scope
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+71 inserted
+71 
+
+2
+
+
+71 Inserted function gg with 2 parameters 
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 9
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+73 at handle_function_definition for hh
+73 Will insert function hh with 0 parameters 
+73 
+
+inserted hh at recursion helper
+
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 10
+	ScopeTable# 9
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+76 exited scope
+	ScopeTable# 9
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+77 exited scope
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+77 inserted
+77 
+
+0
+
+
+77 Inserted function hh with 0 parameters 
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 11
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	3--> <hh,FUNCTION,VOID> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+79 at handle_function_definition for f2
+79 Will insert function f2 with 0 parameters 
+79 
+
+inserted f2 at recursion helper
+
+
+86 exited scope
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	3--> <hh,FUNCTION,VOID> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+86 inserted
+86 
+
+0
+
+
+86 Inserted function f2 with 0 parameters 
+88 at yacc parameter list
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 12
+	1--> <n,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+88 at func_definition
+88 at handle_function_definition for func
+88 Will insert function func with 1 parameters 
+88 
+
+inserted func at recursion helper
+
+
+92 here
+92 
+
+Recursive function func called at line 92
+
+
+92 here2
+92 here4
+93 exited scope
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+93 inserted
+93 
+
+1
+
+
+93 Inserted function func with 1 parameters 
+95 at yacc parameter list
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 13
+	1--> <n,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+95 at func_definition
+95 at handle_function_definition for func2
+95 Will insert function func2 with 1 parameters 
+95 
+
+inserted func2 at recursion helper
+
+
+99 here
+99 here2
+99 here4
+100 exited scope
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+100 inserted
+100 
+
+1
+
+
+100 Inserted function func2 with 1 parameters 
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 14
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+102 at handle_function_definition for main
+102 Will insert function main with 0 parameters 
+102 
+
+inserted main at recursion helper
+
+
+104 here
+104 here2
+104 here4
+106 here
+106 here2
+106 here4
+108 here
+108 here2
+108 here4
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 15
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+113 exited scope
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 16
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+118 exited scope
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 17
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 18
+	ScopeTable# 17
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 19
+	ScopeTable# 18
+	ScopeTable# 17
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 20
+	ScopeTable# 19
+	ScopeTable# 18
+	ScopeTable# 17
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 21
+	ScopeTable# 20
+	ScopeTable# 19
+	ScopeTable# 18
+	ScopeTable# 17
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+127 exited scope
+	ScopeTable# 20
+	ScopeTable# 19
+	ScopeTable# 18
+	ScopeTable# 17
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+128 exited scope
+	ScopeTable# 19
+	ScopeTable# 18
+	ScopeTable# 17
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 22
+	ScopeTable# 19
+	ScopeTable# 18
+	ScopeTable# 17
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+131 exited scope
+	ScopeTable# 19
+	ScopeTable# 18
+	ScopeTable# 17
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+132 exited scope
+	ScopeTable# 18
+	ScopeTable# 17
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+133 exited scope
+	ScopeTable# 17
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+134 exited scope
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+138 here
+138 here2
+138 here4
+139 here
+139 here2
+139 here4
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 23
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 24
+	ScopeTable# 23
+	11--> <b,INT> 
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 25
+	ScopeTable# 24
+	ScopeTable# 23
+	11--> <b,INT> 
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 26
+	ScopeTable# 25
+	8--> <u,INT> 
+	ScopeTable# 24
+	ScopeTable# 23
+	11--> <b,INT> 
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 27
+	ScopeTable# 26
+	9--> <v,INT> 
+	ScopeTable# 25
+	8--> <u,INT> 
+	ScopeTable# 24
+	ScopeTable# 23
+	11--> <b,INT> 
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 28
+	ScopeTable# 27
+	ScopeTable# 26
+	9--> <v,INT> 
+	ScopeTable# 25
+	8--> <u,INT> 
+	ScopeTable# 24
+	ScopeTable# 23
+	11--> <b,INT> 
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 29
+	ScopeTable# 28
+	ScopeTable# 27
+	ScopeTable# 26
+	9--> <v,INT> 
+	ScopeTable# 25
+	8--> <u,INT> 
+	ScopeTable# 24
+	ScopeTable# 23
+	11--> <b,INT> 
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 30
+	ScopeTable# 29
+	ScopeTable# 28
+	ScopeTable# 27
+	ScopeTable# 26
+	9--> <v,INT> 
+	ScopeTable# 25
+	8--> <u,INT> 
+	ScopeTable# 24
+	ScopeTable# 23
+	11--> <b,INT> 
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+157 exited scope
+	ScopeTable# 29
+	ScopeTable# 28
+	ScopeTable# 27
+	ScopeTable# 26
+	9--> <v,INT> 
+	ScopeTable# 25
+	8--> <u,INT> 
+	ScopeTable# 24
+	ScopeTable# 23
+	11--> <b,INT> 
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+158 exited scope
+	ScopeTable# 28
+	ScopeTable# 27
+	ScopeTable# 26
+	9--> <v,INT> 
+	ScopeTable# 25
+	8--> <u,INT> 
+	ScopeTable# 24
+	ScopeTable# 23
+	11--> <b,INT> 
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+159 exited scope
+	ScopeTable# 27
+	ScopeTable# 26
+	9--> <v,INT> 
+	ScopeTable# 25
+	8--> <u,INT> 
+	ScopeTable# 24
+	ScopeTable# 23
+	11--> <b,INT> 
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+160 exited scope
+	ScopeTable# 26
+	9--> <v,INT> 
+	ScopeTable# 25
+	8--> <u,INT> 
+	ScopeTable# 24
+	ScopeTable# 23
+	11--> <b,INT> 
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+161 exited scope
+	ScopeTable# 25
+	8--> <u,INT> 
+	ScopeTable# 24
+	ScopeTable# 23
+	11--> <b,INT> 
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+162 exited scope
+	ScopeTable# 24
+	ScopeTable# 23
+	11--> <b,INT> 
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+163 exited scope
+	ScopeTable# 23
+	11--> <b,INT> 
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+164 exited scope
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+166 here
+166 here2
+166 here4
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 31
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+173 exited scope
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 32
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 33
+	ScopeTable# 32
+	1--> <c,INT> 
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 34
+	ScopeTable# 33
+	ScopeTable# 32
+	1--> <c,INT> 
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+179 exited scope
+	ScopeTable# 33
+	ScopeTable# 32
+	1--> <c,INT> 
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+180 exited scope
+	ScopeTable# 32
+	1--> <c,INT> 
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+181 exited scope
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 35
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 36
+	ScopeTable# 35
+	1--> <c,INT> 
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 37
+	ScopeTable# 36
+	ScopeTable# 35
+	1--> <c,INT> 
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+193 exited scope
+	ScopeTable# 36
+	ScopeTable# 35
+	1--> <c,INT> 
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+195 exited scope
+	ScopeTable# 35
+	1--> <c,INT> 
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+197 exited scope
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 38
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 39
+	ScopeTable# 38
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+209 exited scope
+	ScopeTable# 38
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+211 exited scope
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 40
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 41
+	ScopeTable# 40
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+218 exited scope
+	ScopeTable# 40
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+220 exited scope
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+223 here
+223 here2
+223 here4
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 42
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+225 exited scope
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+227 here
+227 here2
+227 here4
+227 here
+227 here2
+227 here4
+231 here
+231 here2
+231 here4
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 43
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+238 exited scope
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+242 here
+242 here2
+242 here4
+259 here
+259 here2
+259 here4
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 44
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> <y,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 45
+	ScopeTable# 44
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> <y,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+269 exited scope
+	ScopeTable# 44
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> <y,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+270 exited scope
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> <y,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 46
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> <y,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+283 exited scope
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> <y,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 47
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> <y,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+285 exited scope
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> <y,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 48
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> <y,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+287 exited scope
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> <y,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 49
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> <y,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+
+289 exited scope
+	ScopeTable# 14
+	1--> <c,INT> <n,INT> <arr,ARRAY> <y,ARRAY> 
+	2--> <d,INT> 
+	3--> <e,INT> <p,INT> 
+	6--> <s,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+293 exited scope
+	ScopeTable# 1
+	1--> <y,ARRAY> 
+	2--> <func2,FUNCTION,INT> 
+	3--> <hh,FUNCTION,VOID> <f2,FUNCTION,INT> 
+	5--> <g,FUNCTION,VOID> 
+	6--> <h,FUNCTION,VOID> <foo,FUNCTION,INT> 
+	7--> <gg,FUNCTION,INT> <i,INT> 
+	10--> <func,FUNCTION,INT> 
+	11--> <fact,FUNCTION,INT> <x,INT> 
+293 inserted
+293 
+
+0
+
+
+293 Inserted function main with 0 parameters 

@@ -1,0 +1,291 @@
+Line# 1: Token <VOID> Lexeme void found
+Line# 1: Token <ID> Lexeme main found
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 1: Token <LPAREN> Lexeme ( found
+Line# 1: Token <RPAREN> Lexeme ) found
+Line# 1: Token <LCURL> Lexeme { found
+Line# 2: Token <INT> Lexeme int found
+Line# 2: Token <ID> Lexeme x found
+	ScopeTable# 1.1
+	1 --> (x,ID)
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 2: Token <COMMA> Lexeme , found
+Line# 2: Token <ID> Lexeme y found
+	ScopeTable# 1.1
+	1 --> (x,ID)
+	2 --> (y,ID)
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 2: Token <SEMICOLON> Lexeme ; found
+Line# 3: Token <ID> Lexeme x found
+	x already exists in the current ScopeTable
+Line# 3: Token <ASSIGNOP> Lexeme = found
+Line# 3: Token <ID> Lexeme x found
+	x already exists in the current ScopeTable
+Line# 3: Token <ADDOP> Lexeme + found
+Line# 3: Token <CONST_INT> Lexeme 1 found
+Line# 3: Token <SEMICOLON> Lexeme ; found
+Line# 4: Token <ID> Lexeme y found
+	y already exists in the current ScopeTable
+Line# 4: Token <ASSIGNOP> Lexeme = found
+Line# 4: Token <ID> Lexeme y found
+	y already exists in the current ScopeTable
+Line# 4: Token <MULOP> Lexeme * found
+Line# 4: Token <CONST_INT> Lexeme 2 found
+Line# 4: Token <SEMICOLON> Lexeme ; found
+Line# 6: Token <FLOAT> Lexeme float found
+Line# 6: Token <ID> Lexeme f found
+	ScopeTable# 1.1
+	1 --> (x,ID)
+	2 --> (y,ID)
+	3 --> (f,ID)
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 6: Token <SEMICOLON> Lexeme ; found
+Line# 7: Token <ID> Lexeme f found
+	f already exists in the current ScopeTable
+Line# 7: Token <ASSIGNOP> Lexeme = found
+Line# 7: Token <ID> Lexeme f found
+	f already exists in the current ScopeTable
+Line# 7: Token <ADDOP> Lexeme - found
+Line# 7: Token <CONST_FLOAT> Lexeme 3.14 found
+Line# 7: Token <SEMICOLON> Lexeme ; found
+Line# 8: Token <ID> Lexeme f found
+	f already exists in the current ScopeTable
+Line# 8: Token <ASSIGNOP> Lexeme = found
+Line# 8: Token <ID> Lexeme f found
+	f already exists in the current ScopeTable
+Line# 8: Token <MULOP> Lexeme * found
+Line# 8: Token <CONST_FLOAT> Lexeme 2.81E0 found
+Line# 8: Token <SEMICOLON> Lexeme ; found
+Line# 9: warning, 1 of tabs needed but got 2 tabs.
+Line# 9: Token <ID> Lexeme u found
+	ScopeTable# 1.1
+	1 --> (x,ID)
+	2 --> (y,ID)
+	3 --> (f,ID)
+	4
+	5
+	6
+	7
+	8 --> (u,ID)
+	9
+	10
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 9: Token <ASSIGNOP> Lexeme = found
+Line# 9: Token <ID> Lexeme v found
+	ScopeTable# 1.1
+	1 --> (x,ID)
+	2 --> (y,ID)
+	3 --> (f,ID)
+	4
+	5
+	6
+	7
+	8 --> (u,ID)
+	9 --> (v,ID)
+	10
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 9: Token <BITOP> Lexeme << found
+Line# 9: Token <CONST_INT> Lexeme 2 found
+Line# 9: Token <BITOP> Lexeme >> found
+Line# 9: Token <CONST_INT> Lexeme 3 found
+Line# 9: Token <BITOP> Lexeme ^ found
+Line# 9: Token <CONST_INT> Lexeme 4 found
+Line# 11: Warning, tab requrired but got space.
+Line# 11: Token <CHAR> Lexeme char found
+Line# 11: Token <ID> Lexeme ch found
+	ScopeTable# 1.1
+	1 --> (x,ID)
+	2 --> (y,ID)
+	3 --> (f,ID)
+	4
+	5
+	6 --> (ch,ID)
+	7
+	8 --> (u,ID)
+	9 --> (v,ID)
+	10
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 11: Token <ASSIGNOP> Lexeme = found
+Line# 11: Token <CONST_CHAR> Lexeme z found
+Line# 11: Token <SEMICOLON> Lexeme ; found
+Line# 12: Token <ID> Lexeme ch found
+	ch already exists in the current ScopeTable
+Line# 12: Token <ASSIGNOP> Lexeme = found
+Line# 12: Token <CONST_CHAR> Lexeme 	 found
+Line# 12: Token <SEMICOLON> Lexeme ; found
+Line# 14: warning, 1 of tabs needed but got 0 tabs.
+Line# 14: Token <CHAR> Lexeme char found
+Line# 14: Token <ID> Lexeme str found
+	ScopeTable# 1.1
+	1 --> (x,ID)
+	2 --> (y,ID)
+	3 --> (f,ID)
+	4 --> (str,ID)
+	5
+	6 --> (ch,ID)
+	7
+	8 --> (u,ID)
+	9 --> (v,ID)
+	10
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 14: Token <LSQUARE> Lexeme [ found
+Line# 14: Token <RSQUARE> Lexeme ] found
+Line# 14: Token <ASSIGNOP> Lexeme = found
+Line# 14: Token <SINGLE LINE STRING> Lexeme "hello\tworld" found
+Line# 14: Token <SEMICOLON> Lexeme ; found
+Line# 16: Token <SINGLE LINE COMMENT> Lexeme // December 7, 2023 found
+Line# 17: Token <ID> Lexeme printf found
+	ScopeTable# 1.1
+	1 --> (x,ID)
+	2 --> (y,ID)
+	3 --> (f,ID)
+	4 --> (str,ID)
+	5
+	6 --> (ch,ID)
+	7
+	8 --> (u,ID)
+	9 --> (v,ID)
+	10 --> (printf,ID)
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Line# 17: Token <LPAREN> Lexeme ( found
+Line# 17: Token <MULTI LINE STRING> Lexeme "The day\
+	was\
+	sunny" found
+Line# 19: Token <RPAREN> Lexeme ) found
+Line# 19: Token <SEMICOLON> Lexeme ; found
+Line# 21: Token <MULTI LINE COMMENT> Lexeme /** ** CSE 310
+	*** Compiler Sessional ***/ found
+Line# 23: Token <SINGLE LINE COMMENT> Lexeme // It is a\
+	fun course found
+Line# 25: Token <RETURN> Lexeme return found
+Line# 25: Token <CONST_INT> Lexeme 0 found
+Line# 25: Token <SEMICOLON> Lexeme ; found
+Line# 26: Token <RCURL> Lexeme } found
+	ScopeTable# 1
+	1
+	2
+	3
+	4 --> (main,ID)
+	5
+	6
+	7
+	8
+	9
+	10
+Total lines: 26
+Total errors: 0
+Total warnings: 3

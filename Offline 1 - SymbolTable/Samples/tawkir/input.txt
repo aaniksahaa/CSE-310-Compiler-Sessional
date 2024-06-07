@@ -1,0 +1,67 @@
+13
+I gojo VAR
+I saap VAR
+L gojo
+L snake gojo
+S
+I buet FUNCTION
+I cse FUNCTION
+D cs
+D gojo
+I ece operator
+I 109 operator
+P C
+P A 
+D saap
+L saap
+E 
+E 
+S
+L gojo 
+I miraj MULTIPLE
+L miraj 
+I taky VAR 
+I iffat VAR
+L golam 
+I golam north bengal
+I golam FARIDPURI
+L golam 
+D taky iffat
+D taky
+L iffat
+S 
+I tution FUNCTION 
+I adil FUNCTION 
+I chagol FUNCTION
+L chagol goat
+L chagol
+L goat
+D iffat
+L iffat
+S 
+I abd operator
+L abd
+P C
+P A 
+E 
+I valkirye VAR
+I imtiaz VAR 
+I anik VAR 
+L anik 
+L irtiaz
+L irtiaz
+D valkriye
+L valriye 
+E 
+E 
+E 
+E 
+S 
+S 
+I abid VAR
+I hash VAR 
+L miraj 
+L abid 
+P A 
+P C 
+Q

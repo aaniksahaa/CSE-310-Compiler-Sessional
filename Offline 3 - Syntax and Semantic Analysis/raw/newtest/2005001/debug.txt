@@ -1,0 +1,9 @@
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 2
+	ScopeTable# 1
+
+5 exited scope
+	ScopeTable# 1
+5 inserted

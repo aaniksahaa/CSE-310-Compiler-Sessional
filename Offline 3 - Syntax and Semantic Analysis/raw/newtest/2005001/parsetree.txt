@@ -1,0 +1,58 @@
+start : program 	<Line: 1-5>
+ program : unit 	<Line: 1-5>
+  unit : func_definition 	<Line: 1-5>
+   func_definition : type_specifier ID LPAREN RPAREN compound_statement 	<Line: 1-5>
+    type_specifier : INT 	<Line: 1-1>
+     INT : int	<Line: 1>
+    ID : main	<Line: 1>
+    LPAREN : (	<Line: 1>
+    RPAREN : )	<Line: 1>
+    compound_statement : LCURL statements RCURL 	<Line: 2-5>
+     LCURL : {	<Line: 2>
+     statements : statements statement 	<Line: 3-4>
+      statements : statement 	<Line: 3-3>
+       statement : var_declaration 	<Line: 3-3>
+        var_declaration : type_specifier declaration_list SEMICOLON 	<Line: 3-3>
+         type_specifier : INT 	<Line: 3-3>
+          INT : int	<Line: 3>
+         declaration_list : declaration_list COMMA ID 	<Line: 3-3>
+          declaration_list : declaration_list COMMA ID 	<Line: 3-3>
+           declaration_list : declaration_list COMMA ID 	<Line: 3-3>
+            declaration_list : ID 	<Line: 3-3>
+             ID : a	<Line: 3>
+            COMMA : ,	<Line: 3>
+            ID : b	<Line: 3>
+           COMMA : ,	<Line: 3>
+           ID : c	<Line: 3>
+          COMMA : ,	<Line: 3>
+          ID : d	<Line: 3>
+         SEMICOLON : ;	<Line: 3>
+      statement : expression_statement 	<Line: 4-4>
+       expression_statement : expression SEMICOLON 	<Line: 4-4>
+        expression : variable ASSIGNOP logic_expression 	<Line: 4-4>
+         variable : ID 	<Line: 4-4>
+          ID : d	<Line: 4>
+         ASSIGNOP : =	<Line: 4>
+         logic_expression : rel_expression 	<Line: 4-4>
+          rel_expression : simple_expression 	<Line: 4-4>
+           simple_expression : simple_expression ADDOP term 	<Line: 4-4>
+            simple_expression : term 	<Line: 4-4>
+             term : term MULOP unary_expression 	<Line: 4-4>
+              term : unary_expression 	<Line: 4-4>
+               unary_expression : factor 	<Line: 4-4>
+                factor : variable 	<Line: 4-4>
+                 variable : ID 	<Line: 4-4>
+                  ID : a	<Line: 4>
+              MULOP : *	<Line: 4>
+              unary_expression : factor 	<Line: 4-4>
+               factor : variable 	<Line: 4-4>
+                variable : ID 	<Line: 4-4>
+                 ID : b	<Line: 4>
+            ADDOP : +	<Line: 4>
+            term : unary_expression 	<Line: 4-4>
+             unary_expression : factor 	<Line: 4-4>
+              factor : variable 	<Line: 4-4>
+               variable : ID 	<Line: 4-4>
+                ID : c	<Line: 4>
+        SEMICOLON : ;	<Line: 4>
+     RCURL : }	<Line: 5>

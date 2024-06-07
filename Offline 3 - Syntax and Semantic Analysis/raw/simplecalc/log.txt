@@ -1,0 +1,10 @@
+NUMBER found
+factor: NUMBER
+term: factor
+token PLUS found
+expr: term
+NUMBER found
+factor: NUMBER
+term: factor
+expr: expr PLUS term
+11

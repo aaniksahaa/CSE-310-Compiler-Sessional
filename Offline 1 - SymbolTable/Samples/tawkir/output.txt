@@ -1,0 +1,297 @@
+	ScopeTable# 1 created
+Cmd 1: I gojo VAR
+	Inserted  at position <3, 1> of ScopeTable# 1
+Cmd 2: I saap VAR
+	Inserted  at position <6, 1> of ScopeTable# 1
+Cmd 3: L gojo
+	'gojo' found at position <3, 1> of ScopeTable# 1
+Cmd 4: L snake gojo
+	Wrong number of arugments for the command L
+Cmd 5: S
+	ScopeTable# 1.1 created
+Cmd 6: I buet FUNCTION
+	Inserted  at position <4, 1> of ScopeTable# 1.1
+Cmd 7: I cse FUNCTION
+	Inserted  at position <4, 2> of ScopeTable# 1.1
+Cmd 8: D cs
+	Not found in the current ScopeTable# 1.1
+Cmd 9: D gojo
+	Not found in the current ScopeTable# 1.1
+Cmd 10: I ece operator
+	Inserted  at position <3, 1> of ScopeTable# 1.1
+Cmd 11: I 109 operator
+	Inserted  at position <12, 1> of ScopeTable# 1.1
+Cmd 12: P C
+	ScopeTable# 1.1
+	1
+	2
+	3 --> (ece,operator)
+	4 --> (buet,FUNCTION) --> (cse,FUNCTION)
+	5
+	6
+	7
+	8
+	9
+	10
+	11
+	12 --> (109,operator)
+	13
+Cmd 13: P A
+	ScopeTable# 1.1
+	1
+	2
+	3 --> (ece,operator)
+	4 --> (buet,FUNCTION) --> (cse,FUNCTION)
+	5
+	6
+	7
+	8
+	9
+	10
+	11
+	12 --> (109,operator)
+	13
+	ScopeTable# 1
+	1
+	2
+	3 --> (gojo,VAR)
+	4
+	5
+	6 --> (saap,VAR)
+	7
+	8
+	9
+	10
+	11
+	12
+	13
+Cmd 14: D saap
+	Not found in the current ScopeTable# 1.1
+Cmd 15: L saap
+	'saap' found at position <6, 1> of ScopeTable# 1
+Cmd 16: E
+	ScopeTable# 1.1 deleted
+Cmd 17: E
+	ScopeTable# 1 cannot be deleted
+Cmd 18: S
+	ScopeTable# 1.2 created
+Cmd 19: L gojo
+	'gojo' found at position <3, 1> of ScopeTable# 1
+Cmd 20: I miraj MULTIPLE
+	Inserted  at position <10, 1> of ScopeTable# 1.2
+Cmd 21: L miraj
+	'miraj' found at position <10, 1> of ScopeTable# 1.2
+Cmd 22: I taky VAR
+	Inserted  at position <13, 1> of ScopeTable# 1.2
+Cmd 23: I iffat VAR
+	Inserted  at position <13, 2> of ScopeTable# 1.2
+Cmd 24: L golam
+	'golam' not found in any of the ScopeTables
+Cmd 25: I golam north bengal
+	Wrong number of arugments for the command I
+Cmd 26: I golam FARIDPURI
+	Inserted  at position <12, 1> of ScopeTable# 1.2
+Cmd 27: L golam
+	'golam' found at position <12, 1> of ScopeTable# 1.2
+Cmd 28: D taky iffat
+	Wrong number of arugments for the command D
+Cmd 29: D taky
+	Deleted 'taky' from position <13, 1> of ScopeTable# 1.2
+Cmd 30: L iffat
+	'iffat' found at position <13, 1> of ScopeTable# 1.2
+Cmd 31: S
+	ScopeTable# 1.2.1 created
+Cmd 32: I tution FUNCTION
+	Inserted  at position <3, 1> of ScopeTable# 1.2.1
+Cmd 33: I adil FUNCTION
+	Inserted  at position <8, 1> of ScopeTable# 1.2.1
+Cmd 34: I chagol FUNCTION
+	Inserted  at position <13, 1> of ScopeTable# 1.2.1
+Cmd 35: L chagol goat
+	Wrong number of arugments for the command L
+Cmd 36: L chagol
+	'chagol' found at position <13, 1> of ScopeTable# 1.2.1
+Cmd 37: L goat
+	'goat' not found in any of the ScopeTables
+Cmd 38: D iffat
+	Not found in the current ScopeTable# 1.2.1
+Cmd 39: L iffat
+	'iffat' found at position <13, 1> of ScopeTable# 1.2
+Cmd 40: S
+	ScopeTable# 1.2.1.1 created
+Cmd 41: I abd operator
+	Inserted  at position <10, 1> of ScopeTable# 1.2.1.1
+Cmd 42: L abd
+	'abd' found at position <10, 1> of ScopeTable# 1.2.1.1
+Cmd 43: P C
+	ScopeTable# 1.2.1.1
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10 --> (abd,operator)
+	11
+	12
+	13
+Cmd 44: P A
+	ScopeTable# 1.2.1.1
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10 --> (abd,operator)
+	11
+	12
+	13
+	ScopeTable# 1.2.1
+	1
+	2
+	3 --> (tution,FUNCTION)
+	4
+	5
+	6
+	7
+	8 --> (adil,FUNCTION)
+	9
+	10
+	11
+	12
+	13 --> (chagol,FUNCTION)
+	ScopeTable# 1.2
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10 --> (miraj,MULTIPLE)
+	11
+	12 --> (golam,FARIDPURI)
+	13 --> (iffat,VAR)
+	ScopeTable# 1
+	1
+	2
+	3 --> (gojo,VAR)
+	4
+	5
+	6 --> (saap,VAR)
+	7
+	8
+	9
+	10
+	11
+	12
+	13
+Cmd 45: E
+	ScopeTable# 1.2.1.1 deleted
+Cmd 46: I valkirye VAR
+	Inserted  at position <9, 1> of ScopeTable# 1.2.1
+Cmd 47: I imtiaz VAR
+	Inserted  at position <1, 1> of ScopeTable# 1.2.1
+Cmd 48: I anik VAR
+	Inserted  at position <4, 1> of ScopeTable# 1.2.1
+Cmd 49: L anik
+	'anik' found at position <4, 1> of ScopeTable# 1.2.1
+Cmd 50: L irtiaz
+	'irtiaz' not found in any of the ScopeTables
+Cmd 51: L irtiaz
+	'irtiaz' not found in any of the ScopeTables
+Cmd 52: D valkriye
+	Not found in the current ScopeTable# 1.2.1
+Cmd 53: L valriye
+	'valriye' not found in any of the ScopeTables
+Cmd 54: E
+	ScopeTable# 1.2.1 deleted
+Cmd 55: E
+	ScopeTable# 1.2 deleted
+Cmd 56: E
+	ScopeTable# 1 cannot be deleted
+Cmd 57: E
+	ScopeTable# 1 cannot be deleted
+Cmd 58: S
+	ScopeTable# 1.3 created
+Cmd 59: S
+	ScopeTable# 1.3.1 created
+Cmd 60: I abid VAR
+	Inserted  at position <11, 1> of ScopeTable# 1.3.1
+Cmd 61: I hash VAR
+	Inserted  at position <5, 1> of ScopeTable# 1.3.1
+Cmd 62: L miraj
+	'miraj' not found in any of the ScopeTables
+Cmd 63: L abid
+	'abid' found at position <11, 1> of ScopeTable# 1.3.1
+Cmd 64: P A
+	ScopeTable# 1.3.1
+	1
+	2
+	3
+	4
+	5 --> (hash,VAR)
+	6
+	7
+	8
+	9
+	10
+	11 --> (abid,VAR)
+	12
+	13
+	ScopeTable# 1.3
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	11
+	12
+	13
+	ScopeTable# 1
+	1
+	2
+	3 --> (gojo,VAR)
+	4
+	5
+	6 --> (saap,VAR)
+	7
+	8
+	9
+	10
+	11
+	12
+	13
+Cmd 65: P C
+	ScopeTable# 1.3.1
+	1
+	2
+	3
+	4
+	5 --> (hash,VAR)
+	6
+	7
+	8
+	9
+	10
+	11 --> (abid,VAR)
+	12
+	13
+Cmd 66: Q
+	ScopeTable# 1.3.1 deleted
+	ScopeTable# 1.3 deleted
+	ScopeTable# 1 deleted

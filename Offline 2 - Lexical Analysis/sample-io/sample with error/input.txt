@@ -1,0 +1,16 @@
+1.2.345
+1E10.7
+12abcd
+@
+'ab'
+'a
+'
+'ab cd'
+'\'
+''
+"abcd
+"abcd\
+efgh
+ijk"
+/**abc
+def

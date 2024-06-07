@@ -1,0 +1,66 @@
+Line# 1: Token <INT> Lexeme int found
+type_specifier	: INT 
+Line# 1: Token <ID> Lexeme main found
+Line# 1: Token <LPAREN> Lexeme ( found
+Line# 1: Token <RPAREN> Lexeme ) found
+Line# 2: Token <LCURL> Lexeme { found
+Line# 3: Token <INT> Lexeme int found
+type_specifier	: INT 
+Line# 3: Token <ID> Lexeme a found
+Line# 3: Token <COMMA> Lexeme , found
+declaration_list : ID 
+Line# 3: Token <ID> Lexeme b found
+Line# 3: Token <COMMA> Lexeme , found
+declaration_list : declaration_list COMMA ID  
+Line# 3: Token <ID> Lexeme c found
+Line# 3: Token <COMMA> Lexeme , found
+declaration_list : declaration_list COMMA ID  
+Line# 3: Token <ID> Lexeme d found
+Line# 3: Token <SEMICOLON> Lexeme ; found
+declaration_list : declaration_list COMMA ID  
+var_declaration : type_specifier declaration_list SEMICOLON  
+statement : var_declaration 
+statements : statement  
+Line# 4: Token <ID> Lexeme d found
+Line# 4: Token <ASSIGNOP> Lexeme = found
+variable : ID 	 
+Line# 4: Token <ID> Lexeme a found
+Line# 4: Token <MULOP> Lexeme * found
+variable : ID 	 
+factor	: variable 
+unary_expression : factor 
+term :	unary_expression 
+Line# 4: Token <ID> Lexeme b found
+Line# 4: Token <ADDOP> Lexeme + found
+variable : ID 	 
+factor	: variable 
+unary_expression : factor 
+term :	term MULOP unary_expression 
+simple_expression : term 
+Line# 4: Token <ID> Lexeme c found
+Line# 4: Token <SEMICOLON> Lexeme ; found
+variable : ID 	 
+factor	: variable 
+unary_expression : factor 
+term :	unary_expression 
+simple_expression : simple_expression ADDOP term  
+rel_expression	: simple_expression 
+logic_expression : rel_expression 	 
+expression 	: variable ASSIGNOP logic_expression 		 
+expression_statement : expression SEMICOLON 		 
+statement : expression_statement  
+statements : statements statement  
+Line# 5: Token <RCURL> Lexeme } found
+compound_statement : LCURL statements RCURL  
+	ScopeTable# 2
+	1--> <c,INT> 
+	2--> <d,INT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+func_definition : type_specifier ID LPAREN RPAREN compound_statement
+unit : func_definition  
+program : unit 
+start : program 
+Total Lines: 5
+Total Errors: 0

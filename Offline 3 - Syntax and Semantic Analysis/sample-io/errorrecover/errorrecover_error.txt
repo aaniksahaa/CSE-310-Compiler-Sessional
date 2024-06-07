@@ -1,0 +1,4 @@
+Line# 3: Syntax error at parameter list of function definition
+Line# 9: Syntax error at declaration list of variable declaration
+Line# 10: Syntax error at expression of expression statement
+Line# 18: Undeclared function 'var'

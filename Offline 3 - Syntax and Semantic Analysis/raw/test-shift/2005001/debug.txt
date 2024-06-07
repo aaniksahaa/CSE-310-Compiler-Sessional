@@ -1,0 +1,765 @@
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 2
+	ScopeTable# 1
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 3
+	ScopeTable# 2
+	10--> <a,INT> 
+	ScopeTable# 1
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 4
+	ScopeTable# 3
+	ScopeTable# 2
+	10--> <a,INT> 
+	ScopeTable# 1
+
+11 exited scope
+	ScopeTable# 3
+	ScopeTable# 2
+	10--> <a,INT> 
+	ScopeTable# 1
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 5
+	ScopeTable# 3
+	ScopeTable# 2
+	10--> <a,INT> 
+	ScopeTable# 1
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 6
+	ScopeTable# 5
+	ScopeTable# 3
+	ScopeTable# 2
+	10--> <a,INT> 
+	ScopeTable# 1
+
+15 exited scope
+	ScopeTable# 5
+	ScopeTable# 3
+	ScopeTable# 2
+	10--> <a,INT> 
+	ScopeTable# 1
+16 exited scope
+	ScopeTable# 3
+	ScopeTable# 2
+	10--> <a,INT> 
+	ScopeTable# 1
+18 exited scope
+	ScopeTable# 2
+	10--> <a,INT> 
+	ScopeTable# 1
+19 exited scope
+	ScopeTable# 1
+19 inserted
+21 at yacc parameter list
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 7
+	10--> <a,INT> 
+	ScopeTable# 1
+	3--> <forwhiletest,FUNCTION,INT> 
+
+22 at func_definition
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 8
+	ScopeTable# 7
+	1--> <c,INT> 
+	2--> <d,FLOAT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	3--> <forwhiletest,FUNCTION,INT> 
+
+29 exited scope
+	ScopeTable# 7
+	1--> <c,INT> 
+	2--> <d,FLOAT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	3--> <forwhiletest,FUNCTION,INT> 
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 9
+	ScopeTable# 7
+	1--> <c,INT> 
+	2--> <d,FLOAT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	3--> <forwhiletest,FUNCTION,INT> 
+
+33 exited scope
+	ScopeTable# 7
+	1--> <c,INT> 
+	2--> <d,FLOAT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	3--> <forwhiletest,FUNCTION,INT> 
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 10
+	ScopeTable# 7
+	1--> <c,INT> 
+	2--> <d,FLOAT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	3--> <forwhiletest,FUNCTION,INT> 
+
+37 exited scope
+	ScopeTable# 7
+	1--> <c,INT> 
+	2--> <d,FLOAT> 
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	3--> <forwhiletest,FUNCTION,INT> 
+38 exited scope
+	ScopeTable# 1
+	3--> <forwhiletest,FUNCTION,INT> 
+38 inserted
+40 at yacc parameter list
+40 at yacc parameter list
+40 at yacc parameter list
+40 at yacc parameter list
+40 at yacc parameter list
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 11
+	1--> <c,INT> 
+	10--> <a,INT> 
+	11--> <b,VOID> 
+	ScopeTable# 1
+	3--> <forwhiletest,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> 
+
+41 at func_definition
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 12
+	ScopeTable# 11
+	1--> <c,INT> <y,INT> 
+	10--> <a,INT> 
+	11--> <b,VOID> 
+	ScopeTable# 1
+	3--> <forwhiletest,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> 
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 13
+	ScopeTable# 12
+	8--> <dd,INT> 
+	ScopeTable# 11
+	1--> <c,INT> <y,INT> 
+	10--> <a,INT> 
+	11--> <b,VOID> 
+	ScopeTable# 1
+	3--> <forwhiletest,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> 
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 14
+	ScopeTable# 13
+	4--> <ee,INT> 
+	ScopeTable# 12
+	8--> <dd,INT> 
+	ScopeTable# 11
+	1--> <c,INT> <y,INT> 
+	10--> <a,INT> 
+	11--> <b,VOID> 
+	ScopeTable# 1
+	3--> <forwhiletest,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> 
+
+55 exited scope
+	ScopeTable# 13
+	4--> <ee,INT> 
+	ScopeTable# 12
+	8--> <dd,INT> 
+	ScopeTable# 11
+	1--> <c,INT> <y,INT> 
+	10--> <a,INT> 
+	11--> <b,VOID> 
+	ScopeTable# 1
+	3--> <forwhiletest,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> 
+56 exited scope
+	ScopeTable# 12
+	8--> <dd,INT> 
+	ScopeTable# 11
+	1--> <c,INT> <y,INT> 
+	10--> <a,INT> 
+	11--> <b,VOID> 
+	ScopeTable# 1
+	3--> <forwhiletest,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> 
+57 exited scope
+	ScopeTable# 11
+	1--> <c,INT> <y,INT> 
+	10--> <a,INT> 
+	11--> <b,VOID> 
+	ScopeTable# 1
+	3--> <forwhiletest,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> 
+58 exited scope
+	ScopeTable# 1
+	3--> <forwhiletest,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> 
+58 inserted
+60 at yacc parameter list
+60 at yacc parameter list
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 15
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> 
+
+61 at func_definition
+63 exited scope
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> 
+63 inserted
+65 at yacc parameter list
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 16
+	10--> <a,INT> 
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> 
+
+66 at func_definition
+68 exited scope
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> 
+68 inserted
+72 at yacc parameter list
+72 at yacc parameter list
+72 func_declaration c 0
+72 func_declaration d 0
+72 
+
+73 at yacc parameter list
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 17
+	10--> <a,INT> 
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> <h,FUNCTION,VOID> 
+
+74 at func_definition
+76 exited scope
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> <h,FUNCTION,VOID> 
+77 at yacc parameter list
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 18
+	10--> <a,FLOAT> 
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> <h,FUNCTION,VOID> 
+
+78 at func_definition
+80 exited scope
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> <h,FUNCTION,VOID> 
+81 at yacc parameter list
+81 at yacc parameter list
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 19
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> <h,FUNCTION,VOID> 
+
+82 at func_definition
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 20
+	ScopeTable# 19
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> <h,FUNCTION,VOID> 
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 21
+	ScopeTable# 20
+	ScopeTable# 19
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> <h,FUNCTION,VOID> 
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 22
+	ScopeTable# 21
+	ScopeTable# 20
+	ScopeTable# 19
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> <h,FUNCTION,VOID> 
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 23
+	ScopeTable# 22
+	ScopeTable# 21
+	ScopeTable# 20
+	ScopeTable# 19
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> <h,FUNCTION,VOID> 
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 24
+	ScopeTable# 23
+	ScopeTable# 22
+	ScopeTable# 21
+	ScopeTable# 20
+	ScopeTable# 19
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> <h,FUNCTION,VOID> 
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 25
+	ScopeTable# 24
+	1--> <c,FLOAT> 
+	ScopeTable# 23
+	ScopeTable# 22
+	ScopeTable# 21
+	ScopeTable# 20
+	ScopeTable# 19
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> <h,FUNCTION,VOID> 
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 26
+	ScopeTable# 25
+	1--> <n,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	ScopeTable# 24
+	1--> <c,FLOAT> 
+	ScopeTable# 23
+	ScopeTable# 22
+	ScopeTable# 21
+	ScopeTable# 20
+	ScopeTable# 19
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> <h,FUNCTION,VOID> 
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 27
+	ScopeTable# 26
+	ScopeTable# 25
+	1--> <n,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	ScopeTable# 24
+	1--> <c,FLOAT> 
+	ScopeTable# 23
+	ScopeTable# 22
+	ScopeTable# 21
+	ScopeTable# 20
+	ScopeTable# 19
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> <h,FUNCTION,VOID> 
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 28
+	ScopeTable# 27
+	ScopeTable# 26
+	ScopeTable# 25
+	1--> <n,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	ScopeTable# 24
+	1--> <c,FLOAT> 
+	ScopeTable# 23
+	ScopeTable# 22
+	ScopeTable# 21
+	ScopeTable# 20
+	ScopeTable# 19
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> <h,FUNCTION,VOID> 
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 29
+	ScopeTable# 28
+	ScopeTable# 27
+	ScopeTable# 26
+	ScopeTable# 25
+	1--> <n,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	ScopeTable# 24
+	1--> <c,FLOAT> 
+	ScopeTable# 23
+	ScopeTable# 22
+	ScopeTable# 21
+	ScopeTable# 20
+	ScopeTable# 19
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> <h,FUNCTION,VOID> 
+
+101 exited scope
+	ScopeTable# 28
+	ScopeTable# 27
+	ScopeTable# 26
+	ScopeTable# 25
+	1--> <n,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	ScopeTable# 24
+	1--> <c,FLOAT> 
+	ScopeTable# 23
+	ScopeTable# 22
+	ScopeTable# 21
+	ScopeTable# 20
+	ScopeTable# 19
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> <h,FUNCTION,VOID> 
+102 exited scope
+	ScopeTable# 27
+	ScopeTable# 26
+	ScopeTable# 25
+	1--> <n,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	ScopeTable# 24
+	1--> <c,FLOAT> 
+	ScopeTable# 23
+	ScopeTable# 22
+	ScopeTable# 21
+	ScopeTable# 20
+	ScopeTable# 19
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> <h,FUNCTION,VOID> 
+103 exited scope
+	ScopeTable# 26
+	ScopeTable# 25
+	1--> <n,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	ScopeTable# 24
+	1--> <c,FLOAT> 
+	ScopeTable# 23
+	ScopeTable# 22
+	ScopeTable# 21
+	ScopeTable# 20
+	ScopeTable# 19
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> <h,FUNCTION,VOID> 
+104 exited scope
+	ScopeTable# 25
+	1--> <n,INT> 
+	7--> <i,INT> 
+	8--> <j,INT> 
+	9--> <k,INT> 
+	ScopeTable# 24
+	1--> <c,FLOAT> 
+	ScopeTable# 23
+	ScopeTable# 22
+	ScopeTable# 21
+	ScopeTable# 20
+	ScopeTable# 19
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> <h,FUNCTION,VOID> 
+105 exited scope
+	ScopeTable# 24
+	1--> <c,FLOAT> 
+	ScopeTable# 23
+	ScopeTable# 22
+	ScopeTable# 21
+	ScopeTable# 20
+	ScopeTable# 19
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> <h,FUNCTION,VOID> 
+106 exited scope
+	ScopeTable# 23
+	ScopeTable# 22
+	ScopeTable# 21
+	ScopeTable# 20
+	ScopeTable# 19
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> <h,FUNCTION,VOID> 
+107 exited scope
+	ScopeTable# 22
+	ScopeTable# 21
+	ScopeTable# 20
+	ScopeTable# 19
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> <h,FUNCTION,VOID> 
+108 exited scope
+	ScopeTable# 21
+	ScopeTable# 20
+	ScopeTable# 19
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> <h,FUNCTION,VOID> 
+109 exited scope
+	ScopeTable# 20
+	ScopeTable# 19
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> <h,FUNCTION,VOID> 
+110 exited scope
+	ScopeTable# 19
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> <h,FUNCTION,VOID> 
+111 exited scope
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> <h,FUNCTION,VOID> 
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 30
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> <h,FUNCTION,VOID> 
+
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 31
+	ScopeTable# 30
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> <h,FUNCTION,VOID> 
+
+118 exited scope
+	ScopeTable# 30
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> <h,FUNCTION,VOID> 
+LCURL found
+entered scope
+Inserted parameters...
+	ScopeTable# 32
+	ScopeTable# 30
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> <h,FUNCTION,VOID> 
+
+125 exited scope
+	ScopeTable# 30
+	10--> <a,INT> 
+	11--> <b,INT> 
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> <h,FUNCTION,VOID> 
+128 here
+128 here2
+128 here4
+129 here
+129 here2
+129 here4
+130 here
+130 here2
+130 here4
+131 here
+131 here2
+131 here4
+136 here
+136 here2
+136 here3
+137 here
+137 here2
+137 here4
+156 exited scope
+	ScopeTable# 1
+	2--> <f1,FUNCTION,INT> 
+	3--> <forwhiletest,FUNCTION,INT> 
+	5--> <g,FUNCTION,INT> 
+	6--> <iftest,FUNCTION,INT> <h,FUNCTION,VOID> 
+156 inserted

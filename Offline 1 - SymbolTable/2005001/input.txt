@@ -1,0 +1,41 @@
+5
+P A
+S
+I int KEYWORD
+I 0 NUMBER
+L NUMBER
+I ab d
+L 0
+P C
+I bar 2 FUNCTION 
+E
+L 0
+I ~ BITOP
+I c c 
+D f
+S
+I if KEYWORD
+I a VAR
+I a LITERAL
+L c 
+P A
+D a a
+D if
+I ~ BITOP
+L ~ BITOP
+D
+S
+E Q
+S
+P A
+E
+E
+P
+P C
+D ~
+D ~
+P A
+E
+E
+i 9 NUMBER
+Q

@@ -1,0 +1,6 @@
+
+Optimized code written to opcode.asm file
+
+Removed 326 instructions out of 1291 instructions
+Code shrinked to 74.7483% of original code
+

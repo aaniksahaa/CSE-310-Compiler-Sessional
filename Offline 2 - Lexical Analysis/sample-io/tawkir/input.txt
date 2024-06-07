@@ -1,0 +1,121 @@
+void main() {
+	int x, y;
+	x = x + 1;
+	y = y * 2;
+	
+	float f;
+	f = f - 3.14;
+	f = f * 2.81E0;
+		u=v<<2>>3^4
+	
+	 char ch = 'z';
+
+ch = '\t';
+	
+	char str[] = "hello\tworld";
+	char str2[] = "Hello my friends from \n there \t also rem - \" surprise \" - for your good";
+	char str[] = " forgot to tell 4\\2=2; " \\hehe
+	// ebar ki likhbo
+	// accha idea
+	int anik = 1009099;
+	int kabirBrothers = 70sd;
+	int khilgaon, malibah;
+	float suhrawardy;
+	malibah = 0;
+	float t = 1.2.3
+	int time = 3;
+	bool Abid;
+	if(time < 10pm) {
+		char char1[] = "Abid not home ||";
+			printf("%d", char);
+
+	}
+	/* we arew in a multi lines
+	command
+	*/
+	// not going to put \
+	oops
+	// not his time
+	itsBecameAnID
+	
+	// December 7, 2023
+	printf("The day\
+	was\
+	sunny");
+	
+	/** ** CSE 310
+	*** Compiler Sessional ***/
+	// It is a\
+	fun course
+	return 0;
+}
+double solve() {
+	char tias = '\';
+	double miraj = 1.2.345;
+	float home = 192.168.0.1;
+	float tf = 1E10.7;
+	int 12abcd;
+	char # = @;
+	char bruceWayne[] = "rude";
+	char _ = 'ab';
+	char a23a_ = 'a
+	char ct = '
+	char golam = 'love northbengal';
+	char ____etaki__ = '\';
+	char janina = '';
+	if(jodiIsHoy) {
+		But kintu what ki;
+		  if(emni)
+		{
+			char toProve[] = "To prove \t";
+		}
+	}
+	char another = "polashi food fair ;
+	char lonbgstring[] = "NEwlinw = \n, tab = \t, space =  , whatelse";
+	char special[] = " slash / backslash \\ quotes \' doublequote \" ";
+
+	char navid = "treat\;
+	dey
+	na";
+	/* it is a multiline comment 
+	for the better understanding
+	anything */
+	int n = 5;
+	n = n + 9 - 8;
+	n = n / 2 * 9 % 67;
+
+	for(int i = 0 ; i< n; i++) {
+			printf("CT!!!!!!!!!!");
+			if(n>6 && n <= 4 || n!=64 && n == 8) continue;
+			else break;
+			n--;
+			n = !n;
+			n = n & 8; 
+			n = n | (3 ^ 1);
+
+
+	}
+	switch(n) 
+	 {
+		case 1:{printf("Helllo1");}
+		case 6:{printf("6\n");}
+		default:{printf("Nothin\tg");}
+
+	}
+	do{
+		nothing;
+		int h = 1 << 2;
+
+	}while(n==6)
+	int g = 1E43;
+	float t = 1.2.2E34;
+	float b = 1E.3;
+
+		return;
+
+	}
+'''
+ @
+1.2.3E13E38
+/* not goiong to finsh this
+i told you

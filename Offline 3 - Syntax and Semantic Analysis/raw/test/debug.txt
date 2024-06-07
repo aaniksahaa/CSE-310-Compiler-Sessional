@@ -1,0 +1,67 @@
+var_declaration x 0
+var_declaration y 0
+var_declaration z 0
+
+
+var_declaration a 0
+
+
+func_declaration a 0
+func_declaration b 0
+
+
+inserted
+func_declaration a 0
+func_declaration b 0
+
+
+inserted
+inserted
+func_definition c 0
+func_definition d 0
+
+
+inserted
+func_definition a 0
+func_definition b 0
+
+
+inserted
+func_definition a 0
+
+
+inserted
+func_definition a 0
+func_definition a 0
+func_definition b 0
+
+
+func_definition a 0
+func_definition b 0
+
+
+func_definition d 0
+
+
+func_definition a 0
+
+
+inserted
+func_definition a 0
+
+
+var_declaration a 0
+var_declaration b 0
+var_declaration c 4
+var_declaration dd 0
+var_declaration ee 0
+
+
+var_declaration e 0
+
+
+var_declaration a 0
+var_declaration c 7
+
+
+inserted

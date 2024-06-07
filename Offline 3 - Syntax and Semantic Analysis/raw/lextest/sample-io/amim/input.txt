@@ -1,0 +1,59 @@
+/* This is a multiline comment \t \n
+#include <stdio.h>\n "tsr'tss
+*/
+
+// Function declaration
+void myFunction();
+
+int main() {
+    // Single-line comment\
+check kortesi
+    int integerConstant = 10;
+    float floatConstant = 3.14;
+    char charConstant = 'A';
+    char stringConstant[] = "Hello, World!\
+Testing flex\
+Ki ashe output
+";
+
+    // If-else statement
+    if (integerConstant > 5) {
+        printf("Integer is greater than 5.\n");
+    } else {
+        printf("Integer is less than or equal to 5.\n");
+    }
+
+    // For loop
+    for (int i = 0; i < 5; i++) {
+        printf("Iteration %d\n", i);
+    }
+
+    // While loop
+    int counter = 0;
+    while (counter < 3) {
+        printf("Counter value: %d\n", counter);
+        counter++;
+    }
+
+    // Switch statement
+    switch (charConstant) {
+        case 'A':
+            printf("Char constant is A.\n");
+            break;
+        case 'B':
+            printf("Char constant is B.\n");
+            break;
+        default:
+            printf("Char constant is not A or B.\n");
+    }
+
+    // Function call
+    myFunction();
+
+    return 0;
+}
+
+// Function definition
+void myFunction() {
+    printf("Inside myFunction()\n");
+}

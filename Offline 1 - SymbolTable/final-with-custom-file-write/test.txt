@@ -1,0 +1,151 @@
+	ScopeTable# 1 created
+	Inserted  at position <7, 1> of ScopeTable# 1
+	Inserted  at position <1, 1> of ScopeTable# 1
+	'i' found at position <1, 1> of ScopeTable# 1
+	'j' not found in any of the ScopeTables
+	Inserted  at position <5, 1> of ScopeTable# 1
+	ScopeTable# 1
+	1 --> (i,VAR)
+	2
+	3
+	4
+	5 --> (23,NUMBER)
+	6
+	7 --> (foo,FUNCTION)
+	Deleted 'i' from position <1, 1> of ScopeTable# 1
+	Not found in the current ScopeTable# 1
+	ScopeTable# 1
+	1
+	2
+	3
+	4
+	5 --> (23,NUMBER)
+	6
+	7 --> (foo,FUNCTION)
+	ScopeTable# 1.1 created
+	Inserted  at position <7, 1> of ScopeTable# 1.1
+	Inserted  at position <2, 1> of ScopeTable# 1.1
+	ScopeTable# 1.1
+	1
+	2 --> (==,RELOP)
+	3
+	4
+	5
+	6
+	7 --> (<=,RELOP)
+	ScopeTable# 1
+	1
+	2
+	3
+	4
+	5 --> (23,NUMBER)
+	6
+	7 --> (foo,FUNCTION)
+	Inserted  at position <4, 1> of ScopeTable# 1.1
+	ScopeTable# 1.1
+	1
+	2 --> (==,RELOP)
+	3
+	4 --> (>=,RELOP)
+	5
+	6
+	7 --> (<=,RELOP)
+	'<=' already exists in the current ScopeTable# 1.1
+	Inserted  at position <7, 2> of ScopeTable# 1.1
+	Deleted '==' from position <2, 1> of ScopeTable# 1.1
+	Not found in the current ScopeTable# 1.1
+	ScopeTable# 1.1
+	1
+	2
+	3
+	4 --> (>=,RELOP)
+	5
+	6
+	7 --> (<=,RELOP) --> (foo,FUNCTION)
+	ScopeTable# 1
+	1
+	2
+	3
+	4
+	5 --> (23,NUMBER)
+	6
+	7 --> (foo,FUNCTION)
+	'23' found at position <5, 1> of ScopeTable# 1
+	ScopeTable# 1.1.1 created
+	Inserted  at position <2, 1> of ScopeTable# 1.1.1
+	Inserted  at position <3, 1> of ScopeTable# 1.1.1
+	ScopeTable# 1.1.1
+	1
+	2 --> (x,VAR)
+	3 --> (y,VAR)
+	4
+	5
+	6
+	7
+	ScopeTable# 1.1
+	1
+	2
+	3
+	4 --> (>=,RELOP)
+	5
+	6
+	7 --> (<=,RELOP) --> (foo,FUNCTION)
+	ScopeTable# 1
+	1
+	2
+	3
+	4
+	5 --> (23,NUMBER)
+	6
+	7 --> (foo,FUNCTION)
+	'foo' found at position <7, 2> of ScopeTable# 1.1
+	ScopeTable# 1.1.1 deleted
+	Inserted  at position <7, 3> of ScopeTable# 1.1
+	ScopeTable# 1.1.2 created
+	Inserted  at position <5, 1> of ScopeTable# 1.1.2
+	ScopeTable# 1.1.2
+	1
+	2
+	3
+	4
+	5 --> (true,BOOL)
+	6
+	7
+	ScopeTable# 1.1
+	1
+	2
+	3
+	4 --> (>=,RELOP)
+	5
+	6
+	7 --> (<=,RELOP) --> (foo,FUNCTION) --> (num,VAR)
+	ScopeTable# 1
+	1
+	2
+	3
+	4
+	5 --> (23,NUMBER)
+	6
+	7 --> (foo,FUNCTION)
+	ScopeTable# 1.1.2 deleted
+	ScopeTable# 1.1 deleted
+	ScopeTable# 1 cannot be deleted
+	ScopeTable# 1.2 created
+	ScopeTable# 1.2
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	ScopeTable# 1
+	1
+	2
+	3
+	4
+	5 --> (23,NUMBER)
+	6
+	7 --> (foo,FUNCTION)
+	ScopeTable# 1.2 deleted
+	ScopeTable# 1 deleted

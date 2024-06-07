@@ -1,0 +1,14 @@
+Original String:
+a x
+b y
+
+c z
+
+
+
+
+Processed String:
+	a x
+	b y
+	c z
+

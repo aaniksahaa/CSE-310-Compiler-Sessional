@@ -1,0 +1,42 @@
+7
+I foo FUNCTION
+I i VAR
+L i
+L i j
+L j
+I 23 NUMBER
+P C
+D i
+D j
+P A
+S
+I <= RELOP
+I == RELOP
+P A
+I >= RELOP
+P C
+I <= RELOP
+I foo FUNCTION
+D ==
+D 23
+D
+P A
+L 23
+S
+I x VAR
+I y VAR
+P A
+L foo
+E
+I num VAR
+S
+I true BOOL
+I a
+P A
+E
+E
+E
+S
+P A
+P Z
+Q

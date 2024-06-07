@@ -1,0 +1,2 @@
+type_specifier	: INT 
+var_declaration : type_specifier declaration_list SEMICOLON 

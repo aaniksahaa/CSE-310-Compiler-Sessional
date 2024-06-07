@@ -1,0 +1,71 @@
+1.	for main
+
+main PROC
+	MOV AX, @DATA
+	MOV DS, AX
+	
+	
+	....
+	
+	
+	...
+	MOV AX,4CH
+	INT 21H
+main ENDP
+	
+	
+2. for any func defn
+
+g PROC
+	PUSH BP
+	MOV BP, SP
+	SUB
+	SUB
+	SUB.... (for local variables)
+	
+	
+	....
+	
+	
+	ADD SP, (size that was subbed)
+	POP BP
+	RET (2*arg_count)
+g ENDP
+	
+3.	do calc in AX, DX etc...
+4.	keep pushing and popping AX  -  for expression
+5.	keep only globals in .DATA 
+6.	int a,b,c;
+
+	here, a -> [BP-2], b -> [BP-4]... array similarly 
+	
+7.	int f(int a, int b, int c);
+
+	c -> [BP+4], b -> [BP+6], c -> [BP+8]
+	
+8.	while calling function, push args in stack
+
+	MOV AX, ...  -> may not need 
+	PUSH AX 
+	
+	...
+	
+	CALL f 
+	
+9.	always return from a label at last of the function 
+10.	while returning, just put the value in AX, and while calling assume that, after 
+	writing CALL f, the value will be available at AX 
+	
+11.	when semicolon is got, POP AX, this means, while evaluating the whole statement, this AX 
+	space of stack was used, now freeing that space... and returning to original condition
+	
+12.	In a rule of the grammar, when just a non-terminal reduces to another non-terminal, generally
+	no code needs to be added
+	
+13.	For calling a function, push arguments to stack serially, then CALL f
+
+14. Possible Optimizations:
+
+-	PUSH, POP 
+-	eval expressions beforehand
+-	unnecessary jumps...

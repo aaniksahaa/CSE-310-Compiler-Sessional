@@ -1,0 +1,25 @@
+Line# 40: Redefinition of parameter 'a'
+Line# 40: Conflicting types for 'a'
+Line# 40: function parameter cannot be void
+Line# 43: Void cannot be used in expression 
+Line# 44: Redeclaration of 'int c'
+Line# 70: 'g' redeclared as different kind of symbol
+Line# 73: Redefinition of 'h'
+Line# 77: Conflicting types for 'h'
+Line# 81: Conflicting types for 'h'
+Line# 115: Undeclared variable 'a'
+Line# 127: Array subscript is not an integer
+Line# 128: Too few arguments to function 'f1'
+Line# 129: Too few arguments to function 'f1'
+Line# 130: Type mismatch for argument 3 of 'f1'
+Line# 130: Type mismatch for argument 4 of 'f1'
+Line# 131: Too many arguments to function 'f1'
+Line# 135: Undeclared variable 'tt'
+Line# 136: Undeclared function 'tt'
+Line# 138: Function 'h' cannot be used as variable
+Line# 139: Function 'h' cannot be used as variable
+Line# 140: 'v' is not an array
+Line# 141: Undeclared variable 'vv'
+Line# 147: Wrong type of argument to decrement operator
+Line# 149: Wrong type of argument to increment operator
+Line# 151: Wrong type of argument to unary !

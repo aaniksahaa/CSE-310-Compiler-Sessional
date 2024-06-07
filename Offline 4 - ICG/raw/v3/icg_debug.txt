@@ -1,0 +1,2574 @@
+at write_global_variables
+at Line 39: start
+at Line 39: program
+at Line 39: program
+at Line 39: program
+at Line 39: program
+at Line 39: program
+at Line 39: program
+at Line 39: program
+at Line 39: program
+at Line 39: program
+at Line 39: program
+at Line 39: program
+at Line 39: program
+at Line 39: program
+at Line 39: program
+at Line 39: program
+at Line 39: unit
+at Line 39: func_definition
+at Line 39: compound_statement
+n -> 4
+at Line 40: statements
+at Line 40: statements
+at Line 40: statement
+at Line 40: expression
+at Line 40: logic_expression
+at Line 40: rel_expression
+at Line 40: simple_expression
+at Line 40: term
+at Line 40: unary_expression
+at Line 40: factor
+at Line 40: variable
+at Line 40: variable
+n ID
+at indicator for local var
+at Line 40: simple_expression
+at Line 40: term
+at Line 40: unary_expression
+at Line 40: factor
+at Line 40: statement
+at Line 40: compound_statement
+at Line 41: statements
+at Line 41: statement
+at Line 41: expression
+at Line 41: logic_expression
+at Line 41: rel_expression
+at Line 41: simple_expression
+at Line 41: term
+at Line 41: unary_expression
+at Line 41: factor
+at Line 43: statement
+at Line 43: expression
+at Line 43: logic_expression
+at Line 43: rel_expression
+at Line 43: simple_expression
+at Line 43: term
+at Line 43: term
+at Line 43: unary_expression
+at Line 43: factor
+at Line 43: argument_list
+at Line 43: arguments
+at Line 43: logic_expression
+at Line 43: rel_expression
+at Line 43: simple_expression
+at Line 43: simple_expression
+at Line 43: term
+at Line 43: unary_expression
+at Line 43: factor
+at Line 43: variable
+at Line 43: variable
+n ID
+at indicator for local var
+at Line 43: term
+at Line 43: unary_expression
+at Line 43: factor
+at Line 43: unary_expression
+at Line 43: factor
+at Line 43: variable
+at Line 43: variable
+n ID
+at indicator for local var
+at Line 46: unit
+at Line 47: unit
+at Line 48: unit
+at Line 50: unit
+at Line 50: func_definition
+at Line 50: compound_statement
+b -> 4
+a -> 6
+at Line 51: statements
+at Line 51: statements
+at Line 51: statement
+at Line 51: expression
+at Line 51: logic_expression
+at Line 51: rel_expression
+at Line 51: simple_expression
+at Line 51: simple_expression
+at Line 51: term
+at Line 51: unary_expression
+at Line 51: factor
+at Line 51: variable
+at Line 51: variable
+a ID
+at indicator for local var
+at Line 51: term
+at Line 51: unary_expression
+at Line 51: factor
+at Line 51: variable
+at Line 51: variable
+b ID
+at indicator for local var
+at Line 51: simple_expression
+at Line 51: term
+at Line 51: unary_expression
+at Line 51: factor
+at Line 51: statement
+at Line 51: compound_statement
+at Line 52: statements
+at Line 52: statement
+at Line 52: expression
+at Line 52: logic_expression
+at Line 52: rel_expression
+at Line 52: simple_expression
+at Line 52: term
+at Line 52: unary_expression
+at Line 52: factor
+at Line 54: statement
+at Line 54: expression
+at Line 54: logic_expression
+at Line 54: rel_expression
+at Line 54: simple_expression
+at Line 54: simple_expression
+at Line 54: term
+at Line 54: unary_expression
+at Line 54: factor
+at Line 54: argument_list
+at Line 54: arguments
+at Line 54: arguments
+at Line 54: logic_expression
+at Line 54: rel_expression
+at Line 54: simple_expression
+at Line 54: simple_expression
+at Line 54: term
+at Line 54: unary_expression
+at Line 54: factor
+at Line 54: variable
+at Line 54: variable
+a ID
+at indicator for local var
+at Line 54: term
+at Line 54: unary_expression
+at Line 54: factor
+at Line 54: logic_expression
+at Line 54: rel_expression
+at Line 54: simple_expression
+at Line 54: simple_expression
+at Line 54: term
+at Line 54: unary_expression
+at Line 54: factor
+at Line 54: variable
+at Line 54: variable
+b ID
+at indicator for local var
+at Line 54: term
+at Line 54: unary_expression
+at Line 54: factor
+at Line 54: term
+at Line 54: term
+at Line 54: unary_expression
+at Line 54: factor
+at Line 54: unary_expression
+at Line 54: factor
+at Line 54: argument_list
+at Line 54: arguments
+at Line 54: arguments
+at Line 54: logic_expression
+at Line 54: rel_expression
+at Line 54: simple_expression
+at Line 54: simple_expression
+at Line 54: term
+at Line 54: unary_expression
+at Line 54: factor
+at Line 54: variable
+at Line 54: variable
+a ID
+at indicator for local var
+at Line 54: term
+at Line 54: unary_expression
+at Line 54: factor
+at Line 54: logic_expression
+at Line 54: rel_expression
+at Line 54: simple_expression
+at Line 54: simple_expression
+at Line 54: term
+at Line 54: unary_expression
+at Line 54: factor
+at Line 54: variable
+at Line 54: variable
+b ID
+at indicator for local var
+at Line 54: term
+at Line 54: unary_expression
+at Line 54: factor
+at Line 57: unit
+at Line 59: unit
+at Line 59: func_definition
+at Line 59: compound_statement
+at Line 60: statements
+at Line 60: statements
+at Line 60: statements
+at Line 60: statement
+at Line 60: var_declaration
+y -> -2
+at Line 61: statement
+at Line 61: expression_statement
+at Line 61: expression
+at Line 61: logic_expression
+at Line 61: rel_expression
+at Line 61: simple_expression
+at Line 61: term
+at Line 61: unary_expression
+at Line 61: factor
+at Line 61: variable
+y ID
+at indicator for local var
+at Line 62: statement
+at Line 65: unit
+at Line 65: func_definition
+at Line 65: compound_statement
+at Line 69: unit
+at Line 69: func_definition
+at Line 69: compound_statement
+b -> 4
+a -> 6
+at Line 70: statements
+at Line 70: statement
+at Line 70: expression
+at Line 70: logic_expression
+at Line 70: rel_expression
+at Line 70: simple_expression
+at Line 70: term
+at Line 70: term
+at Line 70: unary_expression
+at Line 70: factor
+at Line 70: variable
+at Line 70: variable
+a ID
+at indicator for local var
+at Line 70: unary_expression
+at Line 70: factor
+at Line 70: variable
+at Line 70: variable
+b ID
+at indicator for local var
+at Line 72: unit
+at Line 73: unit
+at Line 73: func_definition
+at Line 73: compound_statement
+at Line 74: statements
+at Line 74: statement
+at Line 74: expression_statement
+at Line 74: expression
+at Line 74: logic_expression
+at Line 74: rel_expression
+at Line 74: simple_expression
+at Line 74: term
+at Line 74: unary_expression
+at Line 74: factor
+at Line 74: variable
+i ID
+at indicator for global var
+at Line 74: expression_statement
+at Line 74: expression
+at Line 74: logic_expression
+at Line 74: rel_expression
+at Line 74: simple_expression
+at Line 74: term
+at Line 74: unary_expression
+at Line 74: factor
+at Line 74: variable
+at Line 74: variable
+i ID
+at indicator for global var
+at Line 74: simple_expression
+at Line 74: term
+at Line 74: unary_expression
+at Line 74: factor
+at Line 74: expression
+at Line 74: logic_expression
+at Line 74: rel_expression
+at Line 74: simple_expression
+at Line 74: term
+at Line 74: unary_expression
+at Line 74: factor
+at Line 74: variable
+i ID
+at indicator for global var
+at Line 74: statement
+at Line 74: compound_statement
+at Line 75: statements
+at Line 75: statement
+at Line 75: expression_statement
+at Line 75: expression
+at Line 75: logic_expression
+at Line 75: rel_expression
+at Line 75: simple_expression
+at Line 75: simple_expression
+at Line 75: term
+at Line 75: unary_expression
+at Line 75: factor
+at Line 75: term
+at Line 75: unary_expression
+at Line 75: factor
+at Line 75: variable
+at Line 75: variable
+i ID
+at indicator for global var
+at Line 75: variable
+y ID LSQUARE expression RSQUARE
+at indicator for global var
+at global array
+at Line 75: expression
+at Line 75: logic_expression
+at Line 75: rel_expression
+at Line 75: simple_expression
+at Line 75: term
+at Line 75: unary_expression
+at Line 75: factor
+at Line 75: variable
+at Line 75: variable
+i ID
+at indicator for global var
+at Line 79: unit
+at Line 79: func_definition
+at Line 79: compound_statement
+at Line 80: statements
+at Line 80: statements
+at Line 80: statements
+at Line 80: statements
+at Line 80: statements
+at Line 80: statements
+at Line 80: statement
+at Line 80: var_declaration
+y -> -2
+at Line 81: statement
+at Line 81: expression
+at Line 81: logic_expression
+at Line 81: rel_expression
+at Line 81: simple_expression
+at Line 81: term
+at Line 81: unary_expression
+at Line 81: factor
+at Line 82: statement
+at Line 82: var_declaration
+u -> -12
+at Line 83: statement
+at Line 83: expression
+at Line 83: logic_expression
+at Line 83: rel_expression
+at Line 83: simple_expression
+at Line 83: term
+at Line 83: unary_expression
+at Line 83: factor
+at Line 84: statement
+at Line 84: var_declaration
+v -> -32
+at Line 85: statement
+at Line 85: expression
+at Line 85: logic_expression
+at Line 85: rel_expression
+at Line 85: simple_expression
+at Line 85: term
+at Line 85: unary_expression
+at Line 85: factor
+at Line 88: unit
+at Line 88: func_definition
+at Line 88: compound_statement
+n -> 4
+at Line 89: statements
+at Line 89: statements
+at Line 89: statements
+at Line 89: statements
+at Line 89: statement
+at Line 89: var_declaration
+i -> -2
+at Line 90: statement
+at Line 90: expression
+at Line 90: logic_expression
+at Line 90: rel_expression
+at Line 90: simple_expression
+at Line 90: term
+at Line 90: unary_expression
+at Line 90: factor
+at Line 90: variable
+at Line 90: variable
+n ID
+at indicator for local var
+at Line 90: simple_expression
+at Line 90: term
+at Line 90: unary_expression
+at Line 90: factor
+at Line 90: statement
+at Line 90: expression
+at Line 90: logic_expression
+at Line 90: rel_expression
+at Line 90: simple_expression
+at Line 90: term
+at Line 90: unary_expression
+at Line 90: factor
+at Line 91: statement
+at Line 91: expression_statement
+at Line 91: expression
+at Line 91: logic_expression
+at Line 91: rel_expression
+at Line 91: simple_expression
+at Line 91: term
+at Line 91: unary_expression
+at Line 91: factor
+at Line 91: variable
+at Line 91: variable
+n ID
+at indicator for local var
+at Line 91: variable
+i ID
+at indicator for local var
+at Line 92: statement
+at Line 92: expression
+at Line 92: logic_expression
+at Line 92: rel_expression
+at Line 92: simple_expression
+at Line 92: simple_expression
+at Line 92: term
+at Line 92: unary_expression
+at Line 92: factor
+at Line 92: argument_list
+at Line 92: arguments
+at Line 92: logic_expression
+at Line 92: rel_expression
+at Line 92: simple_expression
+at Line 92: simple_expression
+at Line 92: term
+at Line 92: unary_expression
+at Line 92: factor
+at Line 92: variable
+at Line 92: variable
+n ID
+at indicator for local var
+at Line 92: term
+at Line 92: unary_expression
+at Line 92: factor
+at Line 92: term
+at Line 92: unary_expression
+at Line 92: factor
+at Line 92: variable
+at Line 92: variable
+i ID
+at indicator for local var
+at Line 95: unit
+at Line 95: func_definition
+at Line 95: compound_statement
+n -> 4
+at Line 96: statements
+at Line 96: statements
+at Line 96: statements
+at Line 96: statements
+at Line 96: statement
+at Line 96: var_declaration
+i -> -2
+at Line 97: statement
+at Line 97: expression
+at Line 97: logic_expression
+at Line 97: rel_expression
+at Line 97: simple_expression
+at Line 97: term
+at Line 97: unary_expression
+at Line 97: factor
+at Line 97: variable
+at Line 97: variable
+n ID
+at indicator for local var
+at Line 97: simple_expression
+at Line 97: term
+at Line 97: unary_expression
+at Line 97: factor
+at Line 97: statement
+at Line 97: expression
+at Line 97: logic_expression
+at Line 97: rel_expression
+at Line 97: simple_expression
+at Line 97: term
+at Line 97: unary_expression
+at Line 97: factor
+at Line 98: statement
+at Line 98: expression_statement
+at Line 98: expression
+at Line 98: logic_expression
+at Line 98: rel_expression
+at Line 98: simple_expression
+at Line 98: term
+at Line 98: unary_expression
+at Line 98: factor
+at Line 98: variable
+at Line 98: variable
+n ID
+at indicator for local var
+at Line 98: variable
+i ID
+at indicator for local var
+at Line 99: statement
+at Line 99: expression
+at Line 99: logic_expression
+at Line 99: rel_expression
+at Line 99: simple_expression
+at Line 99: simple_expression
+at Line 99: term
+at Line 99: unary_expression
+at Line 99: factor
+at Line 99: argument_list
+at Line 99: arguments
+at Line 99: logic_expression
+at Line 99: rel_expression
+at Line 99: simple_expression
+at Line 99: simple_expression
+at Line 99: term
+at Line 99: unary_expression
+at Line 99: factor
+at Line 99: variable
+at Line 99: variable
+n ID
+at indicator for local var
+at Line 99: term
+at Line 99: unary_expression
+at Line 99: factor
+at Line 99: term
+at Line 99: unary_expression
+at Line 99: factor
+at Line 99: variable
+at Line 99: variable
+i ID
+at indicator for local var
+at Line 102: unit
+at Line 102: func_definition
+at Line 102: compound_statement
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statements
+at Line 103: statement
+at Line 103: var_declaration
+a -> -2
+b -> -4
+c -> -6
+d -> -8
+e -> -10
+n -> -12
+p -> -14
+i -> -16
+j -> -18
+k -> -20
+at Line 104: statement
+at Line 104: expression_statement
+at Line 104: expression
+at Line 104: logic_expression
+at Line 104: rel_expression
+at Line 104: simple_expression
+at Line 104: term
+at Line 104: unary_expression
+at Line 104: factor
+at Line 104: argument_list
+at Line 104: arguments
+at Line 104: logic_expression
+at Line 104: rel_expression
+at Line 104: simple_expression
+at Line 104: term
+at Line 104: unary_expression
+at Line 104: factor
+at Line 104: variable
+a ID
+at indicator for local var
+at Line 105: statement
+at Line 106: statement
+at Line 106: expression_statement
+at Line 106: expression
+at Line 106: logic_expression
+at Line 106: rel_expression
+at Line 106: simple_expression
+at Line 106: term
+at Line 106: unary_expression
+at Line 106: factor
+at Line 106: argument_list
+at Line 106: arguments
+at Line 106: arguments
+at Line 106: logic_expression
+at Line 106: rel_expression
+at Line 106: simple_expression
+at Line 106: term
+at Line 106: term
+at Line 106: unary_expression
+at Line 106: factor
+at Line 106: unary_expression
+at Line 106: factor
+at Line 106: logic_expression
+at Line 106: rel_expression
+at Line 106: simple_expression
+at Line 106: simple_expression
+at Line 106: term
+at Line 106: term
+at Line 106: unary_expression
+at Line 106: unary_expression
+at Line 106: factor
+at Line 106: unary_expression
+at Line 106: factor
+at Line 106: term
+at Line 106: unary_expression
+at Line 106: factor
+at Line 106: variable
+b ID
+at indicator for local var
+at Line 107: statement
+at Line 108: statement
+at Line 108: expression_statement
+at Line 108: expression
+at Line 108: logic_expression
+at Line 108: rel_expression
+at Line 108: simple_expression
+at Line 108: term
+at Line 108: unary_expression
+at Line 108: factor
+at Line 108: argument_list
+at Line 109: statement
+at Line 109: var_declaration
+arr -> -30
+at Line 111: statement
+at Line 111: expression_statement
+at Line 111: expression
+at Line 111: logic_expression
+at Line 111: rel_expression
+at Line 111: simple_expression
+at Line 111: term
+at Line 111: unary_expression
+at Line 111: factor
+at Line 111: variable
+i ID
+at indicator for local var
+at Line 111: expression_statement
+at Line 111: expression
+at Line 111: logic_expression
+at Line 111: rel_expression
+at Line 111: simple_expression
+at Line 111: term
+at Line 111: unary_expression
+at Line 111: factor
+at Line 111: variable
+at Line 111: variable
+i ID
+at indicator for local var
+at Line 111: simple_expression
+at Line 111: term
+at Line 111: unary_expression
+at Line 111: factor
+at Line 111: expression
+at Line 111: logic_expression
+at Line 111: rel_expression
+at Line 111: simple_expression
+at Line 111: term
+at Line 111: unary_expression
+at Line 111: factor
+at Line 111: variable
+i ID
+at indicator for local var
+at Line 111: statement
+at Line 111: compound_statement
+at Line 112: statements
+at Line 112: statement
+at Line 112: expression_statement
+at Line 112: expression
+at Line 112: logic_expression
+at Line 112: rel_expression
+at Line 112: simple_expression
+at Line 112: term
+at Line 112: unary_expression
+at Line 112: factor
+at Line 112: variable
+at Line 112: variable
+i ID
+at indicator for local var
+at Line 112: variable
+y ID LSQUARE expression RSQUARE
+at indicator for global var
+at global array
+at Line 112: expression
+at Line 112: logic_expression
+at Line 112: rel_expression
+at Line 112: simple_expression
+at Line 112: term
+at Line 112: unary_expression
+at Line 112: factor
+at Line 112: variable
+at Line 112: variable
+i ID
+at indicator for local var
+at Line 114: statement
+at Line 114: expression_statement
+at Line 114: expression
+at Line 114: logic_expression
+at Line 114: rel_expression
+at Line 114: simple_expression
+at Line 114: term
+at Line 114: unary_expression
+at Line 114: factor
+at Line 114: variable
+j ID
+at indicator for local var
+at Line 115: statement
+at Line 115: expression
+at Line 115: logic_expression
+at Line 115: rel_expression
+at Line 115: simple_expression
+at Line 115: term
+at Line 115: unary_expression
+at Line 115: factor
+at Line 115: variable
+at Line 115: variable
+j ID
+at indicator for local var
+at Line 115: simple_expression
+at Line 115: term
+at Line 115: unary_expression
+at Line 115: factor
+at Line 115: statement
+at Line 115: compound_statement
+at Line 116: statements
+at Line 116: statements
+at Line 116: statement
+at Line 116: expression_statement
+at Line 116: expression
+at Line 116: logic_expression
+at Line 116: rel_expression
+at Line 116: simple_expression
+at Line 116: term
+at Line 116: unary_expression
+at Line 116: factor
+at Line 116: variable
+at Line 116: variable
+y ID LSQUARE expression RSQUARE
+at indicator for global var
+at global array
+at Line 116: expression
+at Line 116: logic_expression
+at Line 116: rel_expression
+at Line 116: simple_expression
+at Line 116: term
+at Line 116: unary_expression
+at Line 116: factor
+at Line 116: variable
+at Line 116: variable
+j ID
+at indicator for local var
+at Line 116: variable
+arr ID LSQUARE expression RSQUARE
+at indicator for local var
+at indicator for array
+at Line 116: expression
+at Line 116: logic_expression
+at Line 116: rel_expression
+at Line 116: simple_expression
+at Line 116: term
+at Line 116: unary_expression
+at Line 116: factor
+at Line 116: variable
+at Line 116: variable
+j ID
+at indicator for local var
+at Line 117: statement
+at Line 117: expression_statement
+at Line 117: expression
+at Line 117: logic_expression
+at Line 117: rel_expression
+at Line 117: simple_expression
+at Line 117: term
+at Line 117: unary_expression
+at Line 117: factor
+at Line 117: variable
+j ID
+at indicator for local var
+at Line 119: statement
+at Line 119: var_declaration
+s -> -32
+at Line 120: statement
+at Line 120: expression_statement
+at Line 120: expression
+at Line 120: logic_expression
+at Line 120: rel_expression
+at Line 120: simple_expression
+at Line 120: term
+at Line 120: unary_expression
+at Line 120: factor
+at Line 120: variable
+s ID
+at indicator for local var
+at Line 121: statement
+at Line 121: expression_statement
+at Line 121: expression
+at Line 121: logic_expression
+at Line 121: rel_expression
+at Line 121: simple_expression
+at Line 121: term
+at Line 121: unary_expression
+at Line 121: factor
+at Line 121: variable
+i ID
+at indicator for local var
+at Line 121: expression_statement
+at Line 121: expression
+at Line 121: logic_expression
+at Line 121: rel_expression
+at Line 121: simple_expression
+at Line 121: term
+at Line 121: unary_expression
+at Line 121: factor
+at Line 121: variable
+at Line 121: variable
+i ID
+at indicator for local var
+at Line 121: simple_expression
+at Line 121: term
+at Line 121: unary_expression
+at Line 121: factor
+at Line 121: expression
+at Line 121: logic_expression
+at Line 121: rel_expression
+at Line 121: simple_expression
+at Line 121: term
+at Line 121: unary_expression
+at Line 121: factor
+at Line 121: variable
+i ID
+at indicator for local var
+at Line 121: statement
+at Line 121: compound_statement
+at Line 122: statements
+at Line 122: statement
+at Line 122: compound_statement
+at Line 123: statements
+at Line 123: statement
+at Line 123: compound_statement
+at Line 124: statements
+at Line 124: statement
+at Line 124: expression
+at Line 124: logic_expression
+at Line 124: rel_expression
+at Line 124: simple_expression
+at Line 124: term
+at Line 124: term
+at Line 124: unary_expression
+at Line 124: factor
+at Line 124: variable
+at Line 124: variable
+arr ID LSQUARE expression RSQUARE
+at indicator for local var
+at indicator for array
+at Line 124: expression
+at Line 124: logic_expression
+at Line 124: rel_expression
+at Line 124: simple_expression
+at Line 124: term
+at Line 124: unary_expression
+at Line 124: factor
+at Line 124: variable
+at Line 124: variable
+i ID
+at indicator for local var
+at Line 124: unary_expression
+at Line 124: factor
+at Line 124: simple_expression
+at Line 124: term
+at Line 124: unary_expression
+at Line 124: factor
+at Line 124: statement
+at Line 124: compound_statement
+at Line 125: statements
+at Line 125: statement
+at Line 125: compound_statement
+at Line 126: statements
+at Line 126: statement
+at Line 126: expression_statement
+at Line 126: expression
+at Line 126: logic_expression
+at Line 126: rel_expression
+at Line 126: simple_expression
+at Line 126: simple_expression
+at Line 126: term
+at Line 126: unary_expression
+at Line 126: factor
+at Line 126: variable
+at Line 126: variable
+s ID
+at indicator for local var
+at Line 126: term
+at Line 126: unary_expression
+at Line 126: factor
+at Line 126: variable
+at Line 126: variable
+y ID LSQUARE expression RSQUARE
+at indicator for global var
+at global array
+at Line 126: expression
+at Line 126: logic_expression
+at Line 126: rel_expression
+at Line 126: simple_expression
+at Line 126: term
+at Line 126: unary_expression
+at Line 126: factor
+at Line 126: variable
+at Line 126: variable
+i ID
+at indicator for local var
+at Line 126: variable
+s ID
+at indicator for local var
+at Line 129: statement
+at Line 129: compound_statement
+at Line 130: statements
+at Line 130: statement
+at Line 130: expression_statement
+at Line 130: expression
+at Line 130: logic_expression
+at Line 130: rel_expression
+at Line 130: simple_expression
+at Line 130: simple_expression
+at Line 130: term
+at Line 130: unary_expression
+at Line 130: factor
+at Line 130: variable
+at Line 130: variable
+s ID
+at indicator for local var
+at Line 130: term
+at Line 130: term
+at Line 130: unary_expression
+at Line 130: factor
+at Line 130: unary_expression
+at Line 130: factor
+at Line 130: variable
+at Line 130: variable
+y ID LSQUARE expression RSQUARE
+at indicator for global var
+at global array
+at Line 130: expression
+at Line 130: logic_expression
+at Line 130: rel_expression
+at Line 130: simple_expression
+at Line 130: term
+at Line 130: unary_expression
+at Line 130: factor
+at Line 130: variable
+at Line 130: variable
+i ID
+at indicator for local var
+at Line 130: variable
+s ID
+at indicator for local var
+at Line 136: statement
+at Line 138: statement
+at Line 138: expression_statement
+at Line 138: expression
+at Line 138: logic_expression
+at Line 138: rel_expression
+at Line 138: simple_expression
+at Line 138: term
+at Line 138: unary_expression
+at Line 138: factor
+at Line 138: argument_list
+at Line 139: statement
+at Line 139: expression_statement
+at Line 139: expression
+at Line 139: logic_expression
+at Line 139: rel_expression
+at Line 139: simple_expression
+at Line 139: term
+at Line 139: unary_expression
+at Line 139: factor
+at Line 139: argument_list
+at Line 141: statement
+at Line 141: expression_statement
+at Line 141: expression
+at Line 141: logic_expression
+at Line 141: rel_expression
+at Line 141: simple_expression
+at Line 141: term
+at Line 141: unary_expression
+at Line 141: factor
+at Line 141: variable
+a ID
+at indicator for local var
+at Line 142: statement
+at Line 142: expression
+at Line 142: logic_expression
+at Line 142: rel_expression
+at Line 142: simple_expression
+at Line 142: term
+at Line 142: unary_expression
+at Line 142: factor
+at Line 142: variable
+at Line 142: variable
+a ID
+at indicator for local var
+at Line 142: simple_expression
+at Line 142: term
+at Line 142: unary_expression
+at Line 142: factor
+at Line 142: statement
+at Line 142: compound_statement
+at Line 143: statements
+at Line 143: statements
+at Line 143: statements
+at Line 143: statement
+at Line 143: var_declaration
+b -> -34
+at Line 144: statement
+at Line 144: expression_statement
+at Line 144: expression
+at Line 144: logic_expression
+at Line 144: rel_expression
+at Line 144: simple_expression
+at Line 144: term
+at Line 144: unary_expression
+at Line 144: factor
+at Line 144: variable
+b ID
+at indicator for local var
+at Line 145: statement
+at Line 145: expression
+at Line 145: logic_expression
+at Line 145: rel_expression
+at Line 145: simple_expression
+at Line 145: term
+at Line 145: unary_expression
+at Line 145: factor
+at Line 145: variable
+at Line 145: variable
+b ID
+at indicator for local var
+at Line 145: simple_expression
+at Line 145: term
+at Line 145: unary_expression
+at Line 145: factor
+at Line 145: statement
+at Line 145: compound_statement
+at Line 146: statements
+at Line 146: statement
+at Line 146: compound_statement
+at Line 147: statements
+at Line 147: statements
+at Line 147: statements
+at Line 147: statement
+at Line 147: var_declaration
+u -> -36
+at Line 148: statement
+at Line 148: expression_statement
+at Line 148: expression
+at Line 148: logic_expression
+at Line 148: rel_expression
+at Line 148: simple_expression
+at Line 148: term
+at Line 148: unary_expression
+at Line 148: factor
+at Line 148: variable
+u ID
+at indicator for local var
+at Line 149: statement
+at Line 149: compound_statement
+at Line 150: statements
+at Line 150: statements
+at Line 150: statement
+at Line 150: var_declaration
+v -> -38
+at Line 151: statement
+at Line 151: expression_statement
+at Line 151: expression
+at Line 151: logic_expression
+at Line 151: rel_expression
+at Line 151: simple_expression
+at Line 151: term
+at Line 151: unary_expression
+at Line 151: factor
+at Line 151: variable
+v ID
+at indicator for local var
+at Line 151: expression_statement
+at Line 151: expression
+at Line 151: logic_expression
+at Line 151: rel_expression
+at Line 151: simple_expression
+at Line 151: term
+at Line 151: unary_expression
+at Line 151: factor
+at Line 151: variable
+at Line 151: variable
+v ID
+at indicator for local var
+at Line 151: simple_expression
+at Line 151: term
+at Line 151: unary_expression
+at Line 151: factor
+at Line 151: expression
+at Line 151: logic_expression
+at Line 151: rel_expression
+at Line 151: simple_expression
+at Line 151: term
+at Line 151: unary_expression
+at Line 151: factor
+at Line 151: variable
+v ID
+at indicator for local var
+at Line 151: statement
+at Line 151: compound_statement
+at Line 152: statements
+at Line 152: statement
+at Line 152: expression
+at Line 152: logic_expression
+at Line 152: rel_expression
+at Line 152: simple_expression
+at Line 152: term
+at Line 152: term
+at Line 152: unary_expression
+at Line 152: factor
+at Line 152: variable
+at Line 152: variable
+v ID
+at indicator for local var
+at Line 152: unary_expression
+at Line 152: factor
+at Line 152: simple_expression
+at Line 152: term
+at Line 152: unary_expression
+at Line 152: factor
+at Line 152: statement
+at Line 152: compound_statement
+at Line 153: statements
+at Line 153: statements
+at Line 153: statement
+at Line 154: statement
+at Line 154: compound_statement
+at Line 155: statements
+at Line 155: statement
+at Line 155: compound_statement
+at Line 166: statement
+at Line 166: expression_statement
+at Line 166: expression
+at Line 166: logic_expression
+at Line 166: rel_expression
+at Line 166: simple_expression
+at Line 166: term
+at Line 166: unary_expression
+at Line 166: factor
+at Line 166: argument_list
+at Line 166: variable
+p ID
+at indicator for local var
+at Line 167: statement
+at Line 169: statement
+at Line 169: expression_statement
+at Line 169: expression
+at Line 169: logic_expression
+at Line 169: rel_expression
+at Line 169: simple_expression
+at Line 169: term
+at Line 169: unary_expression
+at Line 169: unary_expression
+at Line 169: factor
+at Line 169: expression
+at Line 169: logic_expression
+at Line 169: rel_expression
+at Line 169: simple_expression
+at Line 169: term
+at Line 169: unary_expression
+at Line 169: unary_expression
+at Line 169: factor
+at Line 169: expression
+at Line 169: logic_expression
+at Line 169: rel_expression
+at Line 169: simple_expression
+at Line 169: term
+at Line 169: unary_expression
+at Line 169: factor
+at Line 169: variable
+at Line 169: variable
+a ID
+at indicator for local var
+at Line 169: simple_expression
+at Line 169: term
+at Line 169: unary_expression
+at Line 169: factor
+at Line 169: rel_expression
+at Line 169: simple_expression
+at Line 169: term
+at Line 169: unary_expression
+at Line 169: factor
+at Line 169: expression
+at Line 169: logic_expression
+at Line 169: rel_expression
+at Line 169: simple_expression
+at Line 169: term
+at Line 169: unary_expression
+at Line 169: factor
+at Line 169: variable
+at Line 169: variable
+b ID
+at indicator for local var
+at Line 169: simple_expression
+at Line 169: term
+at Line 169: unary_expression
+at Line 169: factor
+at Line 169: rel_expression
+at Line 169: simple_expression
+at Line 169: term
+at Line 169: unary_expression
+at Line 169: factor
+at Line 169: variable
+at Line 169: variable
+c ID
+at indicator for local var
+at Line 169: simple_expression
+at Line 169: term
+at Line 169: unary_expression
+at Line 169: factor
+at Line 169: variable
+p ID
+at indicator for local var
+at Line 170: statement
+at Line 171: statement
+at Line 171: expression
+at Line 171: logic_expression
+at Line 171: rel_expression
+at Line 171: simple_expression
+at Line 171: term
+at Line 171: unary_expression
+at Line 171: unary_expression
+at Line 171: factor
+at Line 171: expression
+at Line 171: logic_expression
+at Line 171: rel_expression
+at Line 171: simple_expression
+at Line 171: term
+at Line 171: unary_expression
+at Line 171: unary_expression
+at Line 171: factor
+at Line 171: expression
+at Line 171: logic_expression
+at Line 171: rel_expression
+at Line 171: simple_expression
+at Line 171: term
+at Line 171: unary_expression
+at Line 171: factor
+at Line 171: variable
+at Line 171: variable
+a ID
+at indicator for local var
+at Line 171: simple_expression
+at Line 171: term
+at Line 171: unary_expression
+at Line 171: factor
+at Line 171: rel_expression
+at Line 171: simple_expression
+at Line 171: term
+at Line 171: unary_expression
+at Line 171: factor
+at Line 171: expression
+at Line 171: logic_expression
+at Line 171: rel_expression
+at Line 171: simple_expression
+at Line 171: term
+at Line 171: unary_expression
+at Line 171: factor
+at Line 171: variable
+at Line 171: variable
+b ID
+at indicator for local var
+at Line 171: simple_expression
+at Line 171: term
+at Line 171: unary_expression
+at Line 171: factor
+at Line 171: rel_expression
+at Line 171: simple_expression
+at Line 171: term
+at Line 171: unary_expression
+at Line 171: factor
+at Line 171: variable
+at Line 171: variable
+c ID
+at indicator for local var
+at Line 171: simple_expression
+at Line 171: term
+at Line 171: unary_expression
+at Line 171: factor
+at Line 171: statement
+at Line 171: compound_statement
+at Line 172: statements
+at Line 172: statement
+at Line 173: statement
+at Line 173: compound_statement
+at Line 174: statements
+at Line 174: statements
+at Line 174: statements
+at Line 174: statement
+at Line 174: var_declaration
+c -> -34
+at Line 175: statement
+at Line 175: expression_statement
+at Line 175: expression
+at Line 175: logic_expression
+at Line 175: rel_expression
+at Line 175: simple_expression
+at Line 175: term
+at Line 175: unary_expression
+at Line 175: factor
+at Line 175: variable
+c ID
+at indicator for local var
+at Line 176: statement
+at Line 176: compound_statement
+at Line 177: statements
+at Line 177: statement
+at Line 177: compound_statement
+at Line 178: statements
+at Line 178: statement
+at Line 183: statement
+at Line 183: expression_statement
+at Line 183: expression
+at Line 183: logic_expression
+at Line 183: rel_expression
+at Line 183: simple_expression
+at Line 183: term
+at Line 183: unary_expression
+at Line 183: factor
+at Line 183: variable
+p ID
+at indicator for local var
+at Line 185: statement
+at Line 185: expression_statement
+at Line 185: expression
+at Line 185: logic_expression
+at Line 185: rel_expression
+at Line 185: simple_expression
+at Line 185: term
+at Line 185: unary_expression
+at Line 185: factor
+at Line 185: variable
+a ID
+at indicator for local var
+at Line 185: expression_statement
+at Line 185: expression
+at Line 185: logic_expression
+at Line 185: rel_expression
+at Line 185: simple_expression
+at Line 185: term
+at Line 185: unary_expression
+at Line 185: factor
+at Line 185: variable
+at Line 185: variable
+a ID
+at indicator for local var
+at Line 185: simple_expression
+at Line 185: term
+at Line 185: unary_expression
+at Line 185: factor
+at Line 185: expression
+at Line 185: logic_expression
+at Line 185: rel_expression
+at Line 185: simple_expression
+at Line 185: term
+at Line 185: unary_expression
+at Line 185: factor
+at Line 185: variable
+a ID
+at indicator for local var
+at Line 185: statement
+at Line 185: compound_statement
+at Line 186: statements
+at Line 186: statements
+at Line 186: statements
+at Line 186: statements
+at Line 186: statements
+at Line 186: statement
+at Line 186: var_declaration
+c -> -34
+at Line 187: statement
+at Line 187: expression_statement
+at Line 187: expression
+at Line 187: logic_expression
+at Line 187: rel_expression
+at Line 187: simple_expression
+at Line 187: term
+at Line 187: unary_expression
+at Line 187: factor
+at Line 187: variable
+c ID
+at indicator for local var
+at Line 188: statement
+at Line 188: expression_statement
+at Line 188: expression
+at Line 188: logic_expression
+at Line 188: rel_expression
+at Line 188: simple_expression
+at Line 188: term
+at Line 188: unary_expression
+at Line 188: factor
+at Line 188: variable
+b ID
+at indicator for local var
+at Line 189: statement
+at Line 189: expression
+at Line 189: logic_expression
+at Line 189: rel_expression
+at Line 189: simple_expression
+at Line 189: term
+at Line 189: unary_expression
+at Line 189: factor
+at Line 189: variable
+at Line 189: variable
+b ID
+at indicator for local var
+at Line 189: simple_expression
+at Line 189: term
+at Line 189: unary_expression
+at Line 189: factor
+at Line 189: variable
+at Line 189: variable
+a ID
+at indicator for local var
+at Line 189: statement
+at Line 189: compound_statement
+at Line 190: statements
+at Line 190: statements
+at Line 190: statements
+at Line 190: statement
+at Line 190: expression_statement
+at Line 190: expression
+at Line 190: logic_expression
+at Line 190: rel_expression
+at Line 190: simple_expression
+at Line 190: simple_expression
+at Line 190: term
+at Line 190: unary_expression
+at Line 190: factor
+at Line 190: variable
+at Line 190: variable
+c ID
+at indicator for local var
+at Line 190: term
+at Line 190: unary_expression
+at Line 190: factor
+at Line 190: variable
+at Line 190: variable
+b ID
+at indicator for local var
+at Line 190: variable
+c ID
+at indicator for local var
+at Line 191: statement
+at Line 191: expression
+at Line 191: logic_expression
+at Line 191: rel_expression
+at Line 191: simple_expression
+at Line 191: term
+at Line 191: term
+at Line 191: unary_expression
+at Line 191: factor
+at Line 191: variable
+at Line 191: variable
+b ID
+at indicator for local var
+at Line 191: unary_expression
+at Line 191: factor
+at Line 191: simple_expression
+at Line 191: term
+at Line 191: unary_expression
+at Line 191: factor
+at Line 191: statement
+at Line 191: compound_statement
+at Line 192: statements
+at Line 192: statement
+at Line 192: expression_statement
+at Line 192: expression
+at Line 192: logic_expression
+at Line 192: rel_expression
+at Line 192: simple_expression
+at Line 192: simple_expression
+at Line 192: term
+at Line 192: unary_expression
+at Line 192: factor
+at Line 192: variable
+at Line 192: variable
+c ID
+at indicator for local var
+at Line 192: term
+at Line 192: unary_expression
+at Line 192: factor
+at Line 192: variable
+c ID
+at indicator for local var
+at Line 194: statement
+at Line 194: expression_statement
+at Line 194: expression
+at Line 194: logic_expression
+at Line 194: rel_expression
+at Line 194: simple_expression
+at Line 194: term
+at Line 194: unary_expression
+at Line 194: factor
+at Line 194: variable
+b ID
+at indicator for local var
+at Line 196: statement
+at Line 196: expression_statement
+at Line 196: expression
+at Line 196: logic_expression
+at Line 196: rel_expression
+at Line 196: simple_expression
+at Line 196: simple_expression
+at Line 196: term
+at Line 196: unary_expression
+at Line 196: factor
+at Line 196: variable
+at Line 196: variable
+p ID
+at indicator for local var
+at Line 196: term
+at Line 196: unary_expression
+at Line 196: factor
+at Line 196: variable
+at Line 196: variable
+c ID
+at indicator for local var
+at Line 196: variable
+p ID
+at indicator for local var
+at Line 199: statement
+at Line 202: statement
+at Line 202: expression_statement
+at Line 202: expression
+at Line 202: logic_expression
+at Line 202: rel_expression
+at Line 202: simple_expression
+at Line 202: term
+at Line 202: unary_expression
+at Line 202: factor
+at Line 202: variable
+n ID
+at indicator for local var
+at Line 203: statement
+at Line 203: expression_statement
+at Line 203: expression
+at Line 203: logic_expression
+at Line 203: rel_expression
+at Line 203: simple_expression
+at Line 203: term
+at Line 203: unary_expression
+at Line 203: factor
+at Line 203: variable
+i ID
+at indicator for local var
+at Line 203: expression_statement
+at Line 203: expression
+at Line 203: logic_expression
+at Line 203: rel_expression
+at Line 203: simple_expression
+at Line 203: term
+at Line 203: unary_expression
+at Line 203: factor
+at Line 203: variable
+at Line 203: variable
+i ID
+at indicator for local var
+at Line 203: simple_expression
+at Line 203: term
+at Line 203: unary_expression
+at Line 203: factor
+at Line 203: variable
+at Line 203: variable
+n ID
+at indicator for local var
+at Line 203: expression
+at Line 203: logic_expression
+at Line 203: rel_expression
+at Line 203: simple_expression
+at Line 203: term
+at Line 203: unary_expression
+at Line 203: factor
+at Line 203: variable
+i ID
+at indicator for local var
+at Line 203: statement
+at Line 203: compound_statement
+at Line 204: statements
+at Line 204: statements
+at Line 204: statements
+at Line 204: statements
+at Line 204: statement
+at Line 204: expression_statement
+at Line 204: expression
+at Line 204: logic_expression
+at Line 204: rel_expression
+at Line 204: simple_expression
+at Line 204: term
+at Line 204: unary_expression
+at Line 204: factor
+at Line 204: variable
+p ID
+at indicator for local var
+at Line 205: statement
+at Line 205: expression_statement
+at Line 205: expression
+at Line 205: logic_expression
+at Line 205: rel_expression
+at Line 205: simple_expression
+at Line 205: term
+at Line 205: unary_expression
+at Line 205: factor
+at Line 205: variable
+j ID
+at indicator for local var
+at Line 206: statement
+at Line 206: expression
+at Line 206: logic_expression
+at Line 206: rel_expression
+at Line 206: simple_expression
+at Line 206: term
+at Line 206: unary_expression
+at Line 206: factor
+at Line 206: variable
+at Line 206: variable
+j ID
+at indicator for local var
+at Line 206: simple_expression
+at Line 206: term
+at Line 206: unary_expression
+at Line 206: factor
+at Line 206: variable
+at Line 206: variable
+i ID
+at indicator for local var
+at Line 206: statement
+at Line 206: compound_statement
+at Line 207: statements
+at Line 207: statements
+at Line 207: statement
+at Line 207: expression_statement
+at Line 207: expression
+at Line 207: logic_expression
+at Line 207: rel_expression
+at Line 207: simple_expression
+at Line 207: simple_expression
+at Line 207: term
+at Line 207: term
+at Line 207: unary_expression
+at Line 207: factor
+at Line 207: variable
+at Line 207: variable
+p ID
+at indicator for local var
+at Line 207: unary_expression
+at Line 207: factor
+at Line 207: term
+at Line 207: unary_expression
+at Line 207: factor
+at Line 207: variable
+p ID
+at indicator for local var
+at Line 208: statement
+at Line 208: expression_statement
+at Line 208: expression
+at Line 208: logic_expression
+at Line 208: rel_expression
+at Line 208: simple_expression
+at Line 208: term
+at Line 208: unary_expression
+at Line 208: factor
+at Line 208: variable
+j ID
+at indicator for local var
+at Line 210: statement
+at Line 212: statement
+at Line 212: expression_statement
+at Line 212: expression
+at Line 212: logic_expression
+at Line 212: rel_expression
+at Line 212: simple_expression
+at Line 212: simple_expression
+at Line 212: term
+at Line 212: unary_expression
+at Line 212: factor
+at Line 212: variable
+at Line 212: variable
+n ID
+at indicator for local var
+at Line 212: term
+at Line 212: unary_expression
+at Line 212: factor
+at Line 212: variable
+i ID
+at indicator for local var
+at Line 212: expression_statement
+at Line 212: expression
+at Line 212: logic_expression
+at Line 212: rel_expression
+at Line 212: simple_expression
+at Line 212: term
+at Line 212: unary_expression
+at Line 212: factor
+at Line 212: variable
+at Line 212: variable
+i ID
+at indicator for local var
+at Line 212: simple_expression
+at Line 212: term
+at Line 212: unary_expression
+at Line 212: factor
+at Line 212: expression
+at Line 212: logic_expression
+at Line 212: rel_expression
+at Line 212: simple_expression
+at Line 212: term
+at Line 212: unary_expression
+at Line 212: factor
+at Line 212: variable
+i ID
+at indicator for local var
+at Line 212: statement
+at Line 212: compound_statement
+at Line 213: statements
+at Line 213: statements
+at Line 213: statements
+at Line 213: statements
+at Line 213: statement
+at Line 213: expression_statement
+at Line 213: expression
+at Line 213: logic_expression
+at Line 213: rel_expression
+at Line 213: simple_expression
+at Line 213: term
+at Line 213: unary_expression
+at Line 213: factor
+at Line 213: variable
+p ID
+at indicator for local var
+at Line 214: statement
+at Line 214: expression_statement
+at Line 214: expression
+at Line 214: logic_expression
+at Line 214: rel_expression
+at Line 214: simple_expression
+at Line 214: term
+at Line 214: unary_expression
+at Line 214: factor
+at Line 214: variable
+j ID
+at indicator for local var
+at Line 215: statement
+at Line 215: expression
+at Line 215: logic_expression
+at Line 215: rel_expression
+at Line 215: simple_expression
+at Line 215: term
+at Line 215: unary_expression
+at Line 215: factor
+at Line 215: variable
+at Line 215: variable
+j ID
+at indicator for local var
+at Line 215: simple_expression
+at Line 215: term
+at Line 215: unary_expression
+at Line 215: factor
+at Line 215: variable
+at Line 215: variable
+i ID
+at indicator for local var
+at Line 215: statement
+at Line 215: compound_statement
+at Line 216: statements
+at Line 216: statements
+at Line 216: statement
+at Line 216: expression_statement
+at Line 216: expression
+at Line 216: logic_expression
+at Line 216: rel_expression
+at Line 216: simple_expression
+at Line 216: simple_expression
+at Line 216: term
+at Line 216: term
+at Line 216: unary_expression
+at Line 216: factor
+at Line 216: variable
+at Line 216: variable
+p ID
+at indicator for local var
+at Line 216: unary_expression
+at Line 216: factor
+at Line 216: term
+at Line 216: unary_expression
+at Line 216: factor
+at Line 216: variable
+p ID
+at indicator for local var
+at Line 217: statement
+at Line 217: expression_statement
+at Line 217: expression
+at Line 217: logic_expression
+at Line 217: rel_expression
+at Line 217: simple_expression
+at Line 217: term
+at Line 217: unary_expression
+at Line 217: factor
+at Line 217: variable
+j ID
+at indicator for local var
+at Line 219: statement
+at Line 222: statement
+at Line 222: expression_statement
+at Line 222: expression
+at Line 222: logic_expression
+at Line 222: rel_expression
+at Line 222: simple_expression
+at Line 222: term
+at Line 222: unary_expression
+at Line 222: factor
+at Line 222: variable
+d ID
+at indicator for local var
+at Line 223: statement
+at Line 223: expression
+at Line 223: logic_expression
+at Line 223: rel_expression
+at Line 223: simple_expression
+at Line 223: term
+at Line 223: unary_expression
+at Line 223: unary_expression
+at Line 223: factor
+at Line 223: argument_list
+at Line 223: arguments
+at Line 223: arguments
+at Line 223: logic_expression
+at Line 223: rel_expression
+at Line 223: simple_expression
+at Line 223: simple_expression
+at Line 223: term
+at Line 223: unary_expression
+at Line 223: factor
+at Line 223: term
+at Line 223: unary_expression
+at Line 223: factor
+at Line 223: logic_expression
+at Line 223: rel_expression
+at Line 223: simple_expression
+at Line 223: term
+at Line 223: term
+at Line 223: unary_expression
+at Line 223: factor
+at Line 223: expression
+at Line 223: logic_expression
+at Line 223: rel_expression
+at Line 223: simple_expression
+at Line 223: simple_expression
+at Line 223: term
+at Line 223: unary_expression
+at Line 223: factor
+at Line 223: expression
+at Line 223: logic_expression
+at Line 223: rel_expression
+at Line 223: simple_expression
+at Line 223: term
+at Line 223: unary_expression
+at Line 223: factor
+at Line 223: simple_expression
+at Line 223: term
+at Line 223: unary_expression
+at Line 223: factor
+at Line 223: term
+at Line 223: unary_expression
+at Line 223: factor
+at Line 223: expression
+at Line 223: logic_expression
+at Line 223: rel_expression
+at Line 223: simple_expression
+at Line 223: term
+at Line 223: unary_expression
+at Line 223: factor
+at Line 223: simple_expression
+at Line 223: term
+at Line 223: unary_expression
+at Line 223: factor
+at Line 223: unary_expression
+at Line 223: factor
+at Line 223: expression
+at Line 223: logic_expression
+at Line 223: rel_expression
+at Line 223: simple_expression
+at Line 223: term
+at Line 223: term
+at Line 223: unary_expression
+at Line 223: factor
+at Line 223: unary_expression
+at Line 223: factor
+at Line 223: simple_expression
+at Line 223: simple_expression
+at Line 223: term
+at Line 223: unary_expression
+at Line 223: factor
+at Line 223: term
+at Line 223: unary_expression
+at Line 223: factor
+at Line 223: statement
+at Line 223: compound_statement
+at Line 224: statements
+at Line 224: statement
+at Line 227: statement
+at Line 227: expression_statement
+at Line 227: expression
+at Line 227: logic_expression
+at Line 227: rel_expression
+at Line 227: simple_expression
+at Line 227: term
+at Line 227: unary_expression
+at Line 227: factor
+at Line 227: argument_list
+at Line 227: arguments
+at Line 227: logic_expression
+at Line 227: rel_expression
+at Line 227: simple_expression
+at Line 227: term
+at Line 227: unary_expression
+at Line 227: factor
+at Line 227: argument_list
+at Line 227: arguments
+at Line 227: logic_expression
+at Line 227: rel_expression
+at Line 227: simple_expression
+at Line 227: term
+at Line 227: unary_expression
+at Line 227: factor
+at Line 227: variable
+d ID
+at indicator for local var
+at Line 229: statement
+at Line 231: statement
+at Line 231: expression_statement
+at Line 231: expression
+at Line 231: logic_expression
+at Line 231: rel_expression
+at Line 231: simple_expression
+at Line 231: term
+at Line 231: unary_expression
+at Line 231: factor
+at Line 231: argument_list
+at Line 233: statement
+at Line 233: expression_statement
+at Line 233: expression
+at Line 233: logic_expression
+at Line 233: rel_expression
+at Line 233: simple_expression
+at Line 233: term
+at Line 233: unary_expression
+at Line 233: factor
+at Line 233: variable
+p ID
+at indicator for local var
+at Line 234: statement
+at Line 234: expression_statement
+at Line 234: expression
+at Line 234: logic_expression
+at Line 234: rel_expression
+at Line 234: simple_expression
+at Line 234: term
+at Line 234: unary_expression
+at Line 234: factor
+at Line 234: variable
+j ID
+at indicator for local var
+at Line 235: statement
+at Line 235: expression
+at Line 235: logic_expression
+at Line 235: rel_expression
+at Line 235: simple_expression
+at Line 235: term
+at Line 235: unary_expression
+at Line 235: factor
+at Line 235: variable
+at Line 235: variable
+j ID
+at indicator for local var
+at Line 235: simple_expression
+at Line 235: term
+at Line 235: unary_expression
+at Line 235: factor
+at Line 235: statement
+at Line 235: compound_statement
+at Line 236: statements
+at Line 236: statements
+at Line 236: statement
+at Line 236: expression_statement
+at Line 236: expression
+at Line 236: logic_expression
+at Line 236: rel_expression
+at Line 236: simple_expression
+at Line 236: simple_expression
+at Line 236: term
+at Line 236: unary_expression
+at Line 236: factor
+at Line 236: variable
+at Line 236: variable
+p ID
+at indicator for local var
+at Line 236: term
+at Line 236: unary_expression
+at Line 236: factor
+at Line 236: variable
+at Line 236: variable
+y ID LSQUARE expression RSQUARE
+at indicator for global var
+at global array
+at Line 236: expression
+at Line 236: logic_expression
+at Line 236: rel_expression
+at Line 236: simple_expression
+at Line 236: term
+at Line 236: unary_expression
+at Line 236: factor
+at Line 236: variable
+at Line 236: variable
+j ID
+at indicator for local var
+at Line 236: variable
+p ID
+at indicator for local var
+at Line 237: statement
+at Line 237: expression_statement
+at Line 237: expression
+at Line 237: logic_expression
+at Line 237: rel_expression
+at Line 237: simple_expression
+at Line 237: term
+at Line 237: unary_expression
+at Line 237: factor
+at Line 237: variable
+j ID
+at indicator for local var
+at Line 240: statement
+at Line 242: statement
+at Line 242: expression_statement
+at Line 242: expression
+at Line 242: logic_expression
+at Line 242: rel_expression
+at Line 242: simple_expression
+at Line 242: term
+at Line 242: unary_expression
+at Line 242: factor
+at Line 242: variable
+at Line 242: variable
+y ID LSQUARE expression RSQUARE
+at indicator for global var
+at global array
+at Line 242: expression
+at Line 242: logic_expression
+at Line 242: rel_expression
+at Line 242: simple_expression
+at Line 242: simple_expression
+at Line 242: simple_expression
+at Line 242: term
+at Line 242: unary_expression
+at Line 242: factor
+at Line 242: argument_list
+at Line 242: arguments
+at Line 242: logic_expression
+at Line 242: rel_expression
+at Line 242: simple_expression
+at Line 242: term
+at Line 242: unary_expression
+at Line 242: factor
+at Line 242: term
+at Line 242: term
+at Line 242: unary_expression
+at Line 242: factor
+at Line 242: expression
+at Line 242: logic_expression
+at Line 242: rel_expression
+at Line 242: simple_expression
+at Line 242: term
+at Line 242: unary_expression
+at Line 242: unary_expression
+at Line 242: factor
+at Line 242: unary_expression
+at Line 242: factor
+at Line 242: term
+at Line 242: term
+at Line 242: term
+at Line 242: unary_expression
+at Line 242: factor
+at Line 242: unary_expression
+at Line 242: factor
+at Line 242: unary_expression
+at Line 242: factor
+at Line 242: variable
+p ID
+at indicator for local var
+at Line 244: statement
+at Line 246: statement
+at Line 246: expression_statement
+at Line 246: expression
+at Line 246: logic_expression
+at Line 246: rel_expression
+at Line 246: simple_expression
+at Line 246: term
+at Line 246: unary_expression
+at Line 246: factor
+at Line 246: variable
+at Line 246: variable
+y ID LSQUARE expression RSQUARE
+at indicator for global var
+at global array
+at Line 246: expression
+at Line 246: logic_expression
+at Line 246: rel_expression
+at Line 246: simple_expression
+at Line 246: simple_expression
+at Line 246: term
+at Line 246: unary_expression
+at Line 246: factor
+at Line 246: variable
+at Line 246: variable
+y ID LSQUARE expression RSQUARE
+at indicator for global var
+at global array
+at Line 246: expression
+at Line 246: logic_expression
+at Line 246: rel_expression
+at Line 246: simple_expression
+at Line 246: simple_expression
+at Line 246: term
+at Line 246: unary_expression
+at Line 246: factor
+at Line 246: variable
+at Line 246: variable
+y ID LSQUARE expression RSQUARE
+at indicator for global var
+at global array
+at Line 246: expression
+at Line 246: logic_expression
+at Line 246: rel_expression
+at Line 246: simple_expression
+at Line 246: term
+at Line 246: unary_expression
+at Line 246: factor
+at Line 246: term
+at Line 246: unary_expression
+at Line 246: factor
+at Line 246: term
+at Line 246: unary_expression
+at Line 246: factor
+at Line 246: variable
+p ID
+at indicator for local var
+at Line 248: statement
+at Line 250: statement
+at Line 250: var_declaration
+y -> -232
+at Line 252: statement
+at Line 252: expression_statement
+at Line 252: expression
+at Line 252: logic_expression
+at Line 252: rel_expression
+at Line 252: simple_expression
+at Line 252: term
+at Line 252: unary_expression
+at Line 252: factor
+at Line 252: variable
+y ID LSQUARE expression RSQUARE
+at indicator for local var
+at indicator for array
+at Line 252: expression
+at Line 252: logic_expression
+at Line 252: rel_expression
+at Line 252: simple_expression
+at Line 252: term
+at Line 252: unary_expression
+at Line 252: factor
+at Line 253: statement
+at Line 253: expression_statement
+at Line 253: expression
+at Line 253: logic_expression
+at Line 253: rel_expression
+at Line 253: simple_expression
+at Line 253: term
+at Line 253: unary_expression
+at Line 253: factor
+at Line 253: variable
+y ID LSQUARE expression RSQUARE
+at indicator for local var
+at indicator for array
+at Line 253: expression
+at Line 253: logic_expression
+at Line 253: rel_expression
+at Line 253: simple_expression
+at Line 253: term
+at Line 253: unary_expression
+at Line 253: factor
+at Line 255: statement
+at Line 255: expression_statement
+at Line 255: expression
+at Line 255: logic_expression
+at Line 255: rel_expression
+at Line 255: simple_expression
+at Line 255: term
+at Line 255: unary_expression
+at Line 255: factor
+at Line 255: variable
+at Line 255: variable
+y ID LSQUARE expression RSQUARE
+at indicator for local var
+at indicator for array
+at Line 255: expression
+at Line 255: logic_expression
+at Line 255: rel_expression
+at Line 255: simple_expression
+at Line 255: term
+at Line 255: unary_expression
+at Line 255: factor
+at Line 255: variable
+at Line 255: variable
+y ID LSQUARE expression RSQUARE
+at indicator for local var
+at indicator for array
+at Line 255: expression
+at Line 255: logic_expression
+at Line 255: rel_expression
+at Line 255: simple_expression
+at Line 255: term
+at Line 255: unary_expression
+at Line 255: factor
+at Line 255: variable
+at Line 255: variable
+y ID LSQUARE expression RSQUARE
+at indicator for local var
+at indicator for array
+at Line 255: expression
+at Line 255: logic_expression
+at Line 255: rel_expression
+at Line 255: simple_expression
+at Line 255: term
+at Line 255: unary_expression
+at Line 255: factor
+at Line 255: variable
+p ID
+at indicator for local var
+at Line 257: statement
+at Line 259: statement
+at Line 259: expression_statement
+at Line 259: expression
+at Line 259: logic_expression
+at Line 259: rel_expression
+at Line 259: simple_expression
+at Line 259: term
+at Line 259: unary_expression
+at Line 259: factor
+at Line 259: argument_list
+at Line 259: arguments
+at Line 259: logic_expression
+at Line 259: rel_expression
+at Line 259: simple_expression
+at Line 259: term
+at Line 259: unary_expression
+at Line 259: factor
+at Line 259: variable
+p ID
+at indicator for local var
+at Line 261: statement
+at Line 263: statement
+at Line 263: expression_statement
+at Line 263: expression
+at Line 263: logic_expression
+at Line 263: rel_expression
+at Line 263: simple_expression
+at Line 263: term
+at Line 263: unary_expression
+at Line 263: factor
+at Line 263: variable
+b ID
+at indicator for local var
+at Line 264: statement
+at Line 264: expression_statement
+at Line 264: expression
+at Line 264: logic_expression
+at Line 264: rel_expression
+at Line 264: simple_expression
+at Line 264: term
+at Line 264: unary_expression
+at Line 264: factor
+at Line 264: variable
+c ID
+at indicator for local var
+at Line 265: statement
+at Line 265: expression_statement
+at Line 265: expression
+at Line 265: logic_expression
+at Line 265: rel_expression
+at Line 265: simple_expression
+at Line 265: term
+at Line 265: unary_expression
+at Line 265: factor
+at Line 265: variable
+i ID
+at indicator for local var
+at Line 265: expression_statement
+at Line 265: expression
+at Line 265: logic_expression
+at Line 265: rel_expression
+at Line 265: simple_expression
+at Line 265: term
+at Line 265: unary_expression
+at Line 265: factor
+at Line 265: variable
+at Line 265: variable
+i ID
+at indicator for local var
+at Line 265: simple_expression
+at Line 265: term
+at Line 265: unary_expression
+at Line 265: factor
+at Line 265: expression
+at Line 265: logic_expression
+at Line 265: rel_expression
+at Line 265: simple_expression
+at Line 265: term
+at Line 265: unary_expression
+at Line 265: factor
+at Line 265: variable
+i ID
+at indicator for local var
+at Line 265: statement
+at Line 265: compound_statement
+at Line 266: statements
+at Line 266: statements
+at Line 266: statement
+at Line 266: expression_statement
+at Line 266: expression
+at Line 266: logic_expression
+at Line 266: rel_expression
+at Line 266: simple_expression
+at Line 266: term
+at Line 266: unary_expression
+at Line 266: factor
+at Line 266: variable
+a ID
+at indicator for local var
+at Line 267: statement
+at Line 267: expression
+at Line 267: logic_expression
+at Line 267: rel_expression
+at Line 267: simple_expression
+at Line 267: term
+at Line 267: unary_expression
+at Line 267: factor
+at Line 267: variable
+a ID
+at indicator for local var
+at Line 267: statement
+at Line 267: compound_statement
+at Line 268: statements
+at Line 268: statement
+at Line 268: expression_statement
+at Line 268: expression
+at Line 268: logic_expression
+at Line 268: rel_expression
+at Line 268: simple_expression
+at Line 268: term
+at Line 268: unary_expression
+at Line 268: factor
+at Line 268: variable
+b ID
+at indicator for local var
+at Line 271: statement
+at Line 272: statement
+at Line 273: statement
+at Line 275: statement
+at Line 275: expression_statement
+at Line 275: expression
+at Line 275: logic_expression
+at Line 275: rel_expression
+at Line 275: simple_expression
+at Line 275: term
+at Line 275: unary_expression
+at Line 275: factor
+at Line 275: variable
+a ID
+at indicator for local var
+at Line 276: statement
+at Line 276: expression_statement
+at Line 276: expression
+at Line 276: logic_expression
+at Line 276: rel_expression
+at Line 276: simple_expression
+at Line 276: term
+at Line 276: unary_expression
+at Line 276: factor
+at Line 276: variable
+b ID
+at indicator for local var
+at Line 277: statement
+at Line 277: expression_statement
+at Line 277: expression
+at Line 277: logic_expression
+at Line 277: rel_expression
+at Line 277: simple_expression
+at Line 277: term
+at Line 277: unary_expression
+at Line 277: factor
+at Line 277: variable
+c ID
+at indicator for local var
+at Line 278: statement
+at Line 278: expression_statement
+at Line 278: expression
+at Line 278: logic_expression
+at Line 278: rel_expression
+at Line 278: simple_expression
+at Line 278: term
+at Line 278: unary_expression
+at Line 278: factor
+at Line 278: variable
+d ID
+at indicator for local var
+at Line 279: statement
+at Line 279: expression_statement
+at Line 279: expression
+at Line 279: logic_expression
+at Line 279: rel_expression
+at Line 279: simple_expression
+at Line 279: term
+at Line 279: unary_expression
+at Line 279: factor
+at Line 279: variable
+e ID
+at indicator for local var
+at Line 281: statement
+at Line 281: expression
+at Line 281: logic_expression
+at Line 281: rel_expression
+at Line 281: simple_expression
+at Line 281: term
+at Line 281: unary_expression
+at Line 281: factor
+at Line 281: variable
+at Line 281: variable
+a ID
+at indicator for local var
+at Line 281: simple_expression
+at Line 281: term
+at Line 281: unary_expression
+at Line 281: factor
+at Line 281: statement
+at Line 281: compound_statement
+at Line 282: statements
+at Line 282: statement
+at Line 283: statement
+at Line 283: expression
+at Line 283: logic_expression
+at Line 283: rel_expression
+at Line 283: simple_expression
+at Line 283: term
+at Line 283: unary_expression
+at Line 283: factor
+at Line 283: variable
+at Line 283: variable
+a ID
+at indicator for local var
+at Line 283: simple_expression
+at Line 283: term
+at Line 283: unary_expression
+at Line 283: factor
+at Line 283: statement
+at Line 283: compound_statement
+at Line 284: statements
+at Line 284: statement
+at Line 285: statement
+at Line 285: expression
+at Line 285: logic_expression
+at Line 285: rel_expression
+at Line 285: simple_expression
+at Line 285: term
+at Line 285: unary_expression
+at Line 285: factor
+at Line 285: variable
+at Line 285: variable
+a ID
+at indicator for local var
+at Line 285: simple_expression
+at Line 285: term
+at Line 285: unary_expression
+at Line 285: factor
+at Line 285: statement
+at Line 285: compound_statement
+at Line 286: statements
+at Line 286: statement
+at Line 287: statement
+at Line 287: compound_statement
+at Line 288: statements
+at Line 288: statement
+at Line 292: statement
+at Line 292: expression
+at Line 292: logic_expression
+at Line 292: rel_expression
+at Line 292: simple_expression
+at Line 292: term
+at Line 292: unary_expression
+at Line 292: factor
